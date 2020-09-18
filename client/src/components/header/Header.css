@@ -1,0 +1,22 @@
+.header-main-div {
+	padding: 10px 15px;
+}
+
+.company-logo {
+	height: 100px;
+	width: 100px;
+}
+
+ul {
+	display: inline-flex;
+	list-style: none;
+	float: right;
+}
+
+li {
+	width: 100px;
+}
+
+a {
+	text-decoration: none;
+}

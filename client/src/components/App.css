@@ -1,0 +1,99 @@
+/* ---------------------------------------------- /*
+ * Global
+/* ---------------------------------------------- */
+
+/* Alignment */
+.align-center {
+	text-align: center;
+}
+
+.align-left {
+	text-align: left;
+}
+
+.align-right {
+	text-align: right;
+}
+
+/* Flex */
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.flex-left {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.flex-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.flex-top {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+
+.flex-bottom {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
+/* No Padding */
+.no-pad {
+	padding: 0;
+}
+
+.no-top-pad {
+	padding-top: 0;
+}
+
+.no-bottom-pad {
+	padding-bottom: 0;
+}
+
+/* Color */
+.green {
+	color: #0f5c07;
+}
+
+.yellow {
+	color: #f6f70a;
+}
+
+.white {
+	color: #ffffff;
+}
+
+.olive {
+	color: #59633b;
+}
+
+/* Background Color*/
+.grey-back {
+	background-color: #e6ede0;
+}
+
+.brown-back {
+	background-color: #0f5c07;
+}
+
+.olive-back {
+	background-color: #59633b;
+}
+
+/* SVG */
+.bi {
+	margin: 10px;
+}
+
+h1 {
+	text-align: center;
+}
