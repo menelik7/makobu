@@ -1,3 +1,61 @@
 .landing-main-div {
 	padding: 20px 15px;
 }
+
+.landing-attractions {
+	min-height: 100px;
+}
+
+/*******************************************Media Queries************************************************/
+
+/* iPad Pro*/
+@media (max-width: 1367px) {
+	.landing-attractions {
+		min-height: 400px;
+	}
+}
+
+/* Small devices (landscape phones, less than 1124px)*/
+@media (max-width: 1124px) {
+	.landing-attractions {
+		min-height: 750px;
+	}
+}
+
+/* iPhone X or similar phones (landscape, less than 823)*/
+@media (max-width: 823px) {
+	.landing-attractions {
+		min-height: 100px;
+	}
+}
+
+/* iPad Portrait less than 768*/
+@media (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, less than 736px)*/
+@media (max-width: 736px) {
+}
+
+/* Small devices (landscape phones, less than 667px)*/
+@media (max-width: 667px) {
+}
+
+/* Extra small devices (portrait phones, less than 480px)*/
+@media (max-width: 480px) {
+}
+
+/* Extra small devices (portrait phones, less than 414px)*/
+@media (max-width: 415px) {
+	.landing-attractions {
+		min-height: 150px;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 375px)*/
+@media (max-width: 375px) {
+}
+
+/* Extra small devices (portrait phones, less than 320px)*/
+@media (max-width: 320px) {
+}

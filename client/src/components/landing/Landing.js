@@ -5,9 +5,12 @@ class Landing extends React.Component {
 	render() {
 		return (
 			<div className="col-12 landing-main-div">
-				<h1 className="green">
-					<span className="yellow">MakoBu</span> Enterprises P.L.C.
+				<h1 className="green align-center">
+					<span className="yellow">M</span>akoBu Enterprises
 				</h1>
+				<div className="row">
+					<div className="col-12 landing-attractions"></div>
+				</div>
 			</div>
 		);
 	}
