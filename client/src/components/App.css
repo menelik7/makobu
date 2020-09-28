@@ -46,7 +46,7 @@
 	align-items: flex-end;
 }
 
-/* No Padding */
+/* Padding */
 .no-pad {
 	padding: 0;
 }
@@ -59,40 +59,77 @@
 	padding-bottom: 0;
 }
 
+.no-left-pad {
+	padding-left: 0;
+}
+
+.no-right-pad {
+	padding-right: 0;
+}
+
+.large-top-padding {
+	padding-top: 60px;
+}
+
+/* Margin */
+.no-bottom-margin {
+	margin-bottom: 0;
+}
+
+.small-bottom-margin {
+	margin-bottom: 30px;
+}
+
+/* Font-weight */
+.bold {
+	font-weight: bold;
+}
+
+/* Font-style */
+.italic {
+	font-style: italic;
+}
+
+/* Text decoration */
+.underline {
+	text-decoration: underline;
+}
+
 /* Color */
 .green {
-	color: #0f5c07;
+	color: #0f5c07 !important;
+}
+
+.grey {
+	color: #707070 !important;
 }
 
 .yellow {
-	color: #f6f70a;
+	color: #f6f70a !important;
+}
+
+.orange {
+	color: #ff530d !important;
 }
 
 .white {
-	color: #ffffff;
+	color: #ffffff !important;
 }
 
 .olive {
-	color: #59633b;
+	color: #59633b !important;
 }
 
 /* Background Color*/
 .grey-back {
-	background-color: #e6ede0;
+	background-color: #e6ede0 !important;
 }
 
 .brown-back {
-	background-color: #0f5c07;
+	background-color: #0f5c07 !important;
 }
 
 /* SVG */
-.bi {
-	margin: 10px;
-}
-
-h1 {
-	text-align: center;
-}
 
 /* Potential SVG colors form Logo colors*/
 .green-svg {

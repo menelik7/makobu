@@ -1,6 +1,5 @@
 .footer-top {
 	padding: 20px;
-	min-height: 300px;
 }
 
 .footer-bottom {
@@ -39,16 +38,10 @@
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
-	.footer-top {
-		min-height: 250px;
-	}
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/
 @media (max-width: 376px) {
-	.footer-top {
-		min-height: 200px;
-	}
 }
 
 /* Extra small devices (portrait phones, less than 320px)*/

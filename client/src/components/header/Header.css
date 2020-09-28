@@ -2,9 +2,9 @@
 	padding: 10px 15px;
 }
 
-.company-logo {
-	height: 100px;
-	width: 100px;
+.logo {
+	height: 140px;
+	width: 130px;
 }
 
 ul {
@@ -37,6 +37,18 @@ a {
 
 /* iPad Portrait less than 768*/
 @media (max-width: 768px) {
+	.logo {
+		height: 70px;
+		width: 65px;
+	}
+
+	.company-name-and-motto h2 {
+		font-size: 1.2rem;
+	}
+
+	.motto {
+		font-size: 0.8rem;
+	}
 }
 
 /* Small devices (landscape phones, less than 736px)*/
@@ -52,7 +64,7 @@ a {
 }
 
 /* Extra small devices (portrait phones, less than 414px)*/
-@media (max-width: 414px) {
+@media (max-width: 415px) {
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/
