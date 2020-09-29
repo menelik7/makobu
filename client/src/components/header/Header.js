@@ -1,5 +1,6 @@
 import React from "react";
 import "./Header.css";
+import "../fonts/flaticon.css";
 import CompanyLogo from "../img/company_logo.png";
 
 class Header extends React.Component {
@@ -7,10 +8,10 @@ class Header extends React.Component {
 		return (
 			<div className="container header-main-div">
 				<div className="row">
-					<div className="col-2 col-lg-2 company-logo">
+					<div className="col-2 flex-left company-logo">
 						<img className="logo" src={CompanyLogo} alt="Company Logo" />
 					</div>
-					<div className="col-10 col-lg-8 flex-center company-name-and-motto">
+					<div className="col-8 flex-center company-name-and-motto">
 						<div>
 							<h2 className="bold green align-center">
 								መኮቡ ኢንተርፕራይዝስ ኃ.የተ.የግ.ማ
@@ -23,7 +24,7 @@ class Header extends React.Component {
 							</p>
 						</div>
 					</div>
-					<div className="col-2 large-menu"></div>
+					<div className="col-2 flex-right large-menu"></div>
 				</div>
 			</div>
 		);

@@ -65,6 +65,14 @@ a {
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
+	.logo {
+		height: 60px;
+		width: 55px;
+	}
+
+	.company-name-and-motto h2 {
+		font-size: 1rem;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/

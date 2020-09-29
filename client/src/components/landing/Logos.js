@@ -1,5 +1,4 @@
 import React from "react";
-import _ from "lodash";
 import { ReactComponent as Basf } from "../svg/basf.svg";
 import { ReactComponent as Bayer } from "../svg/bayer.svg";
 import { ReactComponent as Jacto } from "../svg/jacto.svg";

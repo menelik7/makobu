@@ -28,6 +28,7 @@
 
 .card-title {
 	font-size: 1.5rem;
+	font-weight: 500;
 }
 
 .svgs {
@@ -81,6 +82,14 @@
 @media (max-width: 415px) {
 	.website-under-dev p {
 		font-size: 1rem;
+	}
+
+	/* ---------------------------------------------- /*
+ * WHO WE ARE
+/* ---------------------------------------------- */
+	.card-container {
+		min-height: 200px;
+		padding: 5px 15px;
 	}
 }
 
