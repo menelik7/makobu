@@ -72,11 +72,11 @@ class Landing extends React.Component {
 					<h5 className="green small-bottom-margin">Who we are</h5>
 					<h1 className="grey large-text">A general trading company</h1>
 					<p className="grey small-bottom-margin">
-						MakoBu Enterprises PLC is a general trading company established in
-						1993 with the the objective to improve farmers' lives by importing
-						and distributing premium quality agricultural inputs, spraying
-						equipment and public health related products, and to be contribute
-						to the modernization of agricultural practices in Ethiopia.
+						MakoBu Enterprises PLC was established in 1993 with the the
+						objective to improve farmers' lives by importing and distributing
+						premium quality agricultural inputs, spraying equipment and public
+						health related products, and to be contribute to the modernization
+						of agricultural practices in Ethiopia.
 					</p>
 					<div className="row">{this.renderWhoWeAreCards()}</div>
 				</div>
