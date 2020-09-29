@@ -2,18 +2,33 @@
 	padding: 20px 15px;
 }
 
+.website-under-dev {
+	margin-top: 60px;
+}
+
 .website-under-dev p {
 	font-size: 1.2rem;
 }
 
 .fa-bullhorn {
-	margin-right: 15px;
+	padding-top: 10px;
 	transform: rotate(-20deg);
 }
 
 /* ---------------------------------------------- /*
  * WHO WE ARE
 /* ---------------------------------------------- */
+.who-we-are h5 {
+	font-weight: 700;
+}
+
+.large-text {
+	font-size: 40px;
+	font-weight: 500;
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+
 .card-container {
 	min-height: 250px;
 	padding: 20px;
@@ -49,6 +64,73 @@
 	width: 100px;
 }
 
+/* ---------------------------------------------- /*
+ * Our Main Exportable Products
+/* ---------------------------------------------- */
+.unwashed {
+	height: 200px;
+	background: url("../img/unwashed.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.washed {
+	height: 200px;
+	background: url("../img/washed.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.specialty {
+	height: 200px;
+	background: url("../img/specialty.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.spices {
+	height: 200px;
+	background: url("../img/spices.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.pulses {
+	height: 200px;
+	background: url("../img/pulses.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.export-pic {
+	margin-bottom: 15px;
+}
+
+.export-title {
+	margin-bottom: 10px;
+	font-weight: 500;
+}
+
+.export-list ul {
+	list-style: none;
+	padding-left: 20px;
+	margin-bottom: 30px;
+}
+
+.export-list-arrow {
+	width: 10px;
+	fill: #0f5c07;
+	stroke: #707070;
+	stroke-width: 25;
+	margin-right: 10px;
+}
+
+/* ---------------------------------------------- /*
+ * Experience
+/* ---------------------------------------------- */
+.experience-svg {
+	width: 300px;
+}
+
+.experience-paragraph {
+	margin-bottom: 30px;
+}
+
 /*******************************************Media Queries************************************************/
 
 /* iPad Pro*/
@@ -81,6 +163,10 @@
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
+	.website-under-dev {
+		margin-top: 30px;
+	}
+
 	.website-under-dev p {
 		font-size: 1rem;
 	}
@@ -100,6 +186,14 @@
 
 	.larger-text {
 		font-size: 2rem;
+	}
+
+	/* ---------------------------------------------- /*
+ * Experience
+/* ---------------------------------------------- */
+	.experience-svg {
+		width: 250px;
+		height: 175px;
 	}
 }
 

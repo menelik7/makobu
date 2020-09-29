@@ -2,7 +2,12 @@
  * Global
 /* ---------------------------------------------- */
 
-@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,800,900);
+
+body {
+	font-family: "Roboto", sans-serif;
+	background-color: #f6f9fc;
+}
 
 /* Alignment */
 .align-center {
@@ -49,6 +54,9 @@
 }
 
 /* Padding */
+.default-padding {
+	padding: 0 15px;
+}
 .no-pad {
 	padding: 0;
 }
@@ -123,6 +131,10 @@
 }
 
 /* Background Color*/
+.white-back {
+	background-color: #fff;
+}
+
 .grey-back {
 	background-color: #e6ede0 !important;
 }

@@ -11,20 +11,6 @@
 	font-weight: 700;
 }
 
-ul {
-	display: inline-flex;
-	list-style: none;
-	float: right;
-}
-
-li {
-	width: 100px;
-}
-
-a {
-	text-decoration: none;
-}
-
 /*******************************************Media Queries************************************************/
 
 /* iPad Pro*/
@@ -75,7 +61,7 @@ a {
 	}
 
 	.company-name-and-motto h2 {
-		font-size: 0.8rem;
+		font-size: 1rem;
 	}
 
 	.motto {

@@ -6,21 +6,25 @@ import CompanyLogo from "../img/company_logo.png";
 class Header extends React.Component {
 	render() {
 		return (
-			<div className="container header-main-div">
-				<div className="row">
-					<div className="col-2 flex-left company-logo">
-						<img className="logo" src={CompanyLogo} alt="Company Logo" />
-					</div>
-					<div className="col-8 flex-center company-name-and-motto">
-						<div>
-							<h2 className="green align-center">መኮቡ ኢንተርፕራይዝስ ኃ.የተ.የግ.ማ</h2>
-							<h2 className="green align-center">MakoBu Enterprises P.L.C.</h2>
-							<p className="italic grey align-center no-bottom-margin motto">
-								Positioned to Serve Farmers Well Since 1993
-							</p>
+			<div className="col-12 white-back header-main-div">
+				<div className="container">
+					<div className="row">
+						<div className="col-2 flex-left company-logo">
+							<img className="logo" src={CompanyLogo} alt="Company Logo" />
 						</div>
+						<div className="col-8 flex-center company-name-and-motto">
+							<div>
+								<h2 className="green align-center">መኮቡ ኢንተርፕራይዝስ ኃ.የተ.የግ.ማ</h2>
+								<h2 className="green align-center no-bottom-margin">
+									MakoBu Enterprises P.L.C.
+								</h2>
+							</div>
+						</div>
+						<div className="col-2 flex-right large-menu"></div>
+						<p className="col-12 italic grey align-center motto">
+							Positioned to Serve Farmers Well Since 1993
+						</p>
 					</div>
-					<div className="col-2 flex-right large-menu"></div>
 				</div>
 			</div>
 		);
