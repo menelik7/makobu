@@ -11,8 +11,8 @@ class Landing extends React.Component {
 				<div key={i} className="col-lg-6 card-container">
 					<div className="card">
 						<div className="row">
-							<div className="col-3 col-sm-2">{icon}</div>
-							<div className="col-9 col-sm-10 green flex-left no-left-pad card-title">
+							<div className="col-2">{icon}</div>
+							<div className="col-10 green flex-left no-bottom-margin card-title">
 								{title}
 							</div>
 						</div>
@@ -30,15 +30,15 @@ class Landing extends React.Component {
 	render() {
 		return (
 			<div className="container landing-main-div">
-				<div className="col-lg-8 offset-lg-2 alert alert-secondary grey website-under-dev">
+				<div className="col-lg-8 offset-lg-2 alert alert-secondary grey no-bottom-margin website-under-dev">
 					<i className="orange fa fa-bullhorn"></i>
 					Website under development. Enjoy the following overview and check back
 					with us soon:
 				</div>
 
 				<div className="large-top-padding who-we-are">
-					<h3 className="bold green small-bottom-margin">WHO WE ARE</h3>
-					<p className="grey">
+					<h5 className="bold green small-bottom-margin">WHO WE ARE</h5>
+					<p className="grey small-bottom-margin">
 						MakoBu Enterprises PLC is a general trading company established in
 						1993 with the the objective to improve farmers' lives by importing
 						and distributing premium quality agricultural inputs, spraying
@@ -51,7 +51,7 @@ class Landing extends React.Component {
 				<div className=""></div>
 
 				<div className="large-top-padding what-we-do">
-					<h3 className="bold green small-bottom-margin">WHAT WE DO</h3>
+					<h5 className="bold green small-bottom-margin">What we do</h5>
 					<p className="grey">
 						MakoBu Enterprises PLC currently imports and distributes, registered
 						high-standard agricultural inputs such as SEMINIS brand vegetable
