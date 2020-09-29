@@ -7,6 +7,10 @@
 	width: 130px;
 }
 
+.company-name-and-motto h2 {
+	font-weight: 700;
+}
+
 ul {
 	display: inline-flex;
 	list-style: none;
@@ -71,7 +75,11 @@ a {
 	}
 
 	.company-name-and-motto h2 {
-		font-size: 1rem;
+		font-size: 0.8rem;
+	}
+
+	.motto {
+		font-size: 0.7rem;
 	}
 }
 

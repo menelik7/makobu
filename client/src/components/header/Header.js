@@ -13,12 +13,8 @@ class Header extends React.Component {
 					</div>
 					<div className="col-8 flex-center company-name-and-motto">
 						<div>
-							<h2 className="bold green align-center">
-								መኮቡ ኢንተርፕራይዝስ ኃ.የተ.የግ.ማ
-							</h2>
-							<h2 className="bold green align-center">
-								MakoBu Enterprises P.L.C.
-							</h2>
+							<h2 className="green align-center">መኮቡ ኢንተርፕራይዝስ ኃ.የተ.የግ.ማ</h2>
+							<h2 className="green align-center">MakoBu Enterprises P.L.C.</h2>
 							<p className="italic grey align-center no-bottom-margin motto">
 								Positioned to Serve Farmers Well Since 1993
 							</p>
