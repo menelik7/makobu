@@ -1,9 +1,9 @@
-.website-under-dev {
-	margin-top: 60px;
-}
-
-.fa-bullhorn {
-	transform: rotate(-20deg);
+.website-under-dev-pic {
+	background: url("../img/dustin-lee-19667.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* ---------------------------------------------- /*
@@ -162,14 +162,6 @@
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
-	.website-under-dev {
-		margin-top: 30px;
-	}
-
-	.fa-bullhorn {
-		padding-top: 10px;
-	}
-
 	/* ---------------------------------------------- /*
  * WHO WE ARE
 /* ---------------------------------------------- */

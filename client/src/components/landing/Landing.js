@@ -56,11 +56,18 @@ class Landing extends React.Component {
 	render() {
 		return (
 			<div className="col-12 no-pad landing-main-div">
-				<div className="col-lg-6 offset-lg-3 grey no-bottom-margin website-under-dev">
-					<h5 className="bold align-center">Website under development</h5>
-					<p className="italic no-bottom-margin align-center">
-						Enjoy the following overview and check back with us soon:
-					</p>
+				<div className="banner-pic website-under-dev-pic">
+					<div className="overlay"></div>
+					<div className="col-lg-6 offset-lg-3 grey no-bottom-margin full-height flex-center website-under-dev">
+						<div>
+							<h5 className="bold white align-center">
+								Website under development
+							</h5>
+							<p className="col-10 offset-1 italic white no-bottom-margin align-center">
+								Enjoy the following overview and check back with us soon:
+							</p>
+						</div>
+					</div>
 				</div>
 
 				<div className="container large-top-padding who-we-are">
