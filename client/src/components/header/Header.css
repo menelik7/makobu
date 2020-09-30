@@ -8,8 +8,13 @@
 	width: 130px;
 }
 
-.company-name-and-motto h2 {
+.company-name h2 {
 	font-weight: 700;
+}
+
+.motto {
+	margin-bottom: 10px;
+	/*text-shadow: 2px 2px rgb(0, 0, 0, 16%);*/
 }
 
 /*******************************************Media Queries************************************************/
@@ -33,7 +38,7 @@
 		width: 65px;
 	}
 
-	.company-name-and-motto h2 {
+	.company-name h2 {
 		font-size: 1.2rem;
 	}
 
@@ -69,7 +74,7 @@
 		width: 55px;
 	}
 
-	.company-name-and-motto h2 {
+	.company-name h2 {
 		font-size: 0.8rem;
 	}
 

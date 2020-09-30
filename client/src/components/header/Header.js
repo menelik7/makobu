@@ -12,7 +12,7 @@ class Header extends React.Component {
 						<div className="col-2 flex-left company-logo">
 							<img className="logo" src={CompanyLogo} alt="Company Logo" />
 						</div>
-						<div className="col-8 flex-center company-name-and-motto">
+						<div className="col-8 flex-center company-name">
 							<div>
 								<h2 className="green align-center">መኮቡ ኢንተርፕራይዝስ ኃ.የተ.የግ.ማ</h2>
 								<h2 className="green align-center no-bottom-margin">

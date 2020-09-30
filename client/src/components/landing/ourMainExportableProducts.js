@@ -23,7 +23,7 @@ export default [
 		title: "Oils seeds, cereals, pulses, and spices",
 	},
 	{
-		picture: "pulses",
+		picture: "roasted-and-ground",
 		title: "Roasted and ground coffee",
 	},
 ];

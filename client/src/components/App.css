@@ -87,6 +87,9 @@ body {
 }
 
 /* Margin */
+.auto-margin {
+	margin: auto;
+}
 .no-bottom-margin {
 	margin-bottom: 0;
 }
@@ -115,37 +118,45 @@ body {
 	color: #0f5c07 !important;
 }
 
+.green-2 {
+	color: #0fa626;
+}
+
 .grey {
 	color: #707070 !important;
-}
-
-.yellow {
-	color: #f6f70a !important;
-}
-
-.orange {
-	color: #ff530d !important;
-}
-
-.white {
-	color: #ffffff !important;
 }
 
 .olive {
 	color: #59633b !important;
 }
 
+.orange {
+	color: #ff530d !important;
+}
+
+.purple {
+	color: #f2dcf1 !important;
+}
+
+.white {
+	color: #ffffff !important;
+}
+
+.yellow {
+	color: #f6f70a !important;
+}
+
 /* Background Color*/
-.white-back {
-	background-color: #fff;
+.green-back {
+	background-color: #0f5c07 !important;
 }
 
 .grey-back {
 	background-color: #e6ede0 !important;
 }
 
-.brown-back {
-	background-color: #0f5c07 !important;
+.white-back {
+	background-color: #fff;
 }
 
 /* SVG */

@@ -1,5 +1,6 @@
 .website-under-dev-pic {
-	background: url("../img/dustin-lee-19667.jpg") no-repeat center center;
+	background: url("../img/rachel-clark-_1wChzif1EM-unsplash.jpg") no-repeat top
+		center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -18,6 +19,7 @@
 	font-weight: 500;
 	margin-right: 10px;
 	margin-bottom: 30px;
+	letter-spacing: -0.5px;
 }
 
 .card-container {
@@ -86,9 +88,9 @@
 	background-size: cover;
 }
 
-.pulses {
+.roasted-and-ground {
 	height: 200px;
-	background: url("../img/pulses.jpg") no-repeat center center;
+	background: url("../img/roasted-and-ground.jpg") no-repeat center center;
 	background-size: cover;
 }
 
@@ -103,16 +105,16 @@
 
 .export-list ul {
 	list-style: none;
-	padding-left: 20px;
+	padding-left: 0;
 	margin-bottom: 30px;
 }
 
 .export-list-arrow {
 	width: 10px;
 	fill: #0f5c07;
-	stroke: #707070;
+	stroke: #f2dcf1;
 	stroke-width: 25;
-	margin-right: 10px;
+	margin-right: 15px;
 }
 
 /* ---------------------------------------------- /*
@@ -124,6 +126,7 @@
 
 .experience-svg {
 	width: 300px;
+	opacity: 0.8;
 }
 
 .experience-paragraph {
