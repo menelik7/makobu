@@ -55,7 +55,8 @@
 }
 
 .initials a {
-	color: #00d4ff;
+	/*color: #00d4ff;*/
+	color: #0fa626;
 }
 
 /*.my-name {
@@ -72,7 +73,7 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 24px;
-	color: #00d4ff;
+	color: #0fa626;
 }
 
 .initials a:hover,
