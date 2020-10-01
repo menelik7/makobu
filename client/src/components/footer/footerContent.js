@@ -89,7 +89,7 @@ function parseFollowInfo(data) {
 export const ContactUs = () => {
 	return (
 		<div className="col-sm-6 col-lg-4 footer-content">
-			<div className="green-2 footer-title">Contact Us</div>
+			<div className="green footer-title">Contact Us</div>
 			{parseContactInfo()}
 		</div>
 	);
@@ -98,7 +98,7 @@ export const ContactUs = () => {
 export const GeneralInformation = () => {
 	return (
 		<div className="col-sm-6 col-lg-4 footer-content">
-			<div className="green-2 footer-title">General Information</div>
+			<div className="green footer-title">General Information</div>
 			{parseGeneralInfo()}
 		</div>
 	);
@@ -106,7 +106,7 @@ export const GeneralInformation = () => {
 
 export const FollowUs = () => {
 	return (
-		<div className="col-sm-6 col-lg-12 green-2">
+		<div className="col-sm-6 col-lg-12 green">
 			<div className="footer-title">Follow Us</div>
 			{parseFollowInfo()}
 		</div>

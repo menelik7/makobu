@@ -17,7 +17,7 @@ class Footer extends React.Component {
 							<div className="col-lg-4 footer-content">
 								<div className="row">
 									<FollowUs />
-									<div className="col-sm-6 col-lg-12 green-2 footer-title">
+									<div className="col-sm-6 col-lg-12 green footer-title">
 										Stay Informed
 									</div>
 								</div>
