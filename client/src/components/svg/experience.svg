@@ -34,10 +34,10 @@
       <text id="_25-2" data-name="25" transform="translate(198.5 49.27)" fill="#0a2540" font-size="50" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="4.241" y="54">25</tspan></text>
     </g>
     <g transform="matrix(1, 0, 0, 1, 729.5, 3825.73)" filter="url(#OVER)">
-      <text id="OVER-2" data-name="OVER" transform="translate(9 61.27)" fill="#0fa626" font-size="40" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="4.248" y="43">OVER</tspan></text>
+      <text id="OVER-2" data-name="OVER" transform="translate(9 61.27)" fill="#0a2540" font-size="40" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="4.248" y="43">OVER</tspan></text>
     </g>
     <g transform="matrix(1, 0, 0, 1, 729.5, 3825.73)" filter="url(#YEARS_)">
-      <text id="YEARS_2" data-name="YEARS " transform="translate(342.5 61.27)" fill="#0fa626" font-size="40" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="6.152" y="43">YEARS </tspan></text>
+      <text id="YEARS_2" data-name="YEARS " transform="translate(342.5 61.27)" fill="#0a2540" font-size="40" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="6.152" y="43">YEARS </tspan></text>
     </g>
   </g>
 </svg>
