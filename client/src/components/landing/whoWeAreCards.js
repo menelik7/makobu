@@ -1,5 +1,5 @@
 import React from "react";
-import { ReactComponent as CoreValues } from "../svg/coreValues.svg";
+import { ReactComponent as CoreValue } from "../svg/coreValue.svg";
 import { ReactComponent as Eye } from "../svg/eye.svg";
 import { ReactComponent as Flower } from "../svg/flower1.svg";
 import { ReactComponent as People } from "../svg/people.svg";
@@ -24,8 +24,8 @@ export default [
 			"To provide environmentally, socially, and economically  beneficial agricultural inputs and technologies to all farming communities of Ethiopia.",
 	},
 	{
-		icon: <CoreValues />,
-		title: "Core Values",
+		icon: <CoreValue />,
+		title: "Core Value",
 		content:
 			"To satisfy the needs of our customers and broader market through supplying ONLY prime quality products backed by technical support/services.",
 	},
