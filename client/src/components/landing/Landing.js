@@ -66,7 +66,7 @@ class Landing extends React.Component {
 								Website under development
 							</h4>
 							<p className="italic white no-bottom-margin align-center">
-								Enjoy the following overview page and check back with us soon:
+								Enjoy the following overview and check back with us soon:
 							</p>
 						</div>
 					</div>
