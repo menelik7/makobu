@@ -20,6 +20,7 @@
 	margin-right: 10px;
 	margin-bottom: 30px;
 	letter-spacing: -0.5px;
+	color: #0a2540;
 }
 
 .card-container {
@@ -43,6 +44,7 @@
 .svgs {
 	width: 40px;
 	height: 40px;
+	fill: #0a2540;
 }
 
 .bayer-logo {
@@ -94,8 +96,11 @@
 	background-size: cover;
 }
 
-.export-pic {
-	margin-bottom: 15px;
+.export-content {
+	min-height: 166px;
+	padding: 15px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgba(0, 0, 0, 5%);
 }
 
 .export-title {
@@ -111,8 +116,7 @@
 
 .export-list-arrow {
 	width: 10px;
-	fill: #0f5c07;
-	stroke: #f2dcf1;
+	stroke: #0a2540;
 	stroke-width: 25;
 	margin-right: 15px;
 }
@@ -166,8 +170,8 @@
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
 	/* ---------------------------------------------- /*
- * WHO WE ARE
-/* ---------------------------------------------- */
+	 * WHO WE ARE
+	/* ---------------------------------------------- */
 	.card-container {
 		min-height: 200px;
 		padding: 5px 15px;
@@ -183,8 +187,15 @@
 	}
 
 	/* ---------------------------------------------- /*
- * Experience
-/* ---------------------------------------------- */
+	 * Our Main Exportable Products
+	/* ---------------------------------------------- */
+	.export-content {
+		margin-bottom: 15px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Experience
+	/* ---------------------------------------------- */
 	.experience-svg {
 		width: 250px;
 		height: 175px;

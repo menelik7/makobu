@@ -1,5 +1,6 @@
 import React from "react";
 import "./Footer.css";
+import "../fonts/font-awesome-all.css";
 import { ContactUs } from "./footerContent";
 import { GeneralInformation } from "./footerContent";
 import { FollowUs } from "./footerContent";

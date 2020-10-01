@@ -21,7 +21,7 @@ class Header extends React.Component {
 							</div>
 						</div>
 						<div className="col-2 flex-right large-menu"></div>
-						<p className="col-12 italic grey no-bottom-margin align-center motto">
+						<p className="col-12 italic no-bottom-margin align-center motto">
 							Positioned to Serve Farmers Well Since 1993
 						</p>
 					</div>

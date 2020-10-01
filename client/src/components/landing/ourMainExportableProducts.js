@@ -21,9 +21,11 @@ export default [
 	{
 		picture: "spices",
 		title: "Oils seeds, cereals, pulses, and spices",
+		list: ["List coming soon..."],
 	},
 	{
 		picture: "roasted-and-ground",
 		title: "Roasted and ground coffee",
+		list: ["List coming soon..."],
 	},
 ];

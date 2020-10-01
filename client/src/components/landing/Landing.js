@@ -35,18 +35,20 @@ class Landing extends React.Component {
 			return (
 				<div key={i} className="col-md-4 grey export-container">
 					<div className={`export-pic ${picture}`}></div>
-					<div className="green-2 export-title">{title}</div>
-					<div className="export-list">
-						<ul>
-							{_.map(list, (item, i) => {
-								return (
-									<li key={i}>
-										<DoubleArrow className="export-list-arrow" />
-										{item}
-									</li>
-								);
-							})}
-						</ul>
+					<div className="white-back export-content">
+						<div className="green-2 export-title">{title}</div>
+						<div className="export-list">
+							<ul>
+								{_.map(list, (item, i) => {
+									return (
+										<li key={i}>
+											<DoubleArrow className="export-list-arrow" />
+											{item}
+										</li>
+									);
+								})}
+							</ul>
+						</div>
 					</div>
 				</div>
 			);
@@ -60,11 +62,11 @@ class Landing extends React.Component {
 					<div className="overlay"></div>
 					<div className="col-lg-6 offset-lg-3 grey no-bottom-margin full-height flex-center website-under-dev">
 						<div>
-							<h5 className="bold white align-center">
+							<h4 className="bold white align-center">
 								Website under development
-							</h5>
-							<p className="col-10 offset-1 italic white no-bottom-margin align-center">
-								Enjoy our following landing page and check back with us soon:
+							</h4>
+							<p className="italic white no-bottom-margin align-center">
+								Enjoy the following overview page and check back with us soon:
 							</p>
 						</div>
 					</div>
@@ -72,7 +74,7 @@ class Landing extends React.Component {
 
 				<div className="container large-top-padding who-we-are">
 					<h5 className="green-2 small-bottom-margin">Who we are</h5>
-					<h1 className="grey large-text">A general trading company</h1>
+					<h1 className="large-text">A general trading company</h1>
 					<p className="grey small-bottom-margin">
 						MakoBu Enterprises PLC was established in 1993 with the the
 						objective to improve farmers' lives by importing and distributing
@@ -85,7 +87,7 @@ class Landing extends React.Component {
 
 				<div className="container large-top-padding what-we-do">
 					<h5 className="bold green-2 small-bottom-margin">What we do</h5>
-					<h1 className="grey large-text">Import and distribution</h1>
+					<h1 className="large-text">Import and distribution</h1>
 					<p className="grey">
 						MakoBu Enterprises PLC currently imports and distributes, registered
 						high-standard agricultural inputs such as{" "}
@@ -118,7 +120,7 @@ class Landing extends React.Component {
 					<h5 className="bold green-2 small-bottom-margin">
 						Our main exportable products
 					</h5>
-					<h1 className="grey large-text">Sourcing with care</h1>
+					<h1 className="large-text">Sourcing with care</h1>
 					<p className="grey">
 						It is our mission to offer selective Premium Coffee with the best
 						characteristics in providing a beverage of ideal aroma and taste
@@ -130,10 +132,12 @@ class Landing extends React.Component {
 				<div className="white-back experience">
 					<div className="align-center">
 						<Experience />
-						<p className="col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 grey italic experience-paragraph">
-							Our close relationship with small holder farmers in a number
-							regions throughout the country, has put us in an ideal position to
-							directly source and export products of the highest quality.
+						<p className="col-10 offset-1 col-sm-8 offset-sm-2 col-lg-6 offset-lg-3 grey italic experience-paragraph">
+							Maintaining a close relationship with small holder farmers in
+							different regions throughout the country is a practice that has
+							long been woven into the fabric of our culture. It puts us in an
+							ideal position to directly source and export products of the
+							highest quality.
 						</p>
 					</div>
 				</div>

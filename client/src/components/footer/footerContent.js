@@ -48,7 +48,7 @@ function parseContactInfo(data) {
 				{_.map(texts, (text, i) => {
 					return (
 						<div key={i} className="footer-text">
-							<a href={`${icon === "phone" ? "tel:" : "mailto:"}${text}`}>
+							<a href={`${icon === "phone-alt" ? "tel:" : "mailto:"}${text}`}>
 								{text}
 							</a>
 						</div>
