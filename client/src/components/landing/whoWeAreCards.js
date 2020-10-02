@@ -8,7 +8,7 @@ import PartnersLogos from "./Logos";
 export default [
 	{
 		icon: <People />,
-		title: "Our Partners",
+		title: "Partners",
 		content: <PartnersLogos />,
 	},
 	{

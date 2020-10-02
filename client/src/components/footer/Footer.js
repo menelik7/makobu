@@ -4,6 +4,7 @@ import "../fonts/font-awesome-all.css";
 import { ContactUs } from "./footerContent";
 import { GeneralInformation } from "./footerContent";
 import { FollowUs } from "./footerContent";
+import Subscription from "../subscription/Subscription";
 
 class Footer extends React.Component {
 	render() {
@@ -17,8 +18,9 @@ class Footer extends React.Component {
 							<div className="col-lg-4 footer-content">
 								<div className="row">
 									<FollowUs />
-									<div className="col-sm-6 col-lg-12 green footer-title">
-										Stay Informed
+									<div className="col-sm-6 col-lg-12 green">
+										<div className="footer-title">Stay Informed</div>
+										<Subscription />
 									</div>
 								</div>
 							</div>

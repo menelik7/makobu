@@ -74,13 +74,13 @@ class Landing extends React.Component {
 
 				<div className="container large-top-padding who-we-are">
 					<h5 className="green-2 small-bottom-margin">Who we are</h5>
-					<h1 className="large-text">A general trading company</h1>
+					<h1 className="large-text">A trading company with experience</h1>
 					<p className="grey small-bottom-margin">
-						MakoBu Enterprises PLC was established in 1993 with the the
-						objective to improve farmers' lives by importing and distributing
-						premium quality agricultural inputs, spraying equipment and public
-						health related products, and to be contribute to the modernization
-						of agricultural practices in Ethiopia.
+						MakoBu Enterprises PLC is a general trading company established in
+						1993 with the the objective to improve farmers' lives by importing
+						and distributing premium quality agricultural inputs, spraying
+						equipment and public health related products, and to be contribute
+						to the modernization of agricultural practices in Ethiopia.
 					</p>
 					<div className="row">{this.renderWhoWeAreCards()}</div>
 				</div>
@@ -120,7 +120,7 @@ class Landing extends React.Component {
 					<h5 className="bold green-2 small-bottom-margin">
 						Our main exportable products
 					</h5>
-					<h1 className="large-text">Sourcing with care</h1>
+					<h1 className="large-text">Ethiopian coffee and spices</h1>
 					<p className="grey">
 						It is our mission to offer selective Premium Coffee with the best
 						characteristics in providing a beverage of ideal aroma and taste

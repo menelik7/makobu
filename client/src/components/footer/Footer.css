@@ -34,6 +34,31 @@
 	margin-bottom: 20px;
 }
 
+.footer-stay-informed-text {
+	text-decoration: none;
+	color: #707070;
+	opacity: 0.75;
+	margin: 20px 0 10px;
+}
+
+.subscription-button {
+	padding: 0.375rem 1.2rem;
+}
+
+.subscription-svg {
+	width: 22px;
+	height: 24px;
+	stroke: #ffffff;
+	stroke-width: 2;
+	fill: #ffffff;
+}
+
+.privacy {
+	font-size: 0.8rem;
+	color: #707070;
+	opacity: 0.75;
+}
+
 /* ---------------------------------------------- /*
  * Footer bottom
 /* ---------------------------------------------- */
@@ -90,6 +115,9 @@
 
 /* Small devices (landscape phones, less than 1124px)*/
 @media (max-width: 1124px) {
+	.subscription-button {
+		padding: 0.375rem 0.95rem;
+	}
 }
 
 /* iPhone X or similar phones (landscape, less than 823)*/
@@ -97,6 +125,10 @@
 	.side-borders {
 		border-left: none;
 		border-right: none;
+	}
+
+	.subscription-button {
+		padding: 0.375rem 1.15rem;
 	}
 }
 
@@ -109,10 +141,16 @@
 
 /* Small devices (landscape phones, less than 736px)*/
 @media (max-width: 736px) {
+	.subscription-button {
+		padding: 0.375rem 1.1rem;
+	}
 }
 
 /* Small devices (landscape phones, less than 667px)*/
-@media (max-width: 667px) {
+@media (max-width: 668px) {
+	.subscription-button {
+		padding: 0.375rem 0.9rem;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 480px)*/
@@ -121,6 +159,9 @@
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
+	.subscription-button {
+		padding: 0.375rem 1.25rem;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/

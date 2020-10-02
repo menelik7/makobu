@@ -14,6 +14,10 @@ body {
 	height: 100%;
 }
 
+.full-width {
+	width: 100% !important;
+}
+
 /* Alignment */
 .align-center {
 	text-align: center;
@@ -157,6 +161,16 @@ body {
 
 .white-back {
 	background-color: #fff;
+}
+
+/* Forms */
+.form-group {
+	margin-bottom: 10px;
+}
+
+.form-control,
+.btn {
+	border-radius: 0;
 }
 
 /* SVG */
