@@ -5,6 +5,5 @@ import subscriptionEmailReducer from "./subscriptionEmailReducer";
 
 export default combineReducers({
 	subscription: subscriptionEmailReducer,
-	// feedback: feedbackEmailReducer,
 	form: reduxForm,
 });

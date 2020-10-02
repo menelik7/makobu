@@ -45,9 +45,7 @@ class NewSubscriptionSubmit extends React.Component {
 				block: "center",
 				inline: "start",
 			});
-			return (
-				<div className="align-center alert alert-danger">{errorMessage}</div>
-			);
+			return <div className="alert alert-danger">{errorMessage}</div>;
 		}
 
 		if (this.props.subscriptionStatus.successMessage) {
@@ -60,9 +58,7 @@ class NewSubscriptionSubmit extends React.Component {
 				inline: "start",
 			});
 			return (
-				<div className="align-center sub-success alert alert-success">
-					{successMessage}
-				</div>
+				<div className="sub-success alert alert-success">{successMessage}</div>
 			);
 		}
 	}
