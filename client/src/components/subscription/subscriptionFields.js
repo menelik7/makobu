@@ -1,1 +1,1 @@
-export default [{ label: "Email", name: "email" }];
+export default [{ label: "Enter your email address", name: "email" }];

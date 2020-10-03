@@ -4,15 +4,14 @@ const Mailer = require("../services/sendgrid/Mailer");
 const successMessage =
 	"Thank you for subscribing!  We'll keep you posted with all newsworthy updates.";
 const errorMessage =
-	// "There was an error processing your request.  Please make sure you submitted a valid, working email address and have no network connection issues.";
-	"Our email system is being validated by the proper authorities to protect your privacy.  We appreciate your patience while we finalize this required process.";
+	"There was an error processing your request.  Please make sure you submitted a valid, working email address and have no network connection issues.";
 module.exports = (app) => {
 	app.post("/api/subscription", async (req, res, next) => {
 		const { email } = req.body;
 
 		const mailerArgs = {
-			subject: "Lal Newsletter Subscription",
-			recipient: "menelikworku@gmail.com",
+			subject: "MakoBu Newsletter Subscription",
+			recipient: "menelikworku@yahoo.com",
 		};
 
 		const mailer = new Mailer(mailerArgs, subscriptionEmailTemplate(email));

@@ -3,7 +3,7 @@ module.exports = (email) => {
 		<html>
 			<body style="background-color: #F2F2F2; color: #333; padding: 20px;">
 				<div style="background-color: #fff; padding: 20px; text-align: center; margin-bottom: 2px;">
-					<a href="http://www.makobuent.com" style="text-decoration: none;"><img src="https://res.cloudinary.com/mazorya/image/upload/v1601653953/company_logo.png" style="width: 200px; height: 200px" /></a>
+					<a href="http://www.makobuent.com" style="text-decoration: none;"><img src="https://res.cloudinary.com/mazorya/image/upload/v1601653953/company_logo.png" style="width: 120px; height: 130px" /><div style="color: #3b8044;"><h2>መኮቡ ኢንተርፕራይዝስ ኃ.የተ.የግ.ማ</h2><h2>MakoBu Enterprises P.L.C.</h2></div></a>
 				</div>
 				<div style="background-color: #fff; padding: 20px;">
 					<p>Dear<strong style="color: #28a745;"> Seble,</strong></p>

@@ -74,7 +74,9 @@ class Landing extends React.Component {
 
 				<div className="container large-top-padding who-we-are">
 					<h5 className="green-2 small-bottom-margin">Who we are</h5>
-					<h1 className="large-text">A trading company with experience</h1>
+					<h1 className="col-sm-8 no-pad large-text">
+						A trading company with experience
+					</h1>
 					<p className="grey small-bottom-margin">
 						MakoBu Enterprises PLC is a general trading company established in
 						1993 with the the objective to improve farmers' lives by importing
@@ -87,7 +89,9 @@ class Landing extends React.Component {
 
 				<div className="container large-top-padding what-we-do">
 					<h5 className="bold green-2 small-bottom-margin">What we do</h5>
-					<h1 className="large-text">Import and distribution</h1>
+					<h1 className="col-sm-8 no-pad large-text">
+						Import and distribution
+					</h1>
 					<p className="grey">
 						MakoBu Enterprises PLC currently imports and distributes, registered
 						high-standard agricultural inputs such as{" "}
@@ -114,13 +118,29 @@ class Landing extends React.Component {
 						fuel, with a goal of manufacturing these stoves locally starting in
 						the near future.
 					</p>
+
+					<h1 className="col-sm-8 no-pad large-text">Export</h1>
+					<p className="grey">
+						We focus on the international market with the aim in promoting
+						<span className="green-2 bold">
+							{" "}
+							Ethiopian coffee beans, seeds and cereals
+						</span>{" "}
+						while creating brand awareness of MakoBu’s excellence to the
+						overseas market. Our main objective is to gain customers
+						satisfaction by exporting quality products. Supporting foreign
+						currency earnings for national development is also an important
+						aspect of our business model.
+					</p>
 				</div>
 
 				<div className="container large-top-padding exportable-products">
 					<h5 className="bold green-2 small-bottom-margin">
 						Our main exportable products
 					</h5>
-					<h1 className="large-text">Ethiopian coffee and spices</h1>
+					<h1 className="col-sm-8 no-pad large-text">
+						A range of premium quality Ethiopian products
+					</h1>
 					<p className="grey">
 						It is our mission to offer selective Premium Coffee with the best
 						characteristics in providing a beverage of ideal aroma and taste
