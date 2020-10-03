@@ -36,7 +36,7 @@ class Landing extends React.Component {
 				<div key={i} className="col-md-4 grey export-container">
 					<div className={`export-pic ${picture}`}></div>
 					<div className="white-back export-content">
-						<div className="green-2 export-title">{title}</div>
+						<div className="export-title">{title}</div>
 						<div className="export-list">
 							<ul>
 								{_.map(list, (item, i) => {

@@ -47,10 +47,6 @@
 	fill: #0a2540;
 }
 
-.bayer-logo {
-	margin-top: 12px;
-}
-
 .card-content-margin {
 	margin-top: 20px;
 }
@@ -106,6 +102,7 @@
 .export-title {
 	margin-bottom: 10px;
 	font-weight: 500;
+	color: #0a2540;
 }
 
 .export-list ul {
@@ -116,7 +113,7 @@
 
 .export-list-arrow {
 	width: 10px;
-	stroke: #0a2540;
+	stroke: #0fa626;
 	stroke-width: 25;
 	margin-right: 15px;
 }
