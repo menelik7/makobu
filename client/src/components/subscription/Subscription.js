@@ -9,7 +9,7 @@ class Subscription extends React.Component {
 		this.props.resetMessages();
 	}
 
-	onSubmit = formValues => {
+	onSubmit = (formValues) => {
 		this.props.newSubscription(formValues);
 		this.props.resetMessages();
 	};
@@ -30,7 +30,4 @@ const mapStateToProps = ({ subscription }) => {
 	return { subscription };
 };
 
-export default connect(
-	mapStateToProps,
-	actions
-)(Subscription);
+export default connect(mapStateToProps, actions)(Subscription);

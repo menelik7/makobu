@@ -5,6 +5,7 @@ import { ContactUs } from "./footerContent";
 import { GeneralInformation } from "./footerContent";
 import { FollowUs } from "./footerContent";
 import Subscription from "../subscription/Subscription";
+import { QuickLinks } from "./footerContent";
 
 class Footer extends React.Component {
 	render() {
@@ -24,6 +25,7 @@ class Footer extends React.Component {
 									</div>
 								</div>
 							</div>
+							<QuickLinks />
 						</div>
 					</div>
 				</div>

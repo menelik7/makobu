@@ -4,10 +4,13 @@ import "./Landing.css";
 import "../fonts/font-awesome-all.css";
 import whoWeAreCards from "./whoWeAreCards";
 import ourMainExportableProducts from "./ourMainExportableProducts";
-import { ReactComponent as DoubleArrow } from "../svg/right-arrow.svg";
 import { ReactComponent as Experience } from "../svg/experience.svg";
 
 class Landing extends React.Component {
+	componentDidMount() {
+		window.scrollTo(0, 0);
+	}
+
 	renderWhoWeAreCards() {
 		return _.map(whoWeAreCards, ({ icon, title, content }, i) => {
 			return (
@@ -42,7 +45,7 @@ class Landing extends React.Component {
 								{_.map(list, (item, i) => {
 									return (
 										<li key={i}>
-											<DoubleArrow className="export-list-arrow" />
+											<i className="far fa-arrow-alt-circle-right"></i>
 											{item}
 										</li>
 									);
@@ -139,7 +142,7 @@ class Landing extends React.Component {
 						Our main exportable products
 					</h5>
 					<h1 className="col-sm-8 no-pad large-text">
-						A range of premium quality Ethiopian products
+						Premium quality Ethiopian commodities
 					</h1>
 					<p className="grey">
 						It is our mission to offer selective Premium Coffee with the best

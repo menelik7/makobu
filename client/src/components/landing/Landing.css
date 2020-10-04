@@ -111,11 +111,9 @@
 	margin-bottom: 30px;
 }
 
-.export-list-arrow {
-	width: 10px;
-	stroke: #0fa626;
-	stroke-width: 25;
-	margin-right: 15px;
+.export-list i {
+	color: #0fa626;
+	margin-right: 10px;
 }
 
 /* ---------------------------------------------- /*

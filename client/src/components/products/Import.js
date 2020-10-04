@@ -1,15 +1,15 @@
 import React from "react";
-import "./Contact.css";
+import "./Products.css";
 import { Link } from "react-router-dom";
 
-class Contact extends React.Component {
+class Imports extends React.Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);
 	}
 
 	render() {
 		return (
-			<div className="col-12 no-pad contact-main-div">
+			<div className="col-12 no-pad imports-main-div">
 				<div className="banner-pic website-under-dev-pic">
 					<div className="overlay"></div>
 					<div className="col-lg-6 offset-lg-3 grey no-bottom-margin full-height flex-center website-under-dev">
@@ -33,4 +33,4 @@ class Contact extends React.Component {
 	}
 }
 
-export default Contact;
+export default Imports;

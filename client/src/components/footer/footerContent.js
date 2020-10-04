@@ -1,5 +1,6 @@
 import React from "react";
 import _ from "lodash";
+import { Link } from "react-router-dom";
 
 const contactUs = [
 	{
@@ -82,14 +83,18 @@ function parseGeneralInfo(data) {
 
 function parseFollowInfo(data) {
 	return _.map(followUs, (icon, i) => {
-		return <i key={i} className={`fab fa-${icon} footer-icon larger-icon`}></i>;
+		return (
+			<div key={i} className="col-1 footer-icon">
+				<i className={`fab fa-${icon} larger-icon`}></i>
+			</div>
+		);
 	});
 }
 
 export const ContactUs = () => {
 	return (
 		<div className="col-sm-6 col-lg-4 footer-content">
-			<div className="green footer-title">Contact Us</div>
+			<div className="green footer-title">General Information</div>
 			{parseContactInfo()}
 		</div>
 	);
@@ -98,7 +103,7 @@ export const ContactUs = () => {
 export const GeneralInformation = () => {
 	return (
 		<div className="col-sm-6 col-lg-4 footer-content">
-			<div className="green footer-title">General Information</div>
+			<div className="green footer-title">Find Us</div>
 			{parseGeneralInfo()}
 		</div>
 	);
@@ -108,7 +113,31 @@ export const FollowUs = () => {
 	return (
 		<div className="col-sm-6 col-lg-12 green">
 			<div className="footer-title">Follow Us</div>
-			{parseFollowInfo()}
+			<div className="row">{parseFollowInfo()}</div>
+		</div>
+	);
+};
+
+export const QuickLinks = () => {
+	return (
+		<div className="col-12 grey align-center quick-links">
+			<ul>
+				<li>
+					<Link to="/">home</Link>
+				</li>
+				<li>
+					<Link to="/import">import</Link>
+				</li>
+				<li>
+					<Link to="/export">export</Link>
+				</li>
+				<li>
+					<Link to="/profile">profile</Link>
+				</li>
+				<li>
+					<Link to="/contact">contact us</Link>
+				</li>
+			</ul>
 		</div>
 	);
 };
