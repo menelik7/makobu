@@ -18,7 +18,7 @@ const contactUs = [
 	},
 ];
 
-const generalInformation = [
+const getInTouch = [
 	{
 		icon: "map",
 		link:
@@ -37,7 +37,7 @@ const generalInformation = [
 	},
 ];
 
-const followUs = ["twitter", "facebook-square", "instagram"];
+const scoialMedia = ["twitter", "facebook-square", "instagram"];
 
 function parseContactInfo(data) {
 	return _.map(contactUs, ({ icon, texts }, i) => {
@@ -61,7 +61,7 @@ function parseContactInfo(data) {
 }
 
 function parseGeneralInfo(data) {
-	return _.map(generalInformation, ({ icon, link, texts }, i) => {
+	return _.map(getInTouch, ({ icon, link, texts }, i) => {
 		return (
 			<div key={i}>
 				<div className="footer-icon">
@@ -82,7 +82,7 @@ function parseGeneralInfo(data) {
 }
 
 function parseFollowInfo(data) {
-	return _.map(followUs, (icon, i) => {
+	return _.map(scoialMedia, (icon, i) => {
 		return (
 			<div key={i} className="col-1 footer-icon">
 				<i className={`fab fa-${icon} larger-icon`}></i>
@@ -94,13 +94,13 @@ function parseFollowInfo(data) {
 export const ContactUs = () => {
 	return (
 		<div className="col-sm-6 col-lg-4 footer-content">
-			<div className="green footer-title">General Information</div>
+			<div className="green footer-title">Get in touch</div>
 			{parseContactInfo()}
 		</div>
 	);
 };
 
-export const GeneralInformation = () => {
+export const GetInTouch = () => {
 	return (
 		<div className="col-sm-6 col-lg-4 footer-content">
 			<div className="green footer-title">Find Us</div>
@@ -109,10 +109,10 @@ export const GeneralInformation = () => {
 	);
 };
 
-export const FollowUs = () => {
+export const SocialMedia = () => {
 	return (
 		<div className="col-sm-6 col-lg-12 green">
-			<div className="footer-title">Follow Us</div>
+			<div className="footer-title">Social Media</div>
 			<div className="row">{parseFollowInfo()}</div>
 		</div>
 	);

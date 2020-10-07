@@ -1,6 +1,7 @@
 import React from "react";
 import "./Header.css";
 import "../fonts/flaticon.css";
+import { Link } from "react-router-dom";
 import CompanyLogo from "../img/company_logo.png";
 
 class Header extends React.Component {
@@ -10,7 +11,9 @@ class Header extends React.Component {
 				<div className="container">
 					<div className="row">
 						<div className="col-2 flex-left company-logo">
-							<img className="logo" src={CompanyLogo} alt="Company Logo" />
+							<Link to="/">
+								<img className="logo" src={CompanyLogo} alt="Company Logo" />
+							</Link>
 						</div>
 						<div className="col-8 flex-center company-name">
 							<div>

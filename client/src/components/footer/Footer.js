@@ -2,8 +2,8 @@ import React from "react";
 import "./Footer.css";
 import "../fonts/font-awesome-all.css";
 import { ContactUs } from "./footerContent";
-import { GeneralInformation } from "./footerContent";
-import { FollowUs } from "./footerContent";
+import { GetInTouch } from "./footerContent";
+import { SocialMedia } from "./footerContent";
 import Subscription from "../subscription/Subscription";
 import { QuickLinks } from "./footerContent";
 
@@ -15,10 +15,10 @@ class Footer extends React.Component {
 					<div className="container">
 						<div className="row">
 							<ContactUs />
-							<GeneralInformation />
+							<GetInTouch />
 							<div className="col-lg-4 footer-content">
 								<div className="row">
-									<FollowUs />
+									<SocialMedia />
 									<div className="col-sm-6 col-lg-12 green">
 										<div className="footer-title">Stay Informed</div>
 										<Subscription />

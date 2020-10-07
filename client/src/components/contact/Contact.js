@@ -1,5 +1,7 @@
 import React from "react";
 import "./Contact.css";
+import "../fonts/flaticon.css";
+import Feedback from "../feedback/Feedback";
 import { Link } from "react-router-dom";
 
 class Contact extends React.Component {
@@ -17,13 +19,28 @@ class Contact extends React.Component {
 							<h4 className="bold white align-center">
 								Website under development
 							</h4>
-							<p className="italic white align-center">
-								We are working on this page and will have it ready soon.
+							<div className="flex-center circle">
+								<i className="white flaticon-next-1"></i>
+							</div>
+							<p className="italic white no-bottom-margin align-center">
+								Enjoy the following overview and check back with us soon:
 							</p>
-							<div className="align-center small-margin-top">
-								<Link to="/">
-									<button className="btn btn-success">Back to overview</button>
-								</Link>
+						</div>
+					</div>
+				</div>
+
+				<div className="white-back">
+					<div className="container large-top-padding feedback-form">
+						<div className="row">
+							<div className="col-10 offset-1 col-sm-6 offset-sm-3 col-lg-5 offset-lg-0 dropusaline-pic"></div>
+							<div className="col-sm-8 col-lg-6 offset-lg-1">
+								<h5 className="green-2 small-bottom-margin">Got questions?</h5>
+								<h1 className="no-pad large-text">Drop us a line</h1>
+								<p className="no-pad grey small-bottom-margin">
+									We are here to help and answer any questions. We look forward
+									to hearing from you!
+								</p>
+								<Feedback />
 							</div>
 						</div>
 					</div>

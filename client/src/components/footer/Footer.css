@@ -71,7 +71,7 @@
 .quick-links li {
 	height: 20px;
 	margin: 0 5px;
-	border-bottom: 1px dashed #707070;
+	border-bottom: 1px dotted #707070;
 	font-size: 0.9rem;
 }
 

@@ -8,16 +8,16 @@ const errorMessage =
 
 module.exports = (app) => {
 	app.post("/api/feedback", async (req, res, next) => {
-		const { firstname, lastname, email, message } = req.body;
+		const { fullname, company, email, message } = req.body;
 
 		const mailerArgs = {
-			subject: "User Suggestions or Feedback",
+			subject: "MakoBu User Suggestions or Feedback",
 			recipient: "menelikworku@gmail.com",
 		};
 
 		const mailer = new Mailer(
 			mailerArgs,
-			feedbackEmailTemplate(firstname, lastname, email, message)
+			feedbackEmailTemplate(fullname, company, email, message)
 		);
 
 		try {

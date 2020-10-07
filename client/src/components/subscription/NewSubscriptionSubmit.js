@@ -15,10 +15,6 @@ class NewSubscriptionSubmit extends React.Component {
 		subForm.classList.remove("d-none");
 	}
 
-	componentWillUnmount() {
-		this.props.subscriptionStatus = null;
-	}
-
 	renderFields() {
 		return _.map(subscriptionFields, ({ label, name }) => {
 			return (
@@ -101,7 +97,7 @@ class NewSubscriptionSubmit extends React.Component {
 									<div className="col-2 no-pad">
 										<button
 											type="submit"
-											className="btn btn-success subscription-button"
+											className="btn btn-success subscription-submit-button"
 											disabled={pristine || submitting}
 										>
 											{submitting === true ? (
