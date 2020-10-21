@@ -1,6 +1,10 @@
 /* ---------------------------------------------- /*
  * Drop Us A Line
 /* ---------------------------------------------- */
+.dropusaline {
+	padding-bottom: 93px;
+}
+
 .dropusaline-pic {
 	height: 500px;
 	background: url("../img/drop_us_a_line.jpg") no-repeat center center;
@@ -8,6 +12,47 @@
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+/* ---------------------------------------------- /*
+ * Means of Contact
+/* ---------------------------------------------- */
+.means-of-contact {
+	padding-bottom: 30px;
+}
+
+.means {
+	margin-top: -120px;
+}
+
+.means .white-back {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgba(0, 0, 0, 5%);
+}
+
+.means-vector {
+	padding-top: 40px;
+}
+
+.contact-us-svg {
+	width: 150px;
+	fill: #ffffff;
+}
+
+.means-title {
+	margin-bottom: 20px;
+}
+
+.means-content {
+	padding: 40px 0;
+}
+
+.means-text {
+	margin-bottom: 40px;
+}
+
+.webkit-order {
+	order: 2;
+	-webkit-order: 2;
 }
 
 .circle {
@@ -19,6 +64,40 @@
 
 .circle i {
 	font-size: 0.8rem;
+}
+
+/* ---------------------------------------------- /*
+ * Affiliations
+/* ---------------------------------------------- */
+.affiliations-pic {
+	padding-top: 20px;
+}
+
+.affiliations-pic img {
+	width: 120px;
+	height: 120px;
+}
+
+.affiliations-title {
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-bottom: 10px;
+	font-weight: 500;
+	color: #0a2540;
+	text-transform: uppercase;
+}
+
+.affiliation-logo img {
+	width: 120px;
+	height: 120px;
+}
+
+.affiliations-logo-container:nth-child(3) img {
+	width: 130px;
+}
+
+.affiliation-text {
+	padding: 20px 10px;
 }
 
 /* --------------------------------------------------------------------------------------------------------- /*
@@ -35,14 +114,41 @@
 		margin-top: 50px;
 		height: 400px;
 	}
+
+	/* ---------------------------------------------- /*
+	 * Affiliations
+	/* ---------------------------------------------- */
+	.affiliations-logo-container {
+		margin-bottom: 40px;
+	}
+
+	.affiliations-logo-container:nth-child(5),
+	.affiliations-logo-container:nth-child(6) {
+		margin-bottom: 0;
+	}
 }
 
 /* iPhone X or similar phones (landscape, less than 823)*/
 @media (max-width: 823px) {
+	/* ---------------------------------------------- /*
+	 * Drop us a line
+	/* ---------------------------------------------- */
 	.dropusaline-pic {
 		margin-top: 0;
 		height: 350px;
 		margin-bottom: 60px;
+	}
+
+	.webkit-order {
+		order: 0;
+		-webkit-order: 0;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Means of Contact
+	/* ---------------------------------------------- */
+	.means-content {
+		/*min-height: 300px;*/
 	}
 }
 
@@ -55,6 +161,13 @@
 
 /* Small devices (landscape phones, less than 736px)*/
 @media (max-width: 736px) {
+	/* ---------------------------------------------- /*
+	 * Means of Contact
+	/* ---------------------------------------------- */
+	.means {
+		margin-top: 0;
+		margin-bottom: 15px;
+	}
 }
 
 /* Small devices (landscape phones, less than 667px)*/
@@ -67,6 +180,13 @@
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
+	/* ---------------------------------------------- /*
+	 * Drop us a line
+	/* ---------------------------------------------- */
+	.dropusaline {
+		padding-bottom: 60px;
+	}
+
 	.feedback-form {
 		padding-top: 20px;
 	}
@@ -74,6 +194,33 @@
 	.dropusaline-pic {
 		height: 320px;
 		margin-bottom: 60px;
+	}
+
+	.drop-us-a-line-subtitle {
+		margin-bottom: 0 !important;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Means of Contact
+	/* ---------------------------------------------- */
+	.means-of-contact {
+		padding-bottom: 0;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Affiliations
+	/* ---------------------------------------------- */
+	.affiliations-title {
+		padding-bottom: 20px;
+	}
+
+	.affiliations-logo-container {
+		padding-top: 40px;
+		margin-bottom: 0;
+	}
+
+	.affiliation-text {
+		padding: 20px 40px;
 	}
 }
 

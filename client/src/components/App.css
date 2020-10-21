@@ -9,6 +9,11 @@ body {
 	background-color: #f6f9fc;
 }
 
+a {
+	text-decoration: none !important;
+	color: #0b010a;
+}
+
 /* Size */
 .full-height {
 	height: 100%;
@@ -90,6 +95,14 @@ body {
 	padding-top: 60px;
 }
 
+.large-bottom-padding {
+	padding-bottom: 60px;
+}
+
+.x-large-bottom-padding {
+	padding-bottom: 70px;
+}
+
 /* Margin */
 .auto-margin {
 	margin: auto;
@@ -118,6 +131,10 @@ body {
 }
 
 /* Color */
+.dark-blue {
+	color: #0a2540;
+}
+
 .green {
 	color: #0f5c07 !important;
 }
@@ -247,11 +264,11 @@ body {
 }
 
 /* Extra small devices (portrait phones, less than 414px)*/
-@media (max-width: 414px) {
+@media (max-width: 415px) {
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 }
 
 /* Extra small devices (portrait phones, less than 320px)*/

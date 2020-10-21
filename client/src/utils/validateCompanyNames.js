@@ -4,7 +4,7 @@ export default (companyName) => {
 	const invalidName = re.test(companyName) === false;
 
 	if (invalidName) {
-		return "Company name must be between 5-15 characters long.";
+		return "Company name must be between 5-30 characters long.";
 	}
 
 	return;
