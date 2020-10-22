@@ -21,7 +21,6 @@ const getMapOptions = (maps: any) => {
 };
 
 export default function OfficeLocation() {
-  console.log(process.env.REACT_APP_GOOGLE_MAP_API_KEY);
   return (
     // Important! Always set the container height explicitly
     <div
