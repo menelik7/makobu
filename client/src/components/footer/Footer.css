@@ -143,15 +143,19 @@
 	.subscription-button {
 		padding: 0.375rem 0.95rem;
 	}
-}
 
-/* iPhone X or similar phones (landscape, less than 823)*/
-@media (max-width: 823px) {
 	.side-borders {
 		border-left: none;
 		border-right: none;
 	}
 
+	.design-credit {
+		padding-top: 20px;
+	}
+}
+
+/* iPhone X or similar phones (landscape, less than 823)*/
+@media (max-width: 823px) {
 	.subscription-button {
 		padding: 0.375rem 1.15rem;
 	}
@@ -159,9 +163,6 @@
 
 /* iPad Portrait less than 768*/
 @media (max-width: 768px) {
-	.design-credit {
-		padding-top: 20px;
-	}
 }
 
 /* Small devices (landscape phones, less than 736px)*/

@@ -1,0 +1,130 @@
+.small-menu {
+	padding-right: 35px;
+}
+
+.flaticon-menu {
+	font-size: 3rem;
+	padding: 5px 15px;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+.modal-header {
+	border: none;
+}
+
+.modal-header .close {
+	margin: -1rem;
+}
+
+.modal-header .btn {
+	text-shadow: none;
+}
+
+.modal-body {
+	margin: 40px 20px;
+	border: 1px solid #ffffff;
+}
+
+.small-menu-list {
+	list-style: none;
+	padding: 0;
+}
+
+.small-menu-list li {
+	padding: 10px 0;
+}
+
+.small-menu-list li a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	color: #fff;
+}
+
+.modal-footer {
+	padding: 0;
+	border: none;
+}
+
+.modal-footer > * {
+	margin: 0;
+}
+
+.social-icons {
+	list-style: none;
+	display: inline-flex;
+	padding: 0;
+	margin: 20px 0;
+}
+
+.social-icons li {
+	display: inline-flex;
+	margin: 0 7px;
+}
+
+.social-icons li a {
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	color: rgba(255, 255, 255, 0.5);
+	width: 30px;
+	height: 30px;
+	line-height: 28px;
+	border: 1px solid rgba(255, 255, 255, 0.5);
+	border-radius: 3px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+/*******************************************Media Queries************************************************/
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 1124px) {
+}
+
+/* iPhone X or similar (landscape less than 823px)*/
+@media (max-width: 823px) {
+	.flaticon-menu {
+		font-size: 2rem;
+		padding: 5px 15px;
+	}
+}
+
+/* iPad Portrait less than 768*/
+@media (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, less than 736px)*/
+@media (max-width: 736px) {
+	.small-menu {
+		padding-right: 0;
+	}
+}
+
+/* Small devices (landscape phones, less than 667px)*/
+@media (max-width: 667px) {
+}
+
+/* Extra small devices (portrait phones, less than 480px)*/
+@media (max-width: 480px) {
+}
+
+/* Extra small devices (portrait phones, less than 414px)*/
+@media (max-width: 415px) {
+	.flaticon-menu {
+		padding: 0 7px;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 375px)*/
+@media (max-width: 375px) {
+}
+
+/* Extra small devices (portrait phones, less than 320px)*/
+@media (max-width: 320px) {
+}

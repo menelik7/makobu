@@ -1,50 +1,33 @@
-.cluster-background {
-    width: 40px;
-    height: 40px;
-    background-color: #ffbf2a;
-    border-radius: 50%;
-}
-
-.cluster-display {
-    font-size: 1.1rem;
-    font-weight: 700;
-    color: #ffbf2a;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    background-color: #000000;
-}
-
 .pin {
     width: 30px;
     height: 15px;
     position: relative;
-    background-color: #ffbf2a;
+    border: 1px solid #0f5c07;
     cursor: pointer;
 }
 
 .pin:before {
     content: "";
     position: absolute;
-    top: -10px;
-    left: 0;
+    top: -11px;
+    left: -1px;
     width: 0;
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-bottom: 10px solid #0b010a;
+    border-bottom: 10px solid #0f5c07;
 }
 
 .pin:after {
     content: "";
     position: absolute;
-    bottom: -10px;
-    left: 0;
+    bottom: -11px;
+    left: -1px;
     width: 0;
     height: 0;
     border-left: 15px solid transparent;
     border-right: 15px solid transparent;
-    border-top: 10px solid #0b010a;
+    border-top: 10px solid #0f5c07;
 }
 
 .bounce {
@@ -118,7 +101,7 @@
     left: -47px;
     background: #fff;
     padding: 10px 12px;
-    border: 1px solid #0b010a;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     z-index: 1;
 }
@@ -132,8 +115,8 @@
     height: 7px;
     background: #fff;
     transform: skew(0deg, 20deg);
-    border-left: 1px solid #0b010a;
-    border-bottom: 1px solid #0b010a;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .info-window:after {
@@ -145,8 +128,8 @@
     height: 7px;
     background: #fff;
     transform: skew(0deg, -20deg);
-    border-right: 1px solid #0b010a;
-    border-bottom: 1px solid #0b010a;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .info-name {
@@ -156,8 +139,9 @@
 .info-window-button {
     text-transform: none !important;
     font-size: 12px;
-    border: 1px solid #0b010a;
-    background: #0b010a;
+    border: 1px solid #0f5c07;
+    border-radius: 5px;
+    background: #0f5c07;
     color: #fff;
 }
 
@@ -165,7 +149,14 @@
     color: #fff;
 }
 
-.fa-map-marked-alt,
+.info-window-phone a {
+    color: #707070;
+}
+
+.info-window-phone a:hover {
+    color: #0a2540;
+}
+
 .fa-phone-square {
     margin-right: 2px;
 }
@@ -173,7 +164,7 @@
 .info-window-button .fas {
     margin-left: 2px;
     font-size: 14px;
-    color: #ffbf2a;
+    color: #f6f70a;
 }
 
 .location-name {

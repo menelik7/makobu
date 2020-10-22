@@ -7,7 +7,7 @@ export default [
 	{
 		vector: <Information />,
 		title: "Information",
-		text: "For general inquiries or guidance",
+		text: "For general inquiries from our friendly staff",
 		link: "tel:+ 251 114 65 54 64",
 	},
 	{

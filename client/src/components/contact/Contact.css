@@ -26,19 +26,20 @@
 }
 
 .means .white-back {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgba(0, 0, 0, 5%);
+	box-shadow: 5px 10px 18px #888888;
 }
 
 .means-vector {
-	padding-top: 40px;
+	padding: 60px 0;
 }
 
 .contact-us-svg {
-	width: 150px;
+	width: 100px;
 	fill: #ffffff;
 }
 
 .means-title {
+	font-weight: 600;
 	margin-bottom: 20px;
 }
 
@@ -47,7 +48,7 @@
 }
 
 .means-text {
-	margin-bottom: 40px;
+	margin-bottom: 30px;
 }
 
 .webkit-order {
@@ -73,9 +74,14 @@
 	padding-top: 20px;
 }
 
-.affiliations-pic img {
-	width: 120px;
-	height: 120px;
+.affiliations-pic img,
+.affiliation-logo img {
+	width: 100px;
+	height: 100px;
+}
+
+.affiliations-logo-container:nth-child(3) img {
+	width: 110px;
 }
 
 .affiliations-title {
@@ -85,15 +91,6 @@
 	font-weight: 500;
 	color: #0a2540;
 	text-transform: uppercase;
-}
-
-.affiliation-logo img {
-	width: 120px;
-	height: 120px;
-}
-
-.affiliations-logo-container:nth-child(3) img {
-	width: 130px;
 }
 
 .affiliation-text {
@@ -111,7 +108,6 @@
 /* Small devices (landscape phones, less than 1124px)*/
 @media (max-width: 1124px) {
 	.dropusaline-pic {
-		margin-top: 50px;
 		height: 400px;
 	}
 
@@ -133,6 +129,10 @@
 	/* ---------------------------------------------- /*
 	 * Drop us a line
 	/* ---------------------------------------------- */
+	.dropusaline {
+		padding-bottom: 60px;
+	}
+
 	.dropusaline-pic {
 		margin-top: 0;
 		height: 350px;
@@ -147,13 +147,35 @@
 	/* ---------------------------------------------- /*
 	 * Means of Contact
 	/* ---------------------------------------------- */
-	.means-content {
-		/*min-height: 300px;*/
+	.means {
+		padding: 0 20px;
+	}
+
+	.means-text {
+		padding: 0 10px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Affiliations
+	/* ---------------------------------------------- */
+
+	.affiliations-pic img,
+	.affiliation-logo img {
+		width: 80px;
+		height: 80px;
+	}
+
+	.affiliations-logo-container:nth-child(3) img {
+		width: 90px;
 	}
 }
 
 /* iPad Portrait less than 768*/
 @media (max-width: 768px) {
+	.contact-main-div .white-back .container {
+		padding-top: 30px;
+	}
+
 	.dropusaline-pic {
 		margin-bottom: 30px;
 	}
@@ -162,11 +184,19 @@
 /* Small devices (landscape phones, less than 736px)*/
 @media (max-width: 736px) {
 	/* ---------------------------------------------- /*
+	 * Drop us a line
+	/* ---------------------------------------------- */
+	.drop-us-a-line-subtitle {
+		margin-bottom: 0 !important;
+	}
+
+	/* ---------------------------------------------- /*
 	 * Means of Contact
 	/* ---------------------------------------------- */
 	.means {
 		margin-top: 0;
-		margin-bottom: 15px;
+		margin-bottom: 50px;
+		padding: 0 100px;
 	}
 }
 
@@ -183,10 +213,6 @@
 	/* ---------------------------------------------- /*
 	 * Drop us a line
 	/* ---------------------------------------------- */
-	.dropusaline {
-		padding-bottom: 60px;
-	}
-
 	.feedback-form {
 		padding-top: 20px;
 	}
@@ -196,15 +222,16 @@
 		margin-bottom: 60px;
 	}
 
-	.drop-us-a-line-subtitle {
-		margin-bottom: 0 !important;
-	}
-
 	/* ---------------------------------------------- /*
 	 * Means of Contact
 	/* ---------------------------------------------- */
 	.means-of-contact {
 		padding-bottom: 0;
+	}
+
+	.means {
+		margin-bottom: 30px;
+		padding: 0 60px;
 	}
 
 	/* ---------------------------------------------- /*

@@ -31,18 +31,18 @@ class Footer extends React.Component {
 				</div>
 				<div className="green-back white footer-bottom">
 					<div className="row">
-						<div className="col-lg-4 flex-center">
+						<div className="col-xl-4 flex-center">
 							<p className="no-bottom-margin">
 								Copyright <span className="purple">&copy;</span> 2020. All
 								rights reserved.
 							</p>
 						</div>
-						<div className="col-lg-4 flex-center side-borders">
+						<div className="col-xl-4 flex-center side-borders">
 							<p className="bold no-bottom-margin">MakoBu Enterprises P.L.C.</p>
 						</div>
-						<div className="col-lg-4 align-center design-credit">
+						<div className="col-xl-4 align-center design-credit">
 							<div className="row full-height">
-								<div className="col-2 col-sm-4 col-lg-2 flex-center initials">
+								<div className="col-2 col-sm-4 col-xl-2 flex-center initials">
 									<a
 										href="https://menelik7.github.io/"
 										target="_blank"
@@ -51,10 +51,10 @@ class Footer extends React.Component {
 										Mt
 									</a>
 								</div>
-								<div className="col-8 col-sm-4 col-lg-8 flex-center align-center my-name">
+								<div className="col-8 col-sm-4 col-xl-8 flex-center align-center my-name">
 									Menelik W. Tefera 2020
 								</div>
-								<div className="col-2 col-sm-4 col-lg-2 flex-center github">
+								<div className="col-2 col-sm-4 col-xl-2 flex-center github">
 									<a
 										href="https://github.com/menelik7"
 										target="_blank"
