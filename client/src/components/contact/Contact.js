@@ -71,7 +71,9 @@ class Contact extends React.Component {
 							<h5 className="green-2 small-bottom-margin">
 								Looking for something specific?
 							</h5>
-							<h1 className="no-pad large-text">Try the following options</h1>
+							<h1 className="no-pad large-text">
+								Explore the following options
+							</h1>
 							<p className="no-pad grey small-bottom-margin drop-us-a-line-subtitle">
 								Please select the relevant category below. If you don’t find
 								what you need, fill out our contact form above.

@@ -34,13 +34,13 @@ export default function OfficeLocation() {
     >
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API_KEY }}
-        defaultCenter={{ lat: 8.943989, lng: 38.7603503 }}
+        defaultCenter={{ lat: 8.933691, lng: 38.762496 }}
         defaultZoom={15}
         options={getMapOptions}
       >
         <Marker
-          lat="8.931087"
-          lng="38.7603503"
+          lat="8.931022"
+          lng="38.762547"
           name="MakoBu Enterprises P.L.C."
           address="Akaki Kality, Addis Ababa, Ethiopia"
           phone="+ 251114655464"

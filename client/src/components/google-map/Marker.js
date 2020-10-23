@@ -28,7 +28,7 @@ class Marker extends React.Component {
 		return (
 			<div className="pin-div">
 				<div className="white-back pin bounce" title={name}>
-					<div className="info-window d-none">
+					<div className="info-window">
 						<div
 							onClick={this.infoWindowCloser}
 							className="flex-center closer bold"
