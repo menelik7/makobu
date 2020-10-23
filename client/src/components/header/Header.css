@@ -30,7 +30,7 @@
 
 .inline-list li a {
 	text-decoration: none;
-	color: #0a2540;
+	color: #0f5c07;
 }
 
 .inline-list li a:hover {
@@ -43,7 +43,7 @@
 
 .motto {
 	margin-bottom: 10px;
-	color: #0a2540;
+	color: #707070;
 	text-shadow: 2px 2px rgb(0, 0, 0, 16%);
 }
 
