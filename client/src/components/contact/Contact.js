@@ -90,7 +90,7 @@ class Contact extends React.Component {
 							<h5 className="green-2 small-bottom-margin">
 								Prefer a face-to-face?
 							</h5>
-							<h1 className="no-pad large-text">Visit us at our location</h1>
+							<h1 className="no-pad large-text">Visit our location</h1>
 							<p className="no-pad grey small-bottom-margin">
 								If you're having difficulties finding us, you can reach out
 								using one of the means above . We look forward to seeing you!

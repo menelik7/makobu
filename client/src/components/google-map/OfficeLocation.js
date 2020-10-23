@@ -9,7 +9,7 @@ const getMapOptions = (maps: any) => {
     streetViewControl: true,
     fullscreenControl: true,
     clickableIcons: false,
-    gestureHandling: "greedy",
+    gestureHandling: "cooperative",
     styles: [
       {
         featureType: "poi",
@@ -35,7 +35,7 @@ export default function OfficeLocation() {
       <GoogleMapReact
         bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAP_API_KEY }}
         defaultCenter={{ lat: 8.943989, lng: 38.7603503 }}
-        defaultZoom={12}
+        defaultZoom={15}
         options={getMapOptions}
       >
         <Marker
