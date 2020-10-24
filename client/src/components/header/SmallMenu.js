@@ -37,10 +37,10 @@ class SmallMenu extends React.Component {
 									data-dismiss="modal"
 									aria-label="Close"
 								>
-									<i className="fas fa-window-close"></i>
+									<i className="green-2 fas fa-window-close"></i>
 								</button>
 							</div>
-							<div className="green-2 modal-title full-width align-center">
+							<div className="grey modal-title full-width align-center">
 								<h4 className="no-mar">Main Menu</h4>
 							</div>
 							<div className="modal-body">
