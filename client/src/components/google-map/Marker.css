@@ -42,8 +42,8 @@
     height: 15px;
     width: 15px;
     position: absolute;
-    left: 25%;
-    bottom: -17px;
+    left: 23.2%;
+    bottom: -19px;
     transform: rotateX(55deg);
     z-index: -2;
 }
@@ -110,7 +110,7 @@
     content: "";
     position: absolute;
     bottom: -7px;
-    left: 40%;
+    left: 40.25%;
     width: 10%;
     height: 7px;
     background: #fff;

@@ -30,9 +30,9 @@
 	opacity: 0.5;
 }
 
-.modal-title h5 {
-	font-family: "Princess Sofia", cursive;
-	font-weight: 700;
+.modal-title h4 {
+	font-family: "Pinyon Script", cursive;
+	/*font-weight: 700;*/
 }
 
 .modal-body {

@@ -41,7 +41,7 @@ class SmallMenu extends React.Component {
 								</button>
 							</div>
 							<div className="green-2 modal-title full-width align-center">
-								<h5 className="no-mar">Main Menu</h5>
+								<h4 className="no-mar">Main Menu</h4>
 							</div>
 							<div className="modal-body">
 								<ul className="small-menu-list no-mar align-center">

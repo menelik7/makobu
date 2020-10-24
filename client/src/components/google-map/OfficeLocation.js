@@ -43,7 +43,7 @@ export default function OfficeLocation() {
           lng="38.762547"
           name="MakoBu Enterprises P.L.C."
           address="Akaki Kality, Addis Ababa, Ethiopia"
-          phone="+ 251114655464"
+          phone="+251114655464"
           directions="https://www.google.com/maps/dir//8.931087,38.762539/@8.931087,38.7603503,17z?hl=en-US"
         />
       </GoogleMapReact>
