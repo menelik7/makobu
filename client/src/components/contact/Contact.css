@@ -27,15 +27,16 @@
 
 .means .white-back {
 	box-shadow: 5px 10px 18px #888888;
+	border-radius: 20px;
 }
 
 .means-vector {
-	padding: 60px 0;
+	padding: 40px 0 0;
 }
 
 .contact-us-svg {
 	width: 100px;
-	fill: #ffffff;
+	fill: #0f5c07;
 }
 
 .means-title {

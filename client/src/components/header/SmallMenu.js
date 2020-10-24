@@ -41,29 +41,35 @@ class SmallMenu extends React.Component {
 								</button>
 							</div>
 							<div className="green-2 modal-title full-width align-center">
-								<h5 className="no-mar">What would you like to see?</h5>
+								<h5 className="no-mar">Main Menu</h5>
 							</div>
 							<div className="modal-body">
 								<ul className="small-menu-list no-mar align-center">
-									<li data-toggle="modal" data-target="#exampleModalCenter">
-										<Link to="/">
+									<Link to="/">
+										<li data-toggle="modal" data-target="#exampleModalCenter">
 											<i className="bold flaticon-house-outline"></i>
-										</Link>
-									</li>
-									<li data-toggle="modal" data-target="#exampleModalCenter">
-										<Link to="/import">Import</Link>
-									</li>
-									<li data-toggle="modal" data-target="#exampleModalCenter">
-										<Link to="/export">Export</Link>
-									</li>
-									<li data-toggle="modal" data-target="#exampleModalCenter">
-										<Link to="/profile">Profile</Link>
-									</li>
-									<li data-toggle="modal" data-target="#exampleModalCenter">
-										<Link className="white" to="/contact">
+										</li>
+									</Link>
+									<Link to="/import">
+										<li data-toggle="modal" data-target="#exampleModalCenter">
+											Import
+										</li>
+									</Link>
+									<Link to="/export">
+										<li data-toggle="modal" data-target="#exampleModalCenter">
+											Export
+										</li>
+									</Link>
+									<Link to="/profile">
+										<li data-toggle="modal" data-target="#exampleModalCenter">
+											Profile
+										</li>
+									</Link>
+									<Link className="white" to="/contact">
+										<li data-toggle="modal" data-target="#exampleModalCenter">
 											Contact
-										</Link>
-									</li>
+										</li>
+									</Link>
 								</ul>
 							</div>
 							<div className="modal-footer">

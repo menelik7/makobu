@@ -18,8 +18,8 @@ class Contact extends React.Component {
 			return (
 				<div key={i} className="col-md-4 means">
 					<div className="white-back">
-						<div className="green-back flex-center means-vector">{vector}</div>
-						<div className="col-10 offset-1 col-md-12 offset-md-0 col-lg-8 offset-lg-2 means-content">
+						<div className="flex-center means-vector">{vector}</div>
+						<div className="col-8 offset-2 col-md-12 offset-md-0 col-lg-8 offset-lg-2 means-content">
 							<h5 className="dark-blue align-center means-title">{title}</h5>
 							<p className="grey align-center means-text">{text}</p>
 							<div className="flex-center">
