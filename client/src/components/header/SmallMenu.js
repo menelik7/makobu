@@ -20,7 +20,7 @@ class SmallMenu extends React.Component {
 					aria-hidden="true"
 				>
 					<div className="modal-dialog" role="document">
-						<div className="modal-content green-back">
+						<div className="modal-content">
 							<div className="modal-header">
 								<button
 									type="button"
@@ -28,25 +28,23 @@ class SmallMenu extends React.Component {
 									data-dismiss="modal"
 									aria-label="Close"
 								>
-									<i className="green fas fa-window-close"></i>
+									<i className="light-blue fas fa-window-close"></i>
 								</button>
-								<h5
-									className="white modal-title full-width align-center"
-									id="exampleModalCenterTitle"
-								>
-									<span className="company-name medium">Main Menu</span>
-								</h5>
+
 								<button
 									type="button"
-									className="close"
+									className="btn close"
 									data-dismiss="modal"
 									aria-label="Close"
 								>
-									<i className="fas fa-window-close white"></i>
+									<i className="fas fa-window-close"></i>
 								</button>
 							</div>
+							<div className="green-2 modal-title full-width align-center">
+								<h5 className="no-mar">What would you like to see?</h5>
+							</div>
 							<div className="modal-body">
-								<ul className="small-menu-list align-center">
+								<ul className="small-menu-list no-mar align-center">
 									<li data-toggle="modal" data-target="#exampleModalCenter">
 										<Link to="/">
 											<i className="bold flaticon-house-outline"></i>
@@ -62,7 +60,9 @@ class SmallMenu extends React.Component {
 										<Link to="/profile">Profile</Link>
 									</li>
 									<li data-toggle="modal" data-target="#exampleModalCenter">
-										<Link to="/contact">Contact</Link>
+										<Link className="white" to="/contact">
+											Contact
+										</Link>
 									</li>
 								</ul>
 							</div>
@@ -87,11 +87,11 @@ class SmallMenu extends React.Component {
 										</li>
 									</ul>
 								</div>
-								<div className="green-back white footer-bottom">
+								<div className="grey footer-bottom">
 									<div className="row">
 										<div className="col-xl-4 flex-center">
 											<p className="align-center no-bottom-margin">
-												Copyright <span className="purple">&copy;</span> 2020.
+												Copyright <span className="green-2">&copy;</span> 2020.
 												All rights reserved.
 											</p>
 										</div>

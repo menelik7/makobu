@@ -24,8 +24,13 @@
 }
 
 .inline-list li {
+	display: flex;
 	font-weight: 500;
-	padding: 0 20px;
+	padding: 5px 20px;
+}
+
+.inline-list li:last-child {
+	border-radius: 5px;
 }
 
 .inline-list li a {

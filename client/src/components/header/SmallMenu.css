@@ -10,6 +10,10 @@
 	cursor: pointer;
 }
 
+.modal-content {
+	background-color: #f6f9fc;
+}
+
 .modal-header {
 	border: none;
 }
@@ -22,9 +26,16 @@
 	text-shadow: none;
 }
 
+.modal-header .btn i {
+	opacity: 0.5;
+}
+
+.modal-title h5 {
+	font-weight: 700;
+}
+
 .modal-body {
 	margin: 40px 20px;
-	border: 1px solid #ffffff;
 }
 
 .small-menu-list {
@@ -34,12 +45,21 @@
 
 .small-menu-list li {
 	padding: 10px 0;
+	margin-bottom: 10px;
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgba(0, 0, 0, 5%);
+	border-radius: 5px;
+}
+
+.small-menu-list li:last-child {
+	background-color: #0f5c07;
 }
 
 .small-menu-list li a {
-	font-size: 1.5rem;
+	font-weight: 500;
+	font-size: 1.2rem;
 	text-decoration: none;
-	color: #fff;
+	color: #0f5c07;
 }
 
 .modal-footer {
@@ -52,10 +72,8 @@
 }
 
 .social-icons {
-	list-style: none;
-	display: inline-flex;
 	padding: 0;
-	margin: 20px 0;
+	/*margin: 20px 0;*/
 }
 
 .social-icons li {
@@ -69,16 +87,19 @@
 	justify-content: center;
 	align-items: center;
 	font-size: 1rem;
-	color: rgba(255, 255, 255, 0.5);
+	/*color: rgba(255, 255, 255, 0.5);*/
+	color: #707070;
 	width: 30px;
 	height: 30px;
 	line-height: 28px;
-	border: 1px solid rgba(255, 255, 255, 0.5);
+	/*border: 1px solid rgba(255, 255, 255, 0.5);*/
+	border: 1px solid #707070;
 	border-radius: 3px;
 	-webkit-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	-moz-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
+	opacity: 0.5;
 }
 
 /*******************************************Media Queries************************************************/

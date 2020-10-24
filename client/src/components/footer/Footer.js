@@ -52,7 +52,7 @@ class Footer extends React.Component {
 									</a>
 								</div>
 								<div className="col-8 col-sm-4 col-xl-8 flex-center align-center my-name">
-									Menelik W. Tefera 2020
+									Menelik W. Tefera
 								</div>
 								<div className="col-2 col-sm-4 col-xl-2 flex-center github">
 									<a

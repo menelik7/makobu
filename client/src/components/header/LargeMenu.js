@@ -20,8 +20,10 @@ class LargeMenu extends React.Component {
 					<li>
 						<Link to="/profile">Profile</Link>
 					</li>
-					<li>
-						<Link to="/contact">Contact</Link>
+					<li className="green-back">
+						<Link className="white" to="/contact">
+							Contact Us
+						</Link>
 					</li>
 				</ul>
 			</div>

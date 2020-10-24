@@ -6,7 +6,7 @@
 }
 
 .dropusaline-pic {
-	height: 500px;
+	height: 450px;
 	background: url("../img/drop_us_a_line.jpg") no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -231,7 +231,11 @@
 
 	.means {
 		margin-bottom: 30px;
-		padding: 0 60px;
+		padding: 0 30px;
+	}
+
+	.means:last-child {
+		margin-bottom: 0;
 	}
 
 	/* ---------------------------------------------- /*
