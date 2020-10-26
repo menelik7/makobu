@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 class LargeMenu extends React.Component {
 	render() {
 		return (
-			<div className="col-2 col-xl-4 flex-right large-menu">
+			<div className="col-2 col-xl-7 flex-right large-menu">
 				<ul className="no-pad inline-list">
 					<li>
 						<Link to="/">

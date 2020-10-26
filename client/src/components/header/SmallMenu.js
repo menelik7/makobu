@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 class SmallMenu extends React.Component {
 	render() {
 		return (
-			<div className="col-2 col-xl-4 no-pad flex-right small-menu">
+			<div className="col-2 col-xl-4 flex-right small-menu">
 				<div
 					className="green no-pad flaticon-menu"
 					data-toggle="modal"
@@ -41,7 +41,7 @@ class SmallMenu extends React.Component {
 								</button>
 							</div>
 							<div className="grey modal-title full-width align-center">
-								<h4 className="no-mar">Main Menu</h4>
+								<h4 className="no-mar">Menu</h4>
 							</div>
 							<div className="modal-body">
 								<ul className="small-menu-list no-mar align-center">
