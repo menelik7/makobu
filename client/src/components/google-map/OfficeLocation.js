@@ -24,12 +24,10 @@ export default function OfficeLocation() {
   return (
     // Important! Always set the container height explicitly
     <div
+      className="radius-map"
       style={{
         height: "500px",
         width: "100%",
-        padding: "15px",
-        border: "1px solid rgb(0, 0, 0, 0.1)",
-        borderRadius: "5px",
       }}
     >
       <GoogleMapReact
