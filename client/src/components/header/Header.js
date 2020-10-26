@@ -30,6 +30,7 @@ class Header extends React.Component {
 								</p>
 							</div>
 						</div>
+
 						<LargeMenu />
 						<SmallMenu />
 					</div>

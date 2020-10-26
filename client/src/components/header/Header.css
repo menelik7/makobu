@@ -18,6 +18,10 @@
 	/*text-shadow: 2px 2px rgb(0, 0, 0, 16%);*/
 }
 
+.amharic {
+	/*padding-top: 30px;*/
+}
+
 .large-menu {
 	/*padding-right: 35px;*/
 }
@@ -51,9 +55,9 @@
 }
 
 .motto {
-	/*margin-bottom: 10px;*/
-	color: #707070;
-	text-shadow: 2px 2px rgb(0, 0, 0, 16%);
+	height: 15px;
+	color: #59633b;
+	text-shadow: 1.5px 1.5px rgb(0, 0, 0, 15%);
 }
 
 /*******************************************Media Queries************************************************/
@@ -75,6 +79,10 @@
 	.logo {
 		height: 105px;
 		width: 100px;
+	}
+
+	.company-name h5:first-child {
+		margin-bottom: 0;
 	}
 }
 
@@ -117,7 +125,7 @@
 /* Extra small devices (portrait phones, less than 480px)*/
 @media (max-width: 480px) {
 	.amharic {
-		padding-top: 10px;
+		/*padding-top: 10px;*/
 	}
 
 	.company-name h5 {
