@@ -1,0 +1,138 @@
+/* ---------------------------------------------- /*
+ * Our Main Exportable Products
+/* ---------------------------------------------- */
+.exportable-products {
+	padding-bottom: 30px;
+}
+
+.unwashed {
+	height: 200px;
+	background: url("../img/unwashed.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.washed {
+	height: 200px;
+	background: url("../img/washed.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.specialty {
+	height: 200px;
+	background: url("../img/specialty.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.spices {
+	height: 200px;
+	background: url("../img/spices.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.roasted-and-ground {
+	height: 200px;
+	background: url("../img/roasted-and-ground.jpg") no-repeat center center;
+	background-size: cover;
+}
+
+.export-content {
+	min-height: 166px;
+	padding: 15px;
+	margin-bottom: 30px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgba(0, 0, 0, 5%);
+}
+
+.export-title {
+	margin-bottom: 10px;
+	font-weight: 500;
+	color: #0a2540;
+}
+
+.export-list ul {
+	list-style: none;
+	padding-left: 0;
+	margin-bottom: 30px;
+}
+
+.export-list i {
+	color: #0fa626;
+	margin-right: 10px;
+}
+
+/* ---------------------------------------------- /*
+ * Experience
+/* ---------------------------------------------- */
+.experience {
+	padding: 30px 0 60px;
+}
+
+.experience-svg,
+.affiliations-svg {
+	width: 300px;
+	opacity: 0.8;
+}
+
+.experience-paragraph {
+	margin-bottom: 0;
+}
+
+/*******************************************Media Queries************************************************/
+
+/* iPad Pro*/
+@media (max-width: 1366px) {
+}
+
+/* Small devices (landscape phones, less than 1124px)*/
+@media (max-width: 1124px) {
+}
+
+/* iPhone X or similar phones (landscape, less than 823)*/
+@media (max-width: 823px) {
+}
+
+/* iPad Portrait less than 768*/
+@media (max-width: 768px) {
+}
+
+/* Small devices (landscape phones, less than 736px)*/
+@media (max-width: 736px) {
+}
+
+/* Small devices (landscape phones, less than 667px)*/
+@media (max-width: 667px) {
+}
+
+/* Extra small devices (portrait phones, less than 480px)*/
+@media (max-width: 480px) {
+}
+
+/* Extra small devices (portrait phones, less than 414px)*/
+@media (max-width: 415px) {
+	/* ---------------------------------------------- /*
+	 * Our Main Exportable Products
+	/* ---------------------------------------------- */
+	.export-content {
+		margin-bottom: 15px;
+	}
+
+	.export-list-arrow {
+		margin-right: 10px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Experience
+	/* ---------------------------------------------- */
+	.experience-svg,
+	.affiliations-svg {
+		width: 250px;
+		height: 175px;
+	}
+}
+
+/* Extra small devices (portrait phones, less than 375px)*/
+@media (max-width: 375px) {
+}
+
+/* Extra small devices (portrait phones, less than 320px)*/
+@media (max-width: 320px) {
+}

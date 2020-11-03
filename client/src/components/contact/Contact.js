@@ -5,8 +5,6 @@ import "../fonts/flaticon.css";
 import Feedback from "../feedback/Feedback";
 import meansOfContactFields from "./meansOfContactFields";
 import OfficeLocation from "../google-map/OfficeLocation";
-import Affiliations from "../img/affiliations.png";
-import affiliationsFields from "./affiliationsFields";
 
 class Contact extends React.Component {
 	componentDidMount() {
@@ -24,26 +22,10 @@ class Contact extends React.Component {
 							<p className="grey align-center means-text">{text}</p>
 							<div className="flex-center">
 								<a href={link} className="green-back flex-center circle">
-									<i className="white flaticon-next-1"></i>
+									<i className="white fas fa-chevron-right"></i>
 								</a>
 							</div>
 						</div>
-					</div>
-				</div>
-			);
-		});
-	}
-
-	renderAffiliationsLogos() {
-		return _.map(affiliationsFields, ({ image, text }, i) => {
-			return (
-				<div
-					key={i}
-					className="col-sm-6 col-md-4 col-xl-2 affiliations-logo-container"
-				>
-					<div className="flex-center affiliation-logo">{image}</div>
-					<div className="grey italic align-center affiliation-text">
-						{text}
 					</div>
 				</div>
 			);
@@ -95,25 +77,11 @@ class Contact extends React.Component {
 							<h1 className="no-pad large-text">Visit our location</h1>
 							<p className="no-pad grey small-bottom-margin">
 								If you're having difficulties finding us, you can reach out
-								using one of the means above . We look forward to seeing you!
+								using one of the means above. We look forward to seeing you!
 							</p>
 						</div>
 						<div className="col-lg-12 contact-us-map">
 							<OfficeLocation />
-						</div>
-					</div>
-				</div>
-
-				<div className="x-large-bottom-padding white-back">
-					<div className="container-fluid large-top-padding">
-						<div className="flex-center affiliations-pic">
-							<img src={Affiliations} alt="Affiliations" />
-						</div>
-						<h5 className="align-center affiliations-title">Affiliations</h5>
-						<div className="row">
-							<div className="col-xl-1"></div>
-							{this.renderAffiliationsLogos()}
-							<div className="col-xl-1"></div>
 						</div>
 					</div>
 				</div>

@@ -161,6 +161,20 @@
 	}
 }
 
+/* Even smaller devices (portrait phones, less than 360px)*/
+@media (max-width: 360px) {
+	.company-name h5 {
+		font-size: 0.7rem;
+	}
+}
+
 /* Extra small devices (portrait phones, less than 320px)*/
 @media (max-width: 320px) {
+	.company-name h5 {
+		font-size: 0.6rem;
+	}
+
+	.motto {
+		font-size: 0.5rem;
+	}
 }

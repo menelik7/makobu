@@ -1,14 +1,16 @@
 import "./App.css";
+import "./animate.css";
 import React from "react";
 import { Router, Route, Switch } from "react-router-dom";
 import history from "../history";
 import Header from "./header/Header";
 import Footer from "./footer/Footer";
 import Landing from "./landing/Landing";
-import Import from "./products/Import";
-import Export from "./products/Export";
+import Import from "./import/Import";
+import Export from "./export/Export";
 import Profile from "./profile/Profile";
 import Contact from "./contact/Contact";
+import ScrollUpButton from "./scrollup/ScrollUpButton";
 
 class App extends React.Component {
 	render() {
@@ -24,6 +26,7 @@ class App extends React.Component {
 							<Route path="/profile" exact component={Profile} />
 							<Route path="/contact" exact component={Contact} />
 						</Switch>
+						<ScrollUpButton />
 						<Footer />
 					</div>
 				</div>

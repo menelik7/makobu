@@ -6,7 +6,7 @@
 
 body {
 	font-family: "Roboto", sans-serif;
-	background-color: #f6f9fc;
+	background-color: #f5f5f5;
 }
 
 a {
@@ -117,6 +117,16 @@ a {
 
 .small-bottom-margin {
 	margin-bottom: 30px;
+}
+
+/* Font size */
+.large-text {
+	font-size: 60px;
+	font-weight: 500;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	letter-spacing: -0.5px;
+	color: #0a2540;
 }
 
 /* Font-weight */
@@ -277,6 +287,18 @@ a {
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
+	.landing-main-div .container,
+	.import-main-div .container,
+	.export-main-div .container,
+	.profile-main-div .container,
+	.contact-main-div .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+
+	.large-text {
+		font-size: 40px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/
@@ -286,3 +308,9 @@ a {
 /* Extra small devices (portrait phones, less than 320px)*/
 @media (max-width: 320px) {
 }
+
+/* z-index record*/
+/* lowest -2 */
+/* Marker.css -2 and 1 */
+/* ScrollUpButton.css 10 */
+/* highest 10 */

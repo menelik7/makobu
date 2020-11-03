@@ -69,33 +69,10 @@
 }
 
 /* ---------------------------------------------- /*
- * Affiliations
+ * Visit our location
 /* ---------------------------------------------- */
-.affiliations-pic {
-	padding-top: 20px;
-}
-
-.affiliations-pic img,
-.affiliation-logo img {
-	width: 100px;
-	height: 100px;
-}
-
-.affiliations-logo-container:nth-child(3) img {
-	width: 110px;
-}
-
-.affiliations-title {
-	padding-top: 20px;
-	padding-bottom: 40px;
-	margin-bottom: 10px;
-	font-weight: 500;
-	color: #0a2540;
-	text-transform: uppercase;
-}
-
-.affiliation-text {
-	padding: 20px 10px;
+.radius-map > div > div {
+	border-radius: 20px;
 }
 
 /* --------------------------------------------------------------------------------------------------------- /*
@@ -110,18 +87,6 @@
 @media (max-width: 1124px) {
 	.dropusaline-pic {
 		height: 400px;
-	}
-
-	/* ---------------------------------------------- /*
-	 * Affiliations
-	/* ---------------------------------------------- */
-	.affiliations-logo-container {
-		margin-bottom: 40px;
-	}
-
-	.affiliations-logo-container:nth-child(5),
-	.affiliations-logo-container:nth-child(6) {
-		margin-bottom: 0;
 	}
 }
 
@@ -149,25 +114,11 @@
 	 * Means of Contact
 	/* ---------------------------------------------- */
 	.means {
-		padding: 0 20px;
+		/*padding: 0 20px;*/
 	}
 
 	.means-text {
 		padding: 0 10px;
-	}
-
-	/* ---------------------------------------------- /*
-	 * Affiliations
-	/* ---------------------------------------------- */
-
-	.affiliations-pic img,
-	.affiliation-logo img {
-		width: 80px;
-		height: 80px;
-	}
-
-	.affiliations-logo-container:nth-child(3) img {
-		width: 90px;
 	}
 }
 
@@ -207,6 +158,12 @@
 
 /* Extra small devices (portrait phones, less than 480px)*/
 @media (max-width: 480px) {
+	/* ---------------------------------------------- /*
+	 * Means of Contact
+	/* ---------------------------------------------- */
+	.means {
+		padding: 0 15px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 414px)*/
@@ -232,27 +189,14 @@
 
 	.means {
 		margin-bottom: 30px;
-		padding: 0 30px;
+	}
+
+	.contact-us-map {
+		/*padding: 0 30px;*/
 	}
 
 	.means:last-child {
 		margin-bottom: 0;
-	}
-
-	/* ---------------------------------------------- /*
-	 * Affiliations
-	/* ---------------------------------------------- */
-	.affiliations-title {
-		padding-bottom: 20px;
-	}
-
-	.affiliations-logo-container {
-		padding-top: 40px;
-		margin-bottom: 0;
-	}
-
-	.affiliation-text {
-		padding: 20px 40px;
 	}
 }
 
@@ -262,4 +206,7 @@
 
 /* Extra small devices (portrait phones, less than 320px)*/
 @media (max-width: 320px) {
+	.dropusaline-pic {
+		height: 250px;
+	}
 }
