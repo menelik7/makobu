@@ -26,7 +26,7 @@ class ScrollUpButton extends React.Component {
 	render() {
 		return (
 			<div className="white-back flex-center scroll-up-button animated d-none">
-				<i className="green fas fa-long-arrow-alt-up"></i>
+				<i className="green-2 fas fa-long-arrow-alt-up"></i>
 			</div>
 		);
 	}

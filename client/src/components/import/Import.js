@@ -1,7 +1,7 @@
 import _ from "lodash";
 import React from "react";
 import "./Import.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import Affiliations from "../img/affiliations.png";
 import affiliationsFields from "./affiliationsFields";
 

@@ -1,28 +1,73 @@
-import React from "react";
 import _ from "lodash";
 import "./Landing.css";
 import "../fonts/font-awesome-all.css";
+import React from "react";
+import carouselItems from "./carouselItems";
 
 class Landing extends React.Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);
+		// Manually Starting carousel after Link redirect since there is no page load.
+		(function ($) {
+			$(function () {
+				$("#carouselExampleIndicators").carousel();
+			});
+		})(window.jQuery);
+	}
+
+	renderCarouselItemIndicator() {
+		return _.map(carouselItems, ({ title }, i) => {
+			return (
+				<li
+					key={i}
+					data-target="#carouselExampleIndicators"
+					data-slide-to={i}
+					className={i === 0 ? "active" : null}
+				/>
+			);
+		});
+	}
+
+	renderCarouselItems() {
+		return _.map(carouselItems, ({ picture, title, text, button }, i) => {
+			return (
+				<div key={i} className={`carousel-item ${i === 0 ? "active" : null}`}>
+					<div className="container-fluid">
+						<div className="row">
+							<div className="col-12 intro-pic-background">
+								<div className={`full-height ${picture}`} />
+								<div className="flex-center intro-pic-overlay">
+									<div className="carousel-content">
+										<h1 className="animated fadeInLeft align-center white no-pad carousel-title">
+											{title}
+										</h1>
+
+										<p className="col-10 offset-1 animated fadeInRight align-center white no-pad carousel-text">
+											{text}
+										</p>
+										{button}
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			);
+		});
 	}
 
 	render() {
 		return (
 			<div className="col-12 no-pad landing-main-div">
-				<div className="banner-pic website-under-dev-pic">
-					<div className="overlay"></div>
-					<div className="col-lg-6 offset-lg-3 grey no-bottom-margin full-height flex-center website-under-dev">
-						<div>
-							<h4 className="bold white align-center">
-								Website under development
-							</h4>
-							<p className="italic white no-bottom-margin align-center">
-								Enjoy the following overview and check back with us soon:
-							</p>
-						</div>
-					</div>
+				<div
+					id="carouselExampleIndicators"
+					className="carousel slide"
+					data-ride="carousel"
+				>
+					<ol className="carousel-indicators">
+						{this.renderCarouselItemIndicator()}
+					</ol>
+					<div className="carousel-inner">{this.renderCarouselItems()}</div>
 				</div>
 
 				<div className="container large-top-padding who-we-are">
@@ -30,7 +75,7 @@ class Landing extends React.Component {
 					<h1 className="col-sm-8 col-lg-6 no-pad large-text">
 						A trading company with experience
 					</h1>
-					<p className="grey small-bottom-margin">
+					<p className="grey">
 						MakoBu Enterprises PLC is a general trading company established in
 						1993 with the the objective to improve farmers' lives by importing
 						and distributing premium quality agricultural inputs, spraying

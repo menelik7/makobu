@@ -126,7 +126,7 @@ a {
 	margin-right: 10px;
 	margin-bottom: 30px;
 	letter-spacing: -0.5px;
-	color: #0a2540;
+	color: #000000;
 }
 
 /* Font-weight */
@@ -145,8 +145,8 @@ a {
 }
 
 /* Color */
-.dark-blue {
-	color: #0a2540;
+.black {
+	color: #000000;
 }
 
 .light-blue {
@@ -190,6 +190,10 @@ a {
 	background-color: #0f5c07 !important;
 }
 
+.green2-back {
+	background-color: #0fa626 !important;
+}
+
 .grey-back {
 	background-color: #e6ede0 !important;
 }
@@ -198,8 +202,8 @@ a {
 	background-color: #fff !important;
 }
 
-.blue-back {
-	background-color: #0a2540 !important;
+.black-back {
+	background-color: #000000 !important;
 }
 
 /* Forms */

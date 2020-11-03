@@ -1,10 +1,57 @@
-.website-under-dev-pic {
-	background: url("../img/rachel-clark-_1wChzif1EM-unsplash.jpg") no-repeat top
-		center;
+/* ---------------------------------------------- /*
+ * Carousel
+/* ---------------------------------------------- */
+.intro-pic-background {
+	height: 400px;
+	padding: 0;
+}
+
+.intro-pic-1 {
+	background: url("../img/rachel-clark-_1wChzif1EM-unsplash.jpg") no-repeat
+		center center;
+}
+
+.intro-pic-2 {
+	background: url("../img/specialty.jpg") no-repeat center center;
+}
+
+.intro-pic-3 {
+	background: url("../img/unwashed.jpg") no-repeat center center;
+}
+
+.intro-pic-1,
+.intro-pic-2,
+.intro-pic-3 {
+	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+}
+
+.carousel-indicators {
+	bottom: 40px;
+}
+
+.carousel-indicators li {
+	background-color: #fff;
+}
+
+.intro-pic-overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgb(0, 0, 0, 0.4);
+}
+
+.carousel-button {
+	border-radius: 5px;
+}
+
+.arrow {
+	padding-left: 10px;
 }
 
 /*******************************************Media Queries************************************************/
@@ -19,18 +66,46 @@
 
 /* iPhone X or similar phones (landscape, less than 823)*/
 @media (max-width: 823px) {
+	/* ---------------------------------------------- /*
+	 * Carousel
+	/* ---------------------------------------------- */
+	.intro-pic-background {
+		height: 275px;
+	}
+
+	.carousel-indicators {
+		bottom: 0;
+	}
 }
 
 /* iPad Portrait less than 768*/
 @media (max-width: 768px) {
+	/* ---------------------------------------------- /*
+	 * Carousel
+	/* ---------------------------------------------- */
+	.intro-pic-background {
+		height: 350px;
+	}
 }
 
 /* Small devices (landscape phones, less than 736px)*/
 @media (max-width: 736px) {
+	/* ---------------------------------------------- /*
+	 * Carousel
+	/* ---------------------------------------------- */
+	.intro-pic-background {
+		height: 300px;
+	}
 }
 
 /* Small devices (landscape phones, less than 667px)*/
-@media (max-width: 667px) {
+@media (max-width: 668px) {
+	/* ---------------------------------------------- /*
+	 * Carousel
+	/* ---------------------------------------------- */
+	.intro-pic-background {
+		height: 275px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 480px)*/
@@ -39,6 +114,16 @@
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
+	/* ---------------------------------------------- /*
+	 * Carousel
+	/* ---------------------------------------------- */
+	.intro-pic-background {
+		height: 300px;
+	}
+
+	.intro-pic-overlay {
+		padding: 0 15px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/

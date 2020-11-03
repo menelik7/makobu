@@ -1,7 +1,7 @@
 import _ from "lodash";
 import React from "react";
 import "./Export.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import ourMainExportableProducts from "./ourMainExportableProducts";
 import { ReactComponent as Experience } from "../svg/experience.svg";
 

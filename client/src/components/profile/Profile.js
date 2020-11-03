@@ -1,7 +1,7 @@
 import _ from "lodash";
 import React from "react";
 import "./Profile.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import aboutUsCards from "./aboutUsCards";
 
 class Profile extends React.Component {
