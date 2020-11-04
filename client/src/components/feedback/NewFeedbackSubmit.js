@@ -92,7 +92,13 @@ class NewFeedbackSubmit extends React.Component {
 								className="btn btn-success feedback-submit-button"
 								disabled={pristine || submitting}
 							>
-								{submitting === true ? <Spinner /> : <div>Submit</div>}
+								{submitting === true ? (
+									<Spinner />
+								) : (
+									<div>
+										Submit <i className="flaticon-send-message-button"></i>
+									</div>
+								)}
 							</button>
 						</form>
 					</div>

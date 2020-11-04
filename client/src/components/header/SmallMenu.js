@@ -48,22 +48,22 @@ class SmallMenu extends React.Component {
 											<i className="bold flaticon-house-outline"></i>
 										</li>
 									</Link>
-									<Link to="/import">
+									<Link to="import">
 										<li data-toggle="modal" data-target="#exampleModalCenter">
 											Import
 										</li>
 									</Link>
-									<Link to="/export">
+									<Link to="export">
 										<li data-toggle="modal" data-target="#exampleModalCenter">
 											Export
 										</li>
 									</Link>
-									<Link to="/profile">
+									<Link to="profile">
 										<li data-toggle="modal" data-target="#exampleModalCenter">
 											Profile
 										</li>
 									</Link>
-									<Link className="white" to="/contact">
+									<Link className="white" to="contact">
 										<li data-toggle="modal" data-target="#exampleModalCenter">
 											Contact
 										</li>

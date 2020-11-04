@@ -3,6 +3,7 @@ import "./Landing.css";
 import "../fonts/font-awesome-all.css";
 import React from "react";
 import carouselItems from "./carouselItems";
+import sectionContent from "./sectionContent";
 
 class Landing extends React.Component {
 	componentDidMount() {
@@ -42,7 +43,7 @@ class Landing extends React.Component {
 											{title}
 										</h1>
 
-										<p className="col-10 offset-1 animated fadeInRight align-center white no-pad carousel-text">
+										<p className="animated fadeInRight align-center white no-pad carousel-text">
 											{text}
 										</p>
 										{button}
@@ -54,6 +55,34 @@ class Landing extends React.Component {
 				</div>
 			);
 		});
+	}
+
+	renderSectionContent() {
+		return _.map(
+			sectionContent,
+			(
+				{
+					sectionTitle,
+					sectionHeading,
+					sectionText,
+					sectionFeature,
+					sectionImage,
+				},
+				i
+			) => {
+				return (
+					<div key={i} className="container large-top-padding what-we-do">
+						<h5 className="bold green-2 small-bottom-margin">{sectionTitle}</h5>
+						<h1 className="col-sm-8 col-lg-7 no-pad large-text">
+							{sectionHeading}
+						</h1>
+						<p className="grey">{sectionText}</p>
+						{sectionFeature}
+						{sectionImage}
+					</div>
+				);
+			}
+		);
 	}
 
 	render() {
@@ -70,33 +99,7 @@ class Landing extends React.Component {
 					<div className="carousel-inner">{this.renderCarouselItems()}</div>
 				</div>
 
-				<div className="container large-top-padding who-we-are">
-					<h5 className="green-2 small-bottom-margin">Who we are</h5>
-					<h1 className="col-sm-8 col-lg-6 no-pad large-text">
-						A trading company with experience
-					</h1>
-					<p className="grey">
-						MakoBu Enterprises PLC is a general trading company established in
-						1993 with the the objective to improve farmers' lives by importing
-						and distributing premium quality agricultural inputs, spraying
-						equipment and public health related products, and to be contribute
-						to the modernization of agricultural practices in Ethiopia.
-					</p>
-				</div>
-
-				<div className="container large-top-padding what-we-do">
-					<h5 className="bold green-2 small-bottom-margin">What we do</h5>
-					<h1 className="col-sm-8 col-lg-7 no-pad large-text">
-						A wide range of products and services
-					</h1>
-					<p className="grey">
-						MakoBu strictly adheres to responsible and high-standard general
-						trading practices. Our company also contributes to the overall
-						efforts towards possibly controlling and eradicating Malaria in
-						Ethiopia, and understands the importance of reducing the country's
-						carbon footprint.
-					</p>
-				</div>
+				{this.renderSectionContent()}
 			</div>
 		);
 	}

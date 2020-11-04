@@ -46,12 +46,70 @@
 	background: rgb(0, 0, 0, 0.4);
 }
 
-.carousel-button {
-	border-radius: 5px;
+/* ---------------------------------------------- /*
+ * Who we are
+/* ---------------------------------------------- */
+.profile-link-btn {
+	color: #ffffff;
+	font-weight: 500;
+	background-color: #000000;
+	padding: 5px 20px;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.4);
 }
 
-.arrow {
-	padding-left: 10px;
+.profile-link-btn:hover {
+	color: #ffffff;
+}
+
+/* ---------------------------------------------- /*
+ * What we offer
+/* ---------------------------------------------- */
+.what-we-offer-card-container {
+	padding: 15px;
+}
+
+.what-we-offer-pic-1 {
+	background: url("../img/spices.jpg") no-repeat center center;
+}
+
+.what-we-offer-pic-2 {
+	background: url("../img/pulses.jpg") no-repeat top center;
+}
+
+.what-we-offer-pic-1,
+.what-we-offer-pic-2 {
+	height: 250px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.what-we-offer-card-font,
+.what-we-offer-card-title {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.fa-box-open,
+.fa-shipping-fast {
+	font-size: 1.5rem;
+}
+
+.what-we-offer-card-text {
+	padding: 30px;
+}
+
+.what-we-offer-btn {
+	color: #000000;
+	font-weight: 600;
+	background-color: #ffffff;
+	border: 1px solid #000000;
+	padding: 5px 20px;
+}
+
+.what-we-offer-btn:hover {
+	color: #000000;
 }
 
 /*******************************************Media Queries************************************************/
@@ -62,6 +120,12 @@
 
 /* Small devices (landscape phones, less than 1124px)*/
 @media (max-width: 1124px) {
+	/* ---------------------------------------------- /*
+	 * What we offer
+	/* ---------------------------------------------- */
+	.what-we-offer-card-text {
+		padding: 30px 21px;
+	}
 }
 
 /* iPhone X or similar phones (landscape, less than 823)*/
@@ -75,6 +139,13 @@
 
 	.carousel-indicators {
 		bottom: 0;
+	}
+
+	/* ---------------------------------------------- /*
+	 * What we offer
+	/* ---------------------------------------------- */
+	.what-we-offer-card-text {
+		padding: 30px 42px;
 	}
 }
 
@@ -110,26 +181,46 @@
 
 /* Extra small devices (portrait phones, less than 480px)*/
 @media (max-width: 480px) {
-}
-
-/* Extra small devices (portrait phones, less than 414px)*/
-@media (max-width: 415px) {
 	/* ---------------------------------------------- /*
 	 * Carousel
 	/* ---------------------------------------------- */
 	.intro-pic-background {
 		height: 300px;
 	}
+}
 
+/* Extra small devices (portrait phones, less than 414px)*/
+@media (max-width: 416px) {
+	/* ---------------------------------------------- /*
+	 * Carousel
+	/* ---------------------------------------------- */
 	.intro-pic-overlay {
 		padding: 0 15px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * What we offer
+	/* ---------------------------------------------- */
+	.what-we-offer-card-text {
+		padding: 20px;
+	}
+
+	.fa-box-open,
+	.fa-shipping-fast {
+		font-size: 1.2rem;
 	}
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 }
 
 /* Extra small devices (portrait phones, less than 320px)*/
 @media (max-width: 320px) {
+	/* ---------------------------------------------- /*
+	 * Carousel
+	/* ---------------------------------------------- */
+	.intro-pic-background {
+		height: 350px;
+	}
 }

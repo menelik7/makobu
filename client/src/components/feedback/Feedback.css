@@ -12,9 +12,13 @@ textarea {
 }
 
 .feedback-submit-button {
-	padding: 10px 30px;
+	padding: 5px 20px;
 	margin-top: 20px;
 	border-radius: 5px;
+}
+
+.flaticon-send-message-button {
+	margin-left: 5px;
 }
 
 /* --------------------------------------------------------------------------------------------------------- /*

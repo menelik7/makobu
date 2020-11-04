@@ -12,18 +12,20 @@ class Profile extends React.Component {
 	renderAboutUsCards() {
 		return _.map(aboutUsCards, ({ icon, title, content }, i) => {
 			return (
-				<div key={i} className="col-lg-6 card-container">
-					<div className="card">
+				<div key={i} className="col-lg-6 profile-card-container">
+					<div className="white-back profile-card">
 						<div className="row">
 							<div className="col-2">{icon}</div>
-							<div className="col-10 green-2 flex-left no-bottom-margin card-title">
+							<div className="col-10 green-2 flex-left no-bottom-margin profile-card-title">
 								{title}
 							</div>
 						</div>
 						{i === 0 ? (
 							content
 						) : (
-							<p className="grey italic card-content-margin">{content}</p>
+							<p className="grey italic profile-card-content-margin">
+								{content}
+							</p>
 						)}
 					</div>
 				</div>

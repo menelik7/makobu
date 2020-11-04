@@ -13,6 +13,18 @@ a {
 	text-decoration: none !important;
 }
 
+.common-button {
+	border-radius: 5px;
+}
+
+.subscription-submit-button {
+	border-radius: 0;
+}
+
+.arrow {
+	padding-left: 10px;
+}
+
 /* Size */
 .full-height {
 	height: 100%;
@@ -190,7 +202,7 @@ a {
 	background-color: #0f5c07 !important;
 }
 
-.green2-back {
+.green-2-back {
 	background-color: #0fa626 !important;
 }
 
@@ -211,8 +223,7 @@ a {
 	margin-bottom: 10px;
 }
 
-.form-control,
-.btn {
+.form-control {
 	border-radius: 0;
 }
 
@@ -279,6 +290,15 @@ a {
 	.container-sm {
 		max-width: 100%;
 	}
+
+	.landing-main-div .container,
+	.import-main-div .container,
+	.export-main-div .container,
+	.profile-main-div .container,
+	.contact-main-div .container {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
 }
 
 /* Small devices (landscape phones, less than 667px)*/
@@ -291,15 +311,6 @@ a {
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
-	.landing-main-div .container,
-	.import-main-div .container,
-	.export-main-div .container,
-	.profile-main-div .container,
-	.contact-main-div .container {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-
 	.large-text {
 		font-size: 40px;
 	}

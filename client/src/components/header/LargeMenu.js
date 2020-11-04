@@ -12,19 +12,17 @@ class LargeMenu extends React.Component {
 						</Link>
 					</li>
 					<li>
-						<Link to="/import">Import</Link>
+						<Link to="import">Import</Link>
 					</li>
 					<li>
-						<Link to="/export">Export</Link>
+						<Link to="export">Export</Link>
 					</li>
 					<li>
-						<Link to="/profile">Profile</Link>
+						<Link to="profile">Profile</Link>
 					</li>
-					<li className="green-back">
-						<Link className="white" to="/contact">
-							Contact Us
-						</Link>
-					</li>
+					<Link className="white" to="contact">
+						<li className="green-back">Contact Us</li>
+					</Link>
 				</ul>
 			</div>
 		);

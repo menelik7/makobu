@@ -5,12 +5,12 @@
 	font-weight: 700;
 }
 
-.card-container {
+.profile-card-container {
 	min-height: 250px;
-	padding: 20px;
+	padding: 15px;
 }
 
-.card {
+.profile-card {
 	min-height: 220px;
 	padding: 20px 40px;
 	border-radius: 20px;
@@ -18,7 +18,7 @@
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgba(0, 0, 0, 5%);
 }
 
-.card-title {
+.profile-card-title {
 	font-size: 1.5rem;
 	font-weight: 500;
 	padding-left: 0;
@@ -30,7 +30,7 @@
 	fill: #0a2540;
 }
 
-.card-content-margin {
+.profile-card-content-margin {
 	margin-top: 20px;
 }
 
@@ -73,12 +73,12 @@
 	/* ---------------------------------------------- /*
 	 * ABOUT US
 	/* ---------------------------------------------- */
-	.card-container {
+	.profile-card-container {
 		min-height: 200px;
 		padding: 7.5px 15px;
 	}
 
-	.card-title {
+	.profile-card-title {
 		font-size: 1.2rem;
 		padding-left: 15px;
 	}

@@ -1,17 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
-const Button = ({ buttonText, to }) => {
-	return (
-		<div className="animated fadeInUp flex-center">
-			<Link to={to}>
-				<button className="btn btn-success carousel-button">
-					{buttonText} <span className="arrow">&#10230;</span>
-				</button>
-			</Link>
-		</div>
-	);
-};
+import Button from "../common/Button";
 
 export default [
 	{
@@ -19,18 +7,39 @@ export default [
 		title: "Import and Distribution",
 		text:
 			"We import and distribute registered, high-standard agricultural inputs",
-		button: <Button buttonText="Products" to="import" />,
+		button: (
+			<Button
+				divClass="animated fadeInUp flex-center"
+				buttonText="See our import products"
+				to="import"
+				buttonClass="btn-success carousel-button"
+			/>
+		),
 	},
 	{
 		picture: "intro-pic-2",
 		title: "Premium Ethiopian Commodities",
 		text: "We export Ethiopian coffee, oil seeds, cereals pulses and spices",
-		button: <Button buttonText="Products" to="export" />,
+		button: (
+			<Button
+				divClass="animated fadeInUp flex-center"
+				buttonText="See our export products"
+				to="export"
+				buttonClass="btn-success carousel-button"
+			/>
+		),
 	},
 	{
 		picture: "intro-pic-3",
-		title: "We would like to hear from you",
+		title: "You can reach out",
 		text: "We are here to answer any questions and we value your feedback",
-		button: <Button buttonText="Contact us" to="contact" />,
+		button: (
+			<Button
+				divClass="animated fadeInUp flex-center"
+				buttonText="Contact us"
+				to="contact"
+				buttonClass="btn-success carousel-button"
+			/>
+		),
 	},
 ];
