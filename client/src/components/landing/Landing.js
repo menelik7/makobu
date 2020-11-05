@@ -4,6 +4,8 @@ import "../fonts/font-awesome-all.css";
 import React from "react";
 import carouselItems from "./carouselItems";
 import sectionContent from "./sectionContent";
+import { ReactComponent as GraphUp } from "../svg/graph-up.svg";
+import benefitsList from "./benefitsList";
 
 class Landing extends React.Component {
 	componentDidMount() {
@@ -100,6 +102,55 @@ class Landing extends React.Component {
 				</div>
 
 				{this.renderSectionContent()}
+
+				<div className="container large-top-padding large-bottom-padding white-back">
+					<div className="flex-center">
+						<div className="black-back flex-center benefit-icon-div">
+							<GraphUp />
+						</div>
+					</div>
+					<h5 className="black align-center benefits-title">Benefits</h5>
+					<div className="row">
+						<div className="col-lg-10 offset-lg-1 benefits-list-div">
+							<ul className="benefits-list">
+								<div className="row">
+									<div className="col-md-6">
+										{_.map(benefitsList, (benefit, i) => {
+											if (i < 5) {
+												return (
+													<li key={i} className="grey benefits-list-item">
+														<div className="row">
+															<div className="align-center col-1 no-pad">
+																<i className="green-2 fas fa-check-circle"></i>
+															</div>
+															<div className="col-11 no-pad">{benefit}</div>
+														</div>
+													</li>
+												);
+											}
+										})}
+									</div>
+									<div className="col-md-6">
+										{_.map(benefitsList, (benefit, i) => {
+											if (i >= 5) {
+												return (
+													<li key={i} className="grey benefits-list-item">
+														<div className="row">
+															<div className="align-center col-1 no-pad">
+																<i className="green-2 fas fa-check-circle"></i>
+															</div>
+															<div className="col-11 no-pad">{benefit}</div>
+														</div>
+													</li>
+												);
+											}
+										})}
+									</div>
+								</div>
+							</ul>
+						</div>
+					</div>
+				</div>
 			</div>
 		);
 	}

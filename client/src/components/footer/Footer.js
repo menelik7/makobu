@@ -11,7 +11,7 @@ class Footer extends React.Component {
 	render() {
 		return (
 			<div className="col-12 footer-main-div no-pad">
-				<div className="footer-top grey-back">
+				<div className="footer-top light-green-back">
 					<div className="container">
 						<div className="row">
 							<ContactUs />

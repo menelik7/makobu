@@ -1,32 +1,71 @@
 import _ from "lodash";
 import React from "react";
 import "./Profile.css";
-// import { Link } from "react-router-dom";
-import aboutUsCards from "./aboutUsCards";
+import sectionContent from "./sectionContent";
+import { ReactComponent as Bullseye } from "../svg/bullseye.svg";
+import objectivesList from "./objectivesList";
 
 class Profile extends React.Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);
 	}
 
-	renderAboutUsCards() {
-		return _.map(aboutUsCards, ({ icon, title, content }, i) => {
+	renderSectionContent() {
+		return _.map(
+			sectionContent,
+			(
+				{
+					sectionTitle,
+					sectionHeading,
+					sectionText,
+					sectionFeature,
+					sectionImage,
+				},
+				i
+			) => {
+				return (
+					<div key={i}>
+						<div className="container large-top-padding what-we-do">
+							<h5 className="bold green-2 small-bottom-margin">
+								{sectionTitle}
+							</h5>
+							<h1 className="col-sm-8 col-lg-7 no-pad large-text">
+								{sectionHeading}
+							</h1>
+							{_.map(sectionText, (text, i) => {
+								return (
+									<p key={i} className="grey">
+										{text}
+									</p>
+								);
+							})}
+							{sectionFeature}
+						</div>
+						{sectionImage}
+					</div>
+				);
+			}
+		);
+	}
+
+	renderObjectivesList() {
+		return _.map(objectivesList, ({ font, text }, i) => {
 			return (
-				<div key={i} className="col-lg-6 profile-card-container">
-					<div className="white-back profile-card">
+				<div
+					key={i}
+					className="col-sm-8 offset-sm-2 col-lg-4 offset-lg-0 objectives-list-div-wrapper"
+				>
+					<div className="flex-center green-back objectives-list-div">
 						<div className="row">
-							<div className="col-2">{icon}</div>
-							<div className="col-10 green-2 flex-left no-bottom-margin profile-card-title">
-								{title}
+							<div className="col-2 no-right-pad flex-center">
+								<div className="flex-center objectives-list-font-div">
+									<i className={`green-2 ${font}`}></i>
+								</div>
+							</div>
+							<div className="col-10 flex-center">
+								<p className="italic white no-mar objectives-text">{text}</p>
 							</div>
 						</div>
-						{i === 0 ? (
-							content
-						) : (
-							<p className="grey italic profile-card-content-margin">
-								{content}
-							</p>
-						)}
 					</div>
 				</div>
 			);
@@ -36,43 +75,18 @@ class Profile extends React.Component {
 	render() {
 		return (
 			<div className="col-12 no-pad profile-main-div">
-				<div className="container large-top-padding about-us">
-					<h5 className="green-2 small-bottom-margin">About us</h5>
-					<h1 className="col-sm-8 col-lg-7 no-pad large-text">
-						We aim to serve our farmers and clients well
-					</h1>
-					<p className="grey small-bottom-margin">
-						For over 25 years, we have built strong relationships with
-						smallholder farmers in many regions of Ethiopia. This allows us to
-						source commodities of the highest quality for our diverse clients.
-						We are also importers and distributors of prime quality agricultural
-						inputs, spraying equipment and public health related products.
-					</p>
-					<p className="grey small-bottom-margin">
-						MakoBu currently represents world renowned companies such as
-						Monsanto, BASF, and JACTO while supporting them technically in
-						market development works, final registration of their products and
-						business growth activities in Ethiopia. The SEMINIS brand
-						high-quality hybrid vegetable seeds from Monsanto Seminis is the
-						newest addition to our line of business.
-					</p>
-					<p className="grey small-bottom-margin">
-						MakoBu Enterprises is also involved in technology transfer to
-						farmers on a national scale with special emphasis towards promotion
-						of Conservation Agriculture that would signifcantly reduce land
-						degradation while increasing food crop production and improving soil
-						fertility.
-					</p>
-					<p className="grey small-bottom-margin">
-						Our company, in collaboration with Sasakawa Global 2000 (SG-2000),
-						has been promoting Conservation Agriculture in Ethiopia for over 13
-						years. The experience gained through this endeavor has positioned us
-						well in the market, in terms of providing regular and effective
-						technical support to our patron customers – which include large
-						scale state and private commercial farms, cooperative union and
-						small-holder farmers.
-					</p>
-					<div className="row">{this.renderAboutUsCards()}</div>
+				{this.renderSectionContent()}
+
+				<div className="container large-top-padding large-bottom-padding white-back">
+					<div className="flex-center">
+						<div className="grey-back flex-center objectives-icon-div">
+							<Bullseye />
+						</div>
+					</div>
+					<h5 className="grey align-center objectives-title">Objectives</h5>
+					<div className="objectives-list-container">
+						<div className="row">{this.renderObjectivesList()}</div>
+					</div>
 				</div>
 			</div>
 		);

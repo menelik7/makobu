@@ -43,7 +43,7 @@
 
 .inline-list li a {
 	text-decoration: none;
-	color: #0f5c07;
+	color: #707070;
 }
 
 .inline-list li a:hover {
@@ -56,7 +56,7 @@
 
 .motto {
 	height: 15px;
-	color: #59633b;
+	color: #707070;
 	text-shadow: 1.5px 1.5px rgb(0, 0, 0, 15%);
 	opacity: 0.6;
 }

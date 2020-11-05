@@ -2,7 +2,7 @@
  * Carousel
 /* ---------------------------------------------- */
 .intro-pic-background {
-	height: 400px;
+	height: 450px;
 	padding: 0;
 }
 
@@ -112,6 +112,36 @@
 	color: #000000;
 }
 
+/* ---------------------------------------------- /*
+ * Benefits
+/* ---------------------------------------------- */
+.benefit-icon-div {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.4);
+	margin-bottom: 30px;
+}
+
+.bi-graph-up {
+	width: 40px;
+	height: 40px;
+	fill: #ffffff;
+}
+
+.benefits-title {
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 2px;
+}
+
+.benefits-list-div {
+	padding: 40px 40px 0;
+}
+
+.benefits-list-item {
+	padding: 2px 0;
+}
 /*******************************************Media Queries************************************************/
 
 /* iPad Pro*/
@@ -208,6 +238,17 @@
 	.fa-box-open,
 	.fa-shipping-fast {
 		font-size: 1.2rem;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Benefits
+	/* ---------------------------------------------- */
+	.benefits-list-div {
+		padding: 30px 30px 0;
+	}
+
+	.benefits-list-item .col-11 {
+		padding-left: 15px;
 	}
 }
 

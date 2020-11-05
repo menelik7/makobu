@@ -1,32 +1,35 @@
+import _ from "lodash";
 import React from "react";
-import { ReactComponent as CoreValue } from "../svg/coreValue.svg";
-import { ReactComponent as Eye } from "../svg/eye.svg";
-import { ReactComponent as Flower } from "../svg/flower1.svg";
-import { ReactComponent as People } from "../svg/people.svg";
-import PartnersLogos from "./Logos";
+import aboutUsCardsContent from "./aboutUsCardsContent";
 
-export default [
-	{
-		icon: <People />,
-		title: "Partners",
-		content: <PartnersLogos />,
-	},
-	{
-		icon: <Eye />,
-		title: "Vision",
-		content:
-			"To contribute to the realization of a transformed, productive, and modern agricultural sector in Ethiopia.",
-	},
-	{
-		icon: <Flower />,
-		title: "Mission",
-		content:
-			"To provide environmentally, socially, and economically  beneficial agricultural inputs and technologies to all farming communities of Ethiopia.",
-	},
-	{
-		icon: <CoreValue />,
-		title: "Core Value",
-		content:
-			"To satisfy the needs of our customers and broader market through supplying ONLY prime quality products backed by technical support/services.",
-	},
-];
+class AboutUsCards extends React.Component {
+	renderAboutUsCards() {
+		return _.map(aboutUsCardsContent, ({ icon, title, content }, i) => {
+			return (
+				<div key={i} className="col-lg-6 profile-card-container">
+					<div className="container white-back profile-card">
+						<div className="row">
+							<div className="col-3 col-sm-2">{icon}</div>
+							<div className="col-9 col-sm-10 green-2 flex-left no-bottom-margin profile-card-title">
+								{title}
+							</div>
+						</div>
+						{i === 0 ? (
+							content
+						) : (
+							<p className="grey italic profile-card-content-margin">
+								{content}
+							</p>
+						)}
+					</div>
+				</div>
+			);
+		});
+	}
+
+	render() {
+		return <div className="row">{this.renderAboutUsCards()}</div>;
+	}
+}
+
+export default AboutUsCards;
