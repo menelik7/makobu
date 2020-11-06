@@ -1,11 +1,92 @@
 /* ---------------------------------------------- /*
- * Affiliations
+ * Agro-chemicals
 /* ---------------------------------------------- */
-.affiliations-pic {
-	padding-top: 20px;
+.import-section-heading {
+	margin: 30px 0 15px;
 }
 
-.affiliations-pic img,
+.agro-list-items {
+	padding: 5px 0;
+}
+
+.agro-font {
+	padding-right: 0;
+}
+
+.agro-content {
+	/*padding-left: 0;*/
+}
+
+/* ---------------------------------------------- /*
+ * SEMINIS Hybrid Seeds
+/* ---------------------------------------------- */
+.seminis-image-container {
+	padding: 15px;
+}
+
+.seminis-pic-background {
+	position: relative;
+	height: 200px;
+	padding: 0;
+}
+
+.anna_f1 {
+	background: url("../img/anna_f1.jpg") no-repeat center center;
+}
+
+.jambar_f1 {
+	background: url("../img/jambar_f1.jpg") no-repeat center center;
+}
+
+.victoria_f1 {
+	background: url("../img/victoria_f1.jpg") no-repeat center center;
+}
+
+.eden_f1 {
+	background: url("../img/eden_f1.jpg") no-repeat center center;
+}
+
+.anna_f1,
+.jambar_f1,
+.victoria_f1,
+.eden_f1 {
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* ---------------------------------------------- /*
+ * Filler pic
+/* ---------------------------------------------- */
+.quality-pic {
+	background: url("../img/dose-juice-sTPy-oeA3h0-unsplash.jpg") no-repeat center
+		center;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+/* ---------------------------------------------- /*
+ * Affiliations
+/* ---------------------------------------------- */
+.affiliations-icon-div {
+	width: 125px;
+	height: 125px;
+	border-radius: 50%;
+	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.4);
+	margin-bottom: 30px;
+	background-color: #aff1b6;
+}
+
+.affiliations-svg {
+	height: 60px;
+	fill: #e6ede0;
+}
+
 .affiliation-logo img {
 	width: 100px;
 	height: 100px;
@@ -16,11 +97,10 @@
 }
 
 .affiliations-title {
-	padding-top: 20px;
 	padding-bottom: 40px;
 	margin-bottom: 10px;
 	font-weight: 500;
-	color: #0a2540;
+	color: #0fa626;
 	text-transform: uppercase;
 }
 
@@ -55,7 +135,6 @@
 	 * Affiliations
 	/* ---------------------------------------------- */
 
-	.affiliations-pic img,
 	.affiliation-logo img {
 		width: 80px;
 		height: 80px;

@@ -1,9 +1,12 @@
 import _ from "lodash";
 import React from "react";
 import "./Import.css";
-// import { Link } from "react-router-dom";
-import Affiliations from "../img/affiliations.png";
+import AgroChemicals from "./AgroChemicals";
+import Seminis from "./Seminis";
+
+import { ReactComponent as Affiliations } from "../svg/affiliations.svg";
 import affiliationsFields from "./affiliationsFields";
+import FillerImage from "../common/FillerImage";
 
 class Imports extends React.Component {
 	componentDidMount() {
@@ -29,10 +32,29 @@ class Imports extends React.Component {
 	render() {
 		return (
 			<div className="col-12 no-pad import-main-div">
+				<div className="container large-top-padding what-we-do">
+					<h5 className="bold green-2 small-bottom-margin">what we import</h5>
+					<h1 className="col-sm-8 col-lg-7 no-pad large-text">
+						First-rate agricultural products
+					</h1>
+					<p className="grey">
+						We take great care in selecting the products that we import with the
+						success of our farmers, the well-being of the public, and the
+						conservation of our environment in minds.
+					</p>
+				</div>
+
+				<AgroChemicals />
+				<Seminis />
+
+				<FillerImage imageClass="quality-pic" text="Quality is Our Calling" />
+
 				<div className="x-large-bottom-padding white-back">
 					<div className="container-fluid large-top-padding">
-						<div className="flex-center affiliations-pic">
-							<img src={Affiliations} alt="Affiliations" />
+						<div className="flex-center">
+							<div className="flex-center affiliations-icon-div">
+								<Affiliations />
+							</div>
 						</div>
 						<h5 className="align-center affiliations-title">Affiliations</h5>
 						<div className="row">

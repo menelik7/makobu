@@ -107,6 +107,10 @@ ul {
 	padding-right: 0;
 }
 
+.top-padding {
+	padding-top: 30px;
+}
+
 .large-top-padding {
 	padding-top: 60px;
 }
@@ -293,6 +297,7 @@ ul {
 	top: 0;
 	left: 0;
 	background: rgb(0, 0, 0, 0.4);
+	padding: 0 15px;
 }
 
 /*.filler-content {

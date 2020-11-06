@@ -122,8 +122,7 @@
 	/* ---------------------------------------------- /*
 	 * Experience
 	/* ---------------------------------------------- */
-	.experience-svg,
-	.affiliations-svg {
+	.experience-svg {
 		width: 250px;
 		height: 175px;
 	}

@@ -6,21 +6,27 @@ class AboutUsCards extends React.Component {
 	renderAboutUsCards() {
 		return _.map(aboutUsCardsContent, ({ icon, title, content }, i) => {
 			return (
-				<div key={i} className="col-lg-6 profile-card-container">
+				<div key={i} className="col-sm-6 profile-card-container">
 					<div className="container white-back profile-card">
 						<div className="row">
-							<div className="col-3 col-sm-2">{icon}</div>
-							<div className="col-9 col-sm-10 green-2 flex-left no-bottom-margin profile-card-title">
-								{title}
+							<div className="col-md-2">{icon}</div>
+							<div className="col-md-10">
+								<div className="row">
+									<div className="col-12 black flex-left no-bottom-margin profile-card-title">
+										{title}
+									</div>
+									<div className="col-12 profile-card-content">
+										{i === 0 ? (
+											content
+										) : (
+											<p className="grey italic profile-card-content-margin">
+												{content}
+											</p>
+										)}
+									</div>
+								</div>
 							</div>
 						</div>
-						{i === 0 ? (
-							content
-						) : (
-							<p className="grey italic profile-card-content-margin">
-								{content}
-							</p>
-						)}
 					</div>
 				</div>
 			);

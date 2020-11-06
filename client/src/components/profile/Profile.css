@@ -11,17 +11,11 @@
 }
 
 .profile-card {
-	min-height: 220px;
-	padding: 20px 40px;
+	min-height: 203px;
+	padding: 25px 40px;
 	border-radius: 20px;
 	border: none;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgba(0, 0, 0, 5%);
-}
-
-.profile-card-title {
-	font-size: 1.5rem;
-	font-weight: 500;
-	padding-left: 0;
 }
 
 .svgs {
@@ -30,8 +24,19 @@
 	fill: #0a2540;
 }
 
+.profile-card-title {
+	font-size: 1.5rem;
+	font-weight: 500;
+	padding-left: 0;
+}
+
+.profile-card-content {
+	padding-left: 0;
+}
+
 .profile-card-content-margin {
 	margin-top: 20px;
+	margin-bottom: 0;
 }
 
 .logo-svg {
@@ -68,7 +73,7 @@
 .bi-bullseye {
 	width: 40px;
 	height: 40px;
-	fill: #ffffff;
+	fill: #aff1b6;
 }
 
 .objectives-title {
@@ -104,6 +109,14 @@
 /* Small devices (landscape phones, less than 1124px)*/
 @media (max-width: 1124px) {
 	/* ---------------------------------------------- /*
+	 * ABOUT US
+	/* ---------------------------------------------- */
+	.profile-card-content,
+	.profile-card-title {
+		padding-left: 15px;
+	}
+
+	/* ---------------------------------------------- /*
 	 * Objectives
 	/* ---------------------------------------------- */
 	.objectives-list-div {
@@ -117,6 +130,19 @@
 
 /* iPhone X or similar phones (landscape, less than 823)*/
 @media (max-width: 823px) {
+	/* ---------------------------------------------- /*
+	 * ABOUT US
+	/* ---------------------------------------------- */
+	.profile-card {
+		min-height: 218px;
+		padding: 25px 20px;
+	}
+
+	.svgs {
+		width: 35px;
+		height: 35px;
+	}
+
 	/* ---------------------------------------------- /*
 	 * Objectives
 	/* ---------------------------------------------- */
@@ -135,10 +161,27 @@
 
 /* Small devices (landscape phones, less than 736px)*/
 @media (max-width: 736px) {
+	/* ---------------------------------------------- /*
+	 * ABOUT US
+	/* ---------------------------------------------- */
+	.profile-card {
+		min-height: 241px;
+	}
+
+	.profile-card-title {
+		font-size: 1.2rem;
+		margin-top: 10px;
+	}
 }
 
 /* Small devices (landscape phones, less than 667px)*/
-@media (max-width: 667px) {
+@media (max-width: 668px) {
+	/* ---------------------------------------------- /*
+	 * ABOUT US
+	/* ---------------------------------------------- */
+	.profile-card {
+		min-height: 226px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 480px)*/
@@ -153,11 +196,6 @@
 	.profile-card-container {
 		min-height: 200px;
 		padding: 7.5px 15px;
-	}
-
-	.profile-card-title {
-		font-size: 1.2rem;
-		padding-left: 15px;
 	}
 
 	/* ---------------------------------------------- /*

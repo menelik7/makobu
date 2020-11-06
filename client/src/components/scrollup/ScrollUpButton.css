@@ -41,7 +41,7 @@
 /* Small devices (landscape phones, less than 736px)*/
 @media (max-width: 736px) {
 	.scroll-up-button {
-		right: 10px;
+		right: 5px;
 	}
 }
 
@@ -55,9 +55,6 @@
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
-	.scroll-up-button {
-		right: 5px;
-	}
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/
