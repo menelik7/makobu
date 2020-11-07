@@ -3,7 +3,9 @@ import React from "react";
 import "./Import.css";
 import AgroChemicals from "./AgroChemicals";
 import Seminis from "./Seminis";
-
+import Jacto from "./Jacto";
+import CleanCook from "./CleanCook";
+import Interceptor from "./Interceptor";
 import { ReactComponent as Affiliations } from "../svg/affiliations.svg";
 import affiliationsFields from "./affiliationsFields";
 import FillerImage from "../common/FillerImage";
@@ -46,6 +48,14 @@ class Imports extends React.Component {
 
 				<AgroChemicals />
 				<Seminis />
+
+				<div className="light-green-back large-top-padding large-bottom-padding">
+					<div className="container">
+						<Jacto />
+						<CleanCook />
+						<Interceptor />
+					</div>
+				</div>
 
 				<FillerImage imageClass="quality-pic" text="Quality is Our Calling" />
 

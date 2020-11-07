@@ -103,7 +103,7 @@ class Landing extends React.Component {
 
 				{this.renderSectionContent()}
 
-				<div className="container large-top-padding large-bottom-padding white-back">
+				<div className="container large-top-padding large-bottom-padding white-back benefit-container">
 					<div className="flex-center">
 						<div className="black-back flex-center benefit-icon-div">
 							<GraphUp />

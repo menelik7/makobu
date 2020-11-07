@@ -1,0 +1,15 @@
+export default [
+	"Lightweight",
+	"Wide Filling Opening",
+	"4 Gallon Ergonomically Curved Tank",
+	"Built-In Agitator",
+	"4' 5\" High Pressure Hose",
+	"Heavy-Duty Trigger Valve",
+	"Reinforced Nylon Spray Lance",
+	"Comes With 3 Different Nozzles",
+	"Flat Bottom Base",
+	"Easy Operating Pumping Lever",
+	"Internal, High-Efficiency Piston Pump",
+	"Padded Shoulder Straps",
+	"Carrying Handle",
+];

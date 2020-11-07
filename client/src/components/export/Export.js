@@ -1,8 +1,8 @@
 import _ from "lodash";
 import React from "react";
 import "./Export.css";
-// import { Link } from "react-router-dom";
-import ourMainExportableProducts from "./ourMainExportableProducts";
+import PulsesOilSeedsAndSpices from "./PulsesOilSeedsAndSpices";
+import Coffee from "./Coffee";
 import { ReactComponent as Experience } from "../svg/experience.svg";
 
 // It is our mission to offer selective Premium Coffee with the best
@@ -12,34 +12,6 @@ import { ReactComponent as Experience } from "../svg/experience.svg";
 class Exports extends React.Component {
 	componentDidMount() {
 		window.scrollTo(0, 0);
-	}
-
-	renderOurMainExportableProducts() {
-		return _.map(ourMainExportableProducts, ({ picture, title, list }, i) => {
-			return (
-				<div
-					key={i}
-					className="col-sm-6 col-xl-4 grey exportable-products-card"
-				>
-					<div className={`export-pic ${picture}`}></div>
-					<div className="white-back export-content">
-						<div className="export-title">{title}</div>
-						<div className="export-list">
-							<ul>
-								{_.map(list, (item, i) => {
-									return (
-										<li key={i}>
-											<i className="far fa-arrow-alt-circle-right"></i>
-											{item}
-										</li>
-									);
-								})}
-							</ul>
-						</div>
-					</div>
-				</div>
-			);
-		});
 	}
 
 	render() {
@@ -58,7 +30,8 @@ class Exports extends React.Component {
 						linkages. Through a dedicated team of 36 full-time employees, our
 						company is able to reliably export the following:
 					</p>
-					<div className="row">{this.renderOurMainExportableProducts()}</div>
+					<Coffee />
+					<PulsesOilSeedsAndSpices />
 				</div>
 
 				<div className="white-back experience">

@@ -19,13 +19,30 @@ export default [
 		list: ["Yirgachefe - Grade 1", "Giju - Grade 1"],
 	},
 	{
-		picture: "spices",
-		title: "Oils seeds, cereals, pulses, and spices",
-		list: ["List coming soon..."],
-	},
-	{
 		picture: "roasted-and-ground",
 		title: "Roasted and ground coffee",
 		list: ["List coming soon..."],
+	},
+	{
+		picture: "oil-seeds",
+		title: "Oil seeds",
+		list: ["Sesame-Humera", "Sesame-Wolega", "Flax Seed", "Niger Seed"],
+	},
+	{
+		picture: "pulses",
+		title: "Pulses",
+		list: [
+			"Green Mung Bean",
+			"Kidney Bean",
+			"Soya Bean",
+			"White Pea Bean",
+			"Desi Chickpea",
+			"Kabuli Chickpea",
+		],
+	},
+	{
+		picture: "spices",
+		title: "Spices",
+		list: ["Black Cumin", "Ginger", "Turmeric", "Cardamon"],
 	},
 ];

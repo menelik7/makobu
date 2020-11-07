@@ -6,32 +6,45 @@
 }
 
 .unwashed {
-	height: 200px;
 	background: url("../img/unwashed.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 .washed {
-	height: 200px;
 	background: url("../img/washed.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 .specialty {
-	height: 200px;
 	background: url("../img/specialty.jpg") no-repeat center center;
-	background-size: cover;
-}
-
-.spices {
-	height: 200px;
-	background: url("../img/spices.jpg") no-repeat center center;
-	background-size: cover;
 }
 
 .roasted-and-ground {
-	height: 200px;
 	background: url("../img/roasted-and-ground.jpg") no-repeat center center;
+}
+
+.oil-seeds {
+	background: url("../img/engin-akyurt-H7I5LCBWOjQ-unsplash.jpg") no-repeat
+		center center;
+}
+
+.pulses {
+	background: url("../img/pulses.jpg") no-repeat center center;
+}
+
+.spices {
+	background: url("../img/spices.jpg") no-repeat center center;
+}
+
+.unwashed,
+.washed,
+.specialty,
+.roasted-and-ground,
+.oil-seeds,
+.pulses,
+.spices {
+	height: 250px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 }
 
@@ -84,6 +97,9 @@
 
 /* Small devices (landscape phones, less than 1124px)*/
 @media (max-width: 1124px) {
+	.oil-seeds-min-height {
+		min-height: 238px;
+	}
 }
 
 /* iPhone X or similar phones (landscape, less than 823)*/

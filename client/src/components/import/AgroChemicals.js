@@ -12,7 +12,7 @@ class AgroChemicals extends React.Component {
 							<i className="green-2 fas fa-arrow-alt-circle-right"></i>
 						</div>
 						<div className="col-11 agro-content">
-							<div className="grey agro-title">{title}</div>
+							<div className="grey bold agro-title">{title}</div>
 							<div className="grey agro-text">{text}</div>
 						</div>
 					</div>
@@ -24,7 +24,7 @@ class AgroChemicals extends React.Component {
 	render() {
 		return (
 			<div className="container agro-chemicals">
-				<h4 className="grey italic import-section-heading">Agro Chemicals</h4>
+				<h4 className="black italic import-section-heading">Agro Chemicals</h4>
 				<ul className="agro-list">{this.renderAgroChemicals()}</ul>
 			</div>
 		);
