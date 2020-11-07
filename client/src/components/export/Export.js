@@ -1,4 +1,3 @@
-import _ from "lodash";
 import React from "react";
 import "./Export.css";
 import PulsesOilSeedsAndSpices from "./PulsesOilSeedsAndSpices";

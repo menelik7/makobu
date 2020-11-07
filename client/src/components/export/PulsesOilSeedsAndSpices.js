@@ -33,8 +33,8 @@ class PulsesOilSeedsAndSpices extends React.Component {
 						</div>
 					</div>
 				);
-				return;
 			}
+			return;
 		});
 	}
 

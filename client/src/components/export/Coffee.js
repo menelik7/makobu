@@ -29,8 +29,8 @@ class Coffee extends React.Component {
 						</div>
 					</div>
 				);
-				return;
 			}
+			return;
 		});
 	}
 
