@@ -37,7 +37,9 @@ class Coffee extends React.Component {
 	render() {
 		return (
 			<div className="coffee">
-				<h4 className="black italic import-section-heading">Coffee</h4>
+				<h4 className="black italic small-bottom-margin import-section-heading">
+					Coffee
+				</h4>
 				<div className="row">{this.renderOurMainExportableProducts()}</div>
 			</div>
 		);

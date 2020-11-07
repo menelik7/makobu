@@ -5,6 +5,11 @@
 	padding-bottom: 30px;
 }
 
+.pulses-oils-seeds-and-spices,
+.coffee {
+	padding-top: 5px;
+}
+
 .unwashed {
 	background: url("../img/unwashed.jpg") no-repeat center center;
 }
