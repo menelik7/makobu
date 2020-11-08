@@ -225,6 +225,10 @@
 	/* ---------------------------------------------- /*
 	 * Carousel
 	/* ---------------------------------------------- */
+	.intro-pic-background {
+		height: 350px;
+	}
+
 	.intro-pic-overlay {
 		padding: 0 15px;
 	}
@@ -255,6 +259,16 @@
 
 /* Extra small devices (portrait phones, less than 375px)*/
 @media (max-width: 376px) {
+}
+
+/* Extra small devices (portrait phones, less than 360px)*/
+@media (max-width: 360px) {
+	/* ---------------------------------------------- /*
+	 * Carousel
+	/* ---------------------------------------------- */
+	.intro-pic-background {
+		height: 400px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 320px)*/

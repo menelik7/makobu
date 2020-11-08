@@ -204,6 +204,17 @@
 @media (max-width: 375px) {
 }
 
+/* Extra small devices (portrait phones, less than 360px)*/
+@media (max-width: 360px) {
+	/* ---------------------------------------------- /*
+	 * Drop us a line
+	/* ---------------------------------------------- */
+	.dropusaline-pic {
+		height: 300px;
+		margin-bottom: 40px;
+	}
+}
+
 /* Extra small devices (portrait phones, less than 320px)*/
 @media (max-width: 320px) {
 	.dropusaline-pic {

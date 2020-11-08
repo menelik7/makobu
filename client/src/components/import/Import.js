@@ -37,7 +37,7 @@ class Imports extends React.Component {
 			<div className="col-12 no-pad">
 				<div className="no-pad import-main-div">
 					<div className="container large-top-padding what-we-do">
-						<h5 className="bold green-2 small-bottom-margin">what we import</h5>
+						<h5 className="bold green-2 small-bottom-margin">What we import</h5>
 						<h1 className="col-sm-8 col-lg-7 no-pad large-text">
 							First-rate agricultural products
 						</h1>
