@@ -7,12 +7,22 @@ import validateEmails from "../../utils/validateEmails";
 import { ReactComponent as Spinner } from "../svg/spinner.svg";
 
 class NewSubscriptionSubmit extends React.Component {
+	state = { alignCenter: false };
+
 	componentDidMount() {
 		let subscriptionSubtitle = document.querySelector(".subscription-subtitle");
 		let subForm = document.querySelector(".sub-form");
 
 		subscriptionSubtitle.classList.remove("d-none");
 		subForm.classList.remove("d-none");
+
+		const contactFooterClass = document.querySelector(".contact-footer-title");
+		if (
+			contactFooterClass &&
+			contactFooterClass.classList.contains("align-center")
+		) {
+			this.setState({ alignCenter: true });
+		}
 	}
 
 	renderFields() {
@@ -79,8 +89,8 @@ class NewSubscriptionSubmit extends React.Component {
 					<div className="col-12 no-pad subscription-content">
 						<p
 							className={`footer-stay-informed-text subscription-subtitle ${
-								subSuccess ? "d-none" : null
-							}`}
+								this.state.alignCenter ? "align-center" : null
+							} ${subSuccess ? "d-none" : null}`}
 						>
 							Never miss anything newsworthy by subscribing
 						</p>
@@ -92,25 +102,43 @@ class NewSubscriptionSubmit extends React.Component {
 							onSubmit={this.props.handleSubmit(this.onSubmit)}
 						>
 							<div className="container">
-								<div className="row">
-									<div className="col-10 no-pad">{this.renderFields()}</div>
-									<div className="col-2 no-pad">
-										<button
-											type="submit"
-											className="btn btn-success subscription-submit-button"
-											disabled={pristine || submitting}
-										>
-											{submitting === true ? (
-												<Spinner />
-											) : (
-												<i className="fas fa-paper-plane"></i>
-											)}
-										</button>
+								<div
+									className={
+										this.state.alignCenter
+											? "col-sm-8 offset-sm-2 col-md-6 offset-md-3 col-xl-4 offset-xl-4 no-pad flex-center"
+											: null
+									}
+								>
+									<div
+										className={`${
+											this.state.alignCenter ? "full-width" : null
+										} row`}
+									>
+										<div className="col-10 no-pad">{this.renderFields()}</div>
+										<div className="col-2 no-pad">
+											<button
+												type="submit"
+												className="full-width btn btn-success subscription-submit-button"
+												disabled={pristine || submitting}
+											>
+												{submitting === true ? (
+													<Spinner />
+												) : (
+													<i className="fas fa-paper-plane"></i>
+												)}
+											</button>
+										</div>
 									</div>
 								</div>
 							</div>
 						</form>
-						<p className="privacy">We respect your privacy</p>
+						<p
+							className={`${
+								this.state.alignCenter ? "align-center" : null
+							} privacy`}
+						>
+							We respect your privacy
+						</p>
 					</div>
 				</div>
 			</div>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default ({ input, label, type, meta: { error, touched } }) => {
 	return (
-		<div className="form-group">
+		<div className="form-group no-mar">
 			<input
 				className="form-control"
 				{...input}

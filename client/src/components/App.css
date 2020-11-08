@@ -129,7 +129,7 @@ ul {
 }
 
 .no-mar {
-	margin: 0;
+	margin: 0 !important;
 }
 
 .no-top-margin {
@@ -228,7 +228,7 @@ ul {
 }
 
 .white-back {
-	background-color: #fff !important;
+	background-color: #ffffff !important;
 }
 
 .black-back {
@@ -242,6 +242,10 @@ ul {
 
 .form-control {
 	border-radius: 0;
+}
+
+.privacy {
+	margin-top: 10px;
 }
 
 /* SVG */

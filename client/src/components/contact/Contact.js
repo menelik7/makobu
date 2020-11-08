@@ -5,7 +5,7 @@ import React from "react";
 import Feedback from "../feedback/Feedback";
 import meansOfContactFields from "./meansOfContactFields";
 import OfficeLocation from "../google-map/OfficeLocation";
-import Footer from "../footer/Footer";
+import FooterContact from "../footer/FooterContact";
 
 class Contact extends React.Component {
 	componentDidMount() {
@@ -90,7 +90,7 @@ class Contact extends React.Component {
 						</div>
 					</div>
 				</div>
-				<Footer />
+				<FooterContact />
 			</div>
 		);
 	}
