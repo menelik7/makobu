@@ -6,7 +6,7 @@ export default [
 		picture: "intro-pic-1",
 		title: "Import and Distribution",
 		text:
-			"We import and distribute registered, high-standard agricultural inputs",
+			"We import and distribute registered, high-standard agricultural inputs.",
 		button: (
 			<Button
 				divClass="animated fadeInUp flex-center"
@@ -19,7 +19,7 @@ export default [
 	{
 		picture: "intro-pic-2",
 		title: "Premium Ethiopian Commodities",
-		text: "We export Ethiopian coffee, oil seeds, cereals pulses and spices",
+		text: "We export Ethiopian coffee, oil seeds, cereals, pulses, and spices.",
 		button: (
 			<Button
 				divClass="animated fadeInUp flex-center"
@@ -32,7 +32,7 @@ export default [
 	{
 		picture: "intro-pic-3",
 		title: "You can reach out",
-		text: "We are here to answer any questions and we value your feedback",
+		text: "We are here to answer any questions and we value your feedback.",
 		button: (
 			<Button
 				divClass="animated fadeInUp flex-center"

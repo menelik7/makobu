@@ -6,6 +6,7 @@ import carouselItems from "./carouselItems";
 import sectionContent from "./sectionContent";
 import { ReactComponent as GraphUp } from "../svg/graph-up.svg";
 import benefitsList from "./benefitsList";
+import Footer from "../footer/Footer";
 
 class Landing extends React.Component {
 	componentDidMount() {
@@ -75,9 +76,7 @@ class Landing extends React.Component {
 				return (
 					<div key={i} className="container large-top-padding what-we-do">
 						<h5 className="bold green-2 small-bottom-margin">{sectionTitle}</h5>
-						<h1 className="col-sm-8 col-lg-7 no-pad large-text">
-							{sectionHeading}
-						</h1>
+						<h1 className="col-sm-8 no-pad large-text">{sectionHeading}</h1>
 						<p className="grey">{sectionText}</p>
 						{sectionFeature}
 						{sectionImage}
@@ -89,68 +88,71 @@ class Landing extends React.Component {
 
 	render() {
 		return (
-			<div className="col-12 no-pad landing-main-div">
-				<div
-					id="carouselExampleIndicators"
-					className="carousel slide"
-					data-ride="carousel"
-				>
-					<ol className="carousel-indicators">
-						{this.renderCarouselItemIndicator()}
-					</ol>
-					<div className="carousel-inner">{this.renderCarouselItems()}</div>
-				</div>
+			<div className="col-12 no-pad">
+				<div className="no-pad landing-main-div">
+					<div
+						id="carouselExampleIndicators"
+						className="carousel slide"
+						data-ride="carousel"
+					>
+						<ol className="carousel-indicators">
+							{this.renderCarouselItemIndicator()}
+						</ol>
+						<div className="carousel-inner">{this.renderCarouselItems()}</div>
+					</div>
 
-				{this.renderSectionContent()}
+					{this.renderSectionContent()}
 
-				<div className="container large-top-padding large-bottom-padding white-back benefit-container">
-					<div className="flex-center">
-						<div className="black-back flex-center benefit-icon-div">
-							<GraphUp />
+					<div className="container large-top-padding large-bottom-padding white-back benefit-container">
+						<div className="flex-center">
+							<div className="black-back flex-center benefit-icon-div">
+								<GraphUp />
+							</div>
+						</div>
+						<h5 className="black align-center benefits-title">Benefits</h5>
+						<div className="row">
+							<div className="col-lg-10 offset-lg-1 benefits-list-div">
+								<ul className="benefits-list">
+									<div className="row">
+										<div className="col-md-6">
+											{_.map(benefitsList, (benefit, i) => {
+												if (i < 5) {
+													return (
+														<li key={i} className="grey benefits-list-item">
+															<div className="row">
+																<div className="align-center col-1 no-pad">
+																	<i className="green-2 fas fa-check-circle"></i>
+																</div>
+																<div className="col-11 no-pad">{benefit}</div>
+															</div>
+														</li>
+													);
+												}
+											})}
+										</div>
+										<div className="col-md-6">
+											{_.map(benefitsList, (benefit, i) => {
+												if (i >= 5) {
+													return (
+														<li key={i} className="grey benefits-list-item">
+															<div className="row">
+																<div className="align-center col-1 no-pad">
+																	<i className="green-2 fas fa-check-circle"></i>
+																</div>
+																<div className="col-11 no-pad">{benefit}</div>
+															</div>
+														</li>
+													);
+												}
+											})}
+										</div>
+									</div>
+								</ul>
+							</div>
 						</div>
 					</div>
-					<h5 className="black align-center benefits-title">Benefits</h5>
-					<div className="row">
-						<div className="col-lg-10 offset-lg-1 benefits-list-div">
-							<ul className="benefits-list">
-								<div className="row">
-									<div className="col-md-6">
-										{_.map(benefitsList, (benefit, i) => {
-											if (i < 5) {
-												return (
-													<li key={i} className="grey benefits-list-item">
-														<div className="row">
-															<div className="align-center col-1 no-pad">
-																<i className="green-2 fas fa-check-circle"></i>
-															</div>
-															<div className="col-11 no-pad">{benefit}</div>
-														</div>
-													</li>
-												);
-											}
-										})}
-									</div>
-									<div className="col-md-6">
-										{_.map(benefitsList, (benefit, i) => {
-											if (i >= 5) {
-												return (
-													<li key={i} className="grey benefits-list-item">
-														<div className="row">
-															<div className="align-center col-1 no-pad">
-																<i className="green-2 fas fa-check-circle"></i>
-															</div>
-															<div className="col-11 no-pad">{benefit}</div>
-														</div>
-													</li>
-												);
-											}
-										})}
-									</div>
-								</div>
-							</ul>
-						</div>
-					</div>
 				</div>
+				<Footer />
 			</div>
 		);
 	}

@@ -316,6 +316,10 @@ ul {
 
 /* iPhone X or similar phones (landscape, less than 823)*/
 @media (max-width: 823px) {
+	/* Filler pic */
+	.top-margin-on-small {
+		margin-top: 30px;
+	}
 }
 
 /* iPad Portrait less than 768*/

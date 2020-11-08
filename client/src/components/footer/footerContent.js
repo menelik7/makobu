@@ -135,7 +135,7 @@ export const QuickLinks = () => {
 					<Link to="/profile">profile</Link>
 				</li>
 				<li>
-					<Link to="/contact">contact us</Link>
+					<Link to="/contact">contact</Link>
 				</li>
 			</ul>
 		</div>

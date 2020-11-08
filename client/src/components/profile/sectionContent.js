@@ -13,7 +13,12 @@ export default [
 			"Our company, in collaboration with Sasakawa Global 2000 (SG-2000), has	been promoting Conservation Agriculture in Ethiopia for over 13 years. The experience gained through this endeavor has positioned us well in the market, in terms of providing regular and effective technical support to our patron customers – which include large scale state and private commercial farms, cooperative union and small-holder farmers.",
 		],
 		sectionFeature: <AboutUsCards />,
-		sectionImage: "",
+		sectionImage: (
+			<FillerImage
+				imageClass="ecology-pic top-margin-on-small"
+				text="Commitment to Sustainable Ecology"
+			/>
+		),
 	},
 	{
 		sectionTitle: "What we do",
@@ -23,20 +28,6 @@ export default [
 			"MakoBu Enterprises PLC currently imports and distributes, registered	high-standard agricultural inputs such as SEMINIS brand vegetable seeds, Roundup, Stomp CS, Fastac 10 EC, PIX, Rex Duo, Integrity, Stellar Star and Beef Up Oil, these products are also backed by excellent after sales technical support, and trainings when necessary.",
 			"In order to contribute to the overall efforts towards possiblly controlling and eradicating Malaria in the country, MakoBu imports and distributes WHOPES approved and globally accepted brand of Long-Lasting Insecticidal Mosquito Nets (LLINs), known as the					INTERCEPTOR from BASF.",
 			"MakoBu understands the importance of reducing our carbon footprint to the extent possible, therefore in order to contribute to this end we import and distribute Clean Cook Stove (CCS) which utilizes Ethanol, the virtually carbon-emission free household gas fuel, with a goal of manufacturing these stoves locally starting in the near future.",
-		],
-		sectionFeature: "",
-		sectionImage: (
-			<FillerImage
-				imageClass="ecology-pic"
-				text="Commitment to Sustainable Ecology"
-			/>
-		),
-	},
-	{
-		sectionTitle: "What sets us apart",
-		sectionHeading: "Environmentally Friendly Conservation Agriculture ",
-		sectionText: [
-			"MakoBu Enterprises PLC is the only private company in Ethiopia who has been promoting the successful dissemination of Conservation Agriculture technology in partnership with Monsanto and Sasakawa Global 2000, and collaboration with Ethiopian Institute of Agricultural Research, Ministry of Agriculture & Rural Development and small-holder farmers.",
 		],
 		sectionFeature: "",
 		sectionImage: "",

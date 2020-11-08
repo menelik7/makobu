@@ -33,9 +33,7 @@ class Jacto extends React.Component {
 							<h4 className="green italic align-center small-bottom-margin no-top-margin import-section-heading">
 								JACTO Manual Knapsack Sprayer
 							</h4>
-							<ul className="no-mar full-width jacto-list">
-								{this.renderJacto()}
-							</ul>
+							<ul className="full-width jacto-list">{this.renderJacto()}</ul>
 						</div>
 					</div>
 				</div>

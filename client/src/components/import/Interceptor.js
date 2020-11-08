@@ -1,7 +1,7 @@
 import _ from "lodash";
 import React from "react";
 import interceptorContent from "./interceptorContent";
-import InterceptorImage from "../img/interceptor.jpg";
+// import InterceptorImage from "../img/pest-control-products.jpg.dynamic.414w232h.51de5f2a3f064e6e3904ae6cefba0c02e27e2f0a.jpeg";
 
 class Interceptor extends React.Component {
 	renderInterceptor() {
@@ -18,13 +18,7 @@ class Interceptor extends React.Component {
 		return (
 			<div className="row">
 				<div className="col-md-6 additional-products">
-					<div className="white-back flex-center interceptor-pic-div">
-						<img
-							className="interceptor-pic"
-							src={InterceptorImage}
-							alt="Interceptor"
-						/>
-					</div>
+					<div className="white-back flex-center interceptor-pic-div"></div>
 				</div>
 				<div className="col-md-6 additional-products">
 					<div className="flex-center full-height interceptor-content-div">

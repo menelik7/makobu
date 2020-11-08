@@ -1,9 +1,10 @@
 import _ from "lodash";
-import React from "react";
 import "./Profile.css";
+import React from "react";
 import sectionContent from "./sectionContent";
 import { ReactComponent as Bullseye } from "../svg/bullseye.svg";
 import objectivesList from "./objectivesList";
+import Footer from "../footer/Footer";
 
 class Profile extends React.Component {
 	componentDidMount() {
@@ -74,20 +75,25 @@ class Profile extends React.Component {
 
 	render() {
 		return (
-			<div className="col-12 no-pad profile-main-div">
-				{this.renderSectionContent()}
+			<div className="col-12 no-pad">
+				<div className="no-pad profile-main-div">
+					{this.renderSectionContent()}
 
-				<div className="container large-top-padding large-bottom-padding white-back">
-					<div className="flex-center">
-						<div className="white-back flex-center objectives-icon-div">
-							<Bullseye />
+					<div className="container large-top-padding large-bottom-padding white-back">
+						<div className="flex-center">
+							<div className="white-back flex-center objectives-icon-div">
+								<Bullseye />
+							</div>
+						</div>
+						<h5 className="green-2 align-center objectives-title">
+							Objectives
+						</h5>
+						<div className="objectives-list-container">
+							<div className="row">{this.renderObjectivesList()}</div>
 						</div>
 					</div>
-					<h5 className="green-2 align-center objectives-title">Objectives</h5>
-					<div className="objectives-list-container">
-						<div className="row">{this.renderObjectivesList()}</div>
-					</div>
 				</div>
+				<Footer />
 			</div>
 		);
 	}

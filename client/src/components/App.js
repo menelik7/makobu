@@ -4,7 +4,6 @@ import React from "react";
 import { Router, Route, Switch } from "react-router-dom";
 import history from "../history";
 import Header from "./header/Header";
-import Footer from "./footer/Footer";
 import Landing from "./landing/Landing";
 import Import from "./import/Import";
 import Export from "./export/Export";
@@ -27,7 +26,6 @@ class App extends React.Component {
 							<Route path="/contact" exact component={Contact} />
 						</Switch>
 						<ScrollUpButton />
-						<Footer />
 					</div>
 				</div>
 			</Router>

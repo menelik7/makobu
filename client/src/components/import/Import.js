@@ -1,6 +1,6 @@
 import _ from "lodash";
-import React from "react";
 import "./Import.css";
+import React from "react";
 import AgroChemicals from "./AgroChemicals";
 import Seminis from "./Seminis";
 import Jacto from "./Jacto";
@@ -9,6 +9,7 @@ import Interceptor from "./Interceptor";
 import { ReactComponent as Affiliations } from "../svg/affiliations.svg";
 import affiliationsFields from "./affiliationsFields";
 import FillerImage from "../common/FillerImage";
+import Footer from "../footer/Footer";
 
 class Imports extends React.Component {
 	componentDidMount() {
@@ -33,47 +34,53 @@ class Imports extends React.Component {
 
 	render() {
 		return (
-			<div className="col-12 no-pad import-main-div">
-				<div className="container large-top-padding what-we-do">
-					<h5 className="bold green-2 small-bottom-margin">what we import</h5>
-					<h1 className="col-sm-8 col-lg-7 no-pad large-text">
-						First-rate agricultural products
-					</h1>
-					<p className="grey">
-						We take great care in selecting the products that we import with the
-						success of our farmers, the well-being of the public, and the
-						conservation of our environment in minds.
-					</p>
-				</div>
-
-				<AgroChemicals />
-				<Seminis />
-
-				<div className="light-green-back large-top-padding large-bottom-padding">
-					<div className="container">
-						<Jacto />
-						<CleanCook />
-						<Interceptor />
+			<div className="col-12 no-pad">
+				<div className="no-pad import-main-div">
+					<div className="container large-top-padding what-we-do">
+						<h5 className="bold green-2 small-bottom-margin">what we import</h5>
+						<h1 className="col-sm-8 col-lg-7 no-pad large-text">
+							First-rate agricultural products
+						</h1>
+						<p className="grey">
+							We take great care in selecting the products that we import with
+							the success of our farmers, the well-being of the public, and the
+							conservation of our environment in minds.
+						</p>
 					</div>
-				</div>
 
-				<FillerImage imageClass="quality-pic" text="Quality is Our Calling" />
+					<AgroChemicals />
+					<Seminis />
 
-				<div className="x-large-bottom-padding white-back">
-					<div className="container-fluid large-top-padding">
-						<div className="flex-center">
-							<div className="flex-center affiliations-icon-div">
-								<Affiliations />
+					<div className="light-green-back large-top-padding large-bottom-padding">
+						<div className="container">
+							<h1 className="green no-pad align-center large-text">
+								Additional products
+							</h1>
+							<Jacto />
+							<CleanCook />
+							<Interceptor />
+						</div>
+					</div>
+
+					<FillerImage imageClass="quality-pic" text="Quality is Our Calling" />
+
+					<div className="x-large-bottom-padding white-back">
+						<div className="container-fluid large-top-padding">
+							<div className="flex-center">
+								<div className="green-back flex-center affiliations-icon-div">
+									<Affiliations />
+								</div>
+							</div>
+							<h5 className="align-center affiliations-title">Affiliations</h5>
+							<div className="row">
+								<div className="col-xl-1"></div>
+								{this.renderAffiliationsLogos()}
+								<div className="col-xl-1"></div>
 							</div>
 						</div>
-						<h5 className="align-center affiliations-title">Affiliations</h5>
-						<div className="row">
-							<div className="col-xl-1"></div>
-							{this.renderAffiliationsLogos()}
-							<div className="col-xl-1"></div>
-						</div>
 					</div>
 				</div>
+				<Footer />
 			</div>
 		);
 	}

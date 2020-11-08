@@ -67,6 +67,7 @@
 .clean-cook-pic-div,
 .interceptor-pic-div {
 	min-height: 520px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgba(0, 0, 0, 5%);
 }
 
 .jacto-list-div,
@@ -102,9 +103,13 @@
 /* ---------------------------------------------- /*
  * Long-Lasting Insecticidal Net - INTERCEPTOR
 /* ---------------------------------------------- */
-.interceptor-pic {
-	width: 80%;
+.interceptor-pic-div {
+	background: url("../img/interceptor.jpg") no-repeat center center;
 	height: 280px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* ---------------------------------------------- /*
@@ -129,12 +134,11 @@
 	border-radius: 50%;
 	box-shadow: 5px 10px 18px rgba(0, 0, 0, 0.4);
 	margin-bottom: 30px;
-	background-color: #aff1b6;
 }
 
 .affiliations-svg {
 	height: 60px;
-	fill: #e6ede0;
+	fill: #ffffff;
 }
 
 .affiliation-logo img {
@@ -177,10 +181,54 @@
 	.affiliations-logo-container:nth-child(6) {
 		margin-bottom: 0;
 	}
+
+	.affiliation-text {
+		padding: 20px 50px;
+	}
 }
 
 /* iPhone X or similar phones (landscape, less than 823)*/
 @media (max-width: 823px) {
+	/* Additional Products */
+	.jacto-pic-div {
+		min-height: 550px;
+	}
+
+	.clean-cook-pic-div {
+		min-height: 580px;
+	}
+
+	.interceptor-pic-div {
+		min-height: 500px;
+	}
+
+	.jacto-list-div,
+	.clean-cook-content-div,
+	.interceptor-content-div {
+		padding: 40px 20px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * JACTO Manual Knapsack Sprayer
+	/* ---------------------------------------------- */
+	.jacto-pic {
+		height: 250px;
+	}
+
+	/* -------------------------------------------------------------------------- /*
+	 * Clean Cook Stove + Ethanol
+	/* -------------------------------------------------------------------------- */
+	.clean-cook-pic {
+		height: 180px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Long-Lasting Insecticidal Net - INTERCEPTOR
+	/* ---------------------------------------------- */
+	.interceptor-pic {
+		height: 220px;
+	}
+
 	/* ---------------------------------------------- /*
 	 * Affiliations
 	/* ---------------------------------------------- */
@@ -194,40 +242,19 @@
 		width: 90px;
 	}
 
-	/* Additional Products */
-	.jacto-pic-div {
-		min-height: 580px;
-	}
-
-	.clean-cook-pic-div,
-	.interceptor-pic-div {
-		min-height: 680px;
-	}
-
-	/* ---------------------------------------------- /*
-	 * JACTO Manual Knapsack Sprayer
-	/* ---------------------------------------------- */
-	.jacto-pic {
-		height: 300px;
-	}
-
-	/* -------------------------------------------------------------------------- /*
-	 * Clean Cook Stove + Ethanol
-	/* -------------------------------------------------------------------------- */
-	.clean-cook-pic {
-		height: 200px;
-	}
-
-	/* ---------------------------------------------- /*
-	 * Long-Lasting Insecticidal Net - INTERCEPTOR
-	/* ---------------------------------------------- */
-	.interceptor-pic {
-		height: 220px;
+	.affiliation-text {
+		padding: 20px;
 	}
 }
 
 /* iPad Portrait less than 768*/
 @media (max-width: 768px) {
+	/* ---------------------------------------------- /*
+	 * Affiliations
+	/* ---------------------------------------------- */
+	.affiliation-text {
+		padding: 20px 10px;
+	}
 }
 
 /* Small devices (landscape phones, less than 736px)*/
@@ -244,7 +271,7 @@
 	}
 
 	.jacto-pic-div {
-		min-height: 300px;
+		min-height: 350px;
 	}
 
 	.clean-cook-pic-div,
@@ -264,6 +291,7 @@
 	/* -------------------------------------------------------------------------- */
 	.clean-cook-pic {
 		width: 50%;
+		height: 200px;
 	}
 
 	/* ---------------------------------------------- /*
@@ -272,32 +300,49 @@
 	.interceptor-pic {
 		width: 50%;
 	}
+
+	/* ---------------------------------------------- /*
+	 * Affiliations
+	/* ---------------------------------------------- */
+	.affiliation-text {
+		padding: 20px 70px;
+	}
 }
 
 /* Small devices (landscape phones, less than 667px)*/
-@media (max-width: 667px) {
+@media (max-width: 668px) {
+	/* ---------------------------------------------- /*
+	 * Affiliations
+	/* ---------------------------------------------- */
+	.affiliation-text {
+		padding: 20px 50px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 480px)*/
 @media (max-width: 480px) {
+	/* ---------------------------------------------- /*
+	 * JACTO Manual Knapsack Sprayer
+	/* ---------------------------------------------- */
+	.jacto-pic {
+		height: 200px;
+	}
+
+	/* -------------------------------------------------------------------------- /*
+	 * Clean Cook Stove + Ethanol
+	/* -------------------------------------------------------------------------- */
+	.clean-cook-pic {
+		height: 150px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
-	/* ---------------------------------------------- /*
-	 * Affiliations
-	/* ---------------------------------------------- */
-	.affiliations-title {
-		padding-bottom: 20px;
-	}
-
-	.affiliations-logo-container {
-		padding-top: 40px;
-		margin-bottom: 0;
-	}
-
-	.affiliation-text {
-		padding: 20px 40px;
+	/* Additonal Products */
+	.jacto-list-div,
+	.clean-cook-content-div,
+	.interceptor-content-div {
+		padding: 20px;
 	}
 
 	/* ---------------------------------------------- /*
@@ -323,12 +368,54 @@
 		width: 80%;
 		height: 175px;
 	}
+
+	/* ---------------------------------------------- /*
+	 * Affiliations
+	/* ---------------------------------------------- */
+	.affiliations-title {
+		padding-bottom: 20px;
+	}
+
+	.affiliations-logo-container {
+		padding-top: 40px;
+		margin-bottom: 0;
+	}
+
+	.affiliation-text {
+		padding: 20px 90px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 375px)*/
-@media (max-width: 375px) {
+@media (max-width: 376px) {
+	/* ---------------------------------------------- /*
+	 * Affiliations
+	/* ---------------------------------------------- */
+	.affiliation-text {
+		padding: 20px 70px;
+	}
 }
 
 /* Extra small devices (portrait phones, less than 320px)*/
 @media (max-width: 320px) {
+	/* ---------------------------------------------- /*
+	 * JACTO Manual Knapsack Sprayer
+	/* ---------------------------------------------- */
+	.jacto-pic {
+		height: 200px;
+	}
+
+	/* -------------------------------------------------------------------------- /*
+	 * Clean Cook Stove + Ethanol
+	/* -------------------------------------------------------------------------- */
+	.clean-cook-pic {
+		height: 125px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Affiliations
+	/* ---------------------------------------------- */
+	.affiliation-text {
+		padding: 20px 50px;
+	}
 }
