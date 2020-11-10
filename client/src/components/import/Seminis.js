@@ -23,11 +23,11 @@ class Seminis extends React.Component {
 	}
 	render() {
 		return (
-			<div className="container large-bottom-padding seminis">
+			<div className="container seminis">
 				<h4 className="black italic import-section-heading">
 					SEMINIS Hybrid Seeds
 				</h4>
-				<p className="grey italic">
+				<p className="grey no-mar italic">
 					These seeds offer increased crop yield, longer shelf-life and high
 					nutritional content.
 				</p>

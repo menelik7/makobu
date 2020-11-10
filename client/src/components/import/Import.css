@@ -123,6 +123,10 @@
 	background-size: cover;
 }
 
+.interceptor-paragraphs:last-child {
+	margin: 0;
+}
+
 /* ---------------------------------------------- /*
  * Filler pic
 /* ---------------------------------------------- */
@@ -276,6 +280,10 @@
 		border: none;
 	}
 
+	.interceptor-content-div {
+		padding: 40px 20px 0;
+	}
+
 	.jacto-pic-div,
 	.dk777-pic-div {
 		min-height: 350px;
@@ -353,9 +361,12 @@
 	/* Additonal Products */
 	.jacto-list-div,
 	.dk777-content-div,
-	.clean-cook-content-div,
-	.interceptor-content-div {
+	.clean-cook-content-div {
 		padding: 20px;
+	}
+
+	.interceptor-content-div {
+		padding: 20px 20px 0;
 	}
 
 	/* ---------------------------------------------- /*

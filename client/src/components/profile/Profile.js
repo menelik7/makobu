@@ -26,16 +26,24 @@ class Profile extends React.Component {
 			) => {
 				return (
 					<div key={i}>
-						<div className="container large-top-padding what-we-do">
+						<div className="container large-top-padding large-bottom-padding what-we-do">
 							<h5 className="bold green-2 small-bottom-margin">
 								{sectionTitle}
 							</h5>
 							<h1 className="col-sm-8 col-lg-7 no-pad large-text">
 								{sectionHeading}
 							</h1>
-							{_.map(sectionText, (text, i) => {
+							{_.map(sectionText, (text, j) => {
 								return (
-									<p key={i} className="grey">
+									<p
+										key={j}
+										className={`${
+											i === sectionContent.length - 1 &&
+											j === sectionText.length - 1
+												? "no-mar"
+												: ""
+										} grey`}
+									>
 										{text}
 									</p>
 								);

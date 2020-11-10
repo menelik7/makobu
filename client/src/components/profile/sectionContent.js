@@ -15,7 +15,7 @@ export default [
 		sectionFeature: <AboutUsCards />,
 		sectionImage: (
 			<FillerImage
-				imageClass="ecology-pic top-margin-on-small"
+				imageClass="ecology-pic"
 				text="Commitment to Sustainable Ecology"
 			/>
 		),
