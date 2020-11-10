@@ -9,7 +9,7 @@ class CleanCook extends React.Component {
 				<li key={i} className="jacto-list-item">
 					<div className="row">
 						<div className="col-2 align-right jacto-font">
-							<i className="green-2 far fa-arrow-alt-circle-right"></i>
+							<i className="green-2 far fa-check-circle"></i>
 						</div>
 						<div className="col-10 grey no-left-pad jacto-text">{text}</div>
 					</div>

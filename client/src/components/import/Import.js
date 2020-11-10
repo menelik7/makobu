@@ -51,8 +51,8 @@ class Imports extends React.Component {
 						</p>
 					</div>
 
-					<AgroChemicals />
 					<Seminis />
+					<AgroChemicals />
 
 					<div className="light-green-back large-top-padding large-bottom-padding">
 						<div className="container">
