@@ -51,7 +51,6 @@
 .jambar_f1,
 .victoria_f1,
 .eden_f1 {
-	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -64,13 +63,15 @@
 }
 
 .jacto-pic-div,
+.dk777-pic-div,
 .clean-cook-pic-div,
 .interceptor-pic-div {
-	min-height: 520px;
+	min-height: 500px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 5%), 0 6px 20px 0 rgba(0, 0, 0, 5%);
 }
 
 .jacto-list-div,
+.dk777-content-div,
 .clean-cook-content-div,
 .interceptor-content-div {
 	padding: 40px;
@@ -81,15 +82,27 @@
  * JACTO Manual Knapsack Sprayer
 /* ---------------------------------------------- */
 .jacto-pic-div {
-	padding: 60px 15px;
+	padding: 40px 15px;
 }
-.jacto-pic {
-	width: 50%;
-	height: 400px;
+
+.jacto-pic,
+.jacto-pic-2 {
+	width: 75%;
 }
 
 .jacto-font {
 	padding-right: 15px;
+}
+
+/* ---------------------------------------------- /*
+ * DK-777 Hybrid Maize Leku
+/* ---------------------------------------------- */
+.dk777-pic-div {
+	background: url("../img/dk777x.jpg") no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /* -------------------------------------------------------------------------- /*
@@ -97,15 +110,13 @@
 /* -------------------------------------------------------------------------- */
 .clean-cook-pic {
 	width: 80%;
-	height: 250px;
 }
 
 /* ---------------------------------------------- /*
  * Long-Lasting Insecticidal Net - INTERCEPTOR
 /* ---------------------------------------------- */
 .interceptor-pic-div {
-	background: url("../img/interceptor.jpg") no-repeat center center;
-	height: 280px;
+	background: url("../img/interceptor.jpg") no-repeat center left;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -118,7 +129,6 @@
 .quality-pic {
 	background: url("../img/dose-juice-sTPy-oeA3h0-unsplash.jpg") no-repeat center
 		center;
-	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -171,6 +181,21 @@
 /* Small devices (landscape phones, less than 1124px)*/
 @media (max-width: 1124px) {
 	/* ---------------------------------------------- /*
+	 * JACTO Manual Knapsack Sprayer
+	/* ---------------------------------------------- */
+	.jacto-pic,
+	.jacto-pic-2 {
+		width: 100%;
+	}
+
+	/* ---------------------------------------------- /*
+ 	* DK-777 Hybrid Maize Leku
+	/* ---------------------------------------------- */
+	.dk777-pic-div {
+		min-height: 516.8px;
+	}
+
+	/* ---------------------------------------------- /*
 	 * Affiliations
 	/* ---------------------------------------------- */
 	.affiliations-logo-container {
@@ -190,8 +215,8 @@
 /* iPhone X or similar phones (landscape, less than 823)*/
 @media (max-width: 823px) {
 	/* Additional Products */
-	.jacto-pic-div {
-		min-height: 550px;
+	.dk777-pic-div {
+		min-height: 667px;
 	}
 
 	.clean-cook-pic-div {
@@ -203,30 +228,10 @@
 	}
 
 	.jacto-list-div,
+	.dk777-content-div,
 	.clean-cook-content-div,
 	.interceptor-content-div {
 		padding: 40px 20px;
-	}
-
-	/* ---------------------------------------------- /*
-	 * JACTO Manual Knapsack Sprayer
-	/* ---------------------------------------------- */
-	.jacto-pic {
-		height: 250px;
-	}
-
-	/* -------------------------------------------------------------------------- /*
-	 * Clean Cook Stove + Ethanol
-	/* -------------------------------------------------------------------------- */
-	.clean-cook-pic {
-		height: 180px;
-	}
-
-	/* ---------------------------------------------- /*
-	 * Long-Lasting Insecticidal Net - INTERCEPTOR
-	/* ---------------------------------------------- */
-	.interceptor-pic {
-		height: 220px;
 	}
 
 	/* ---------------------------------------------- /*
@@ -265,12 +270,14 @@
 	}
 
 	.jacto-list-div,
+	.dk777-content-div,
 	.clean-cook-content-div,
 	.interceptor-content-div {
 		border: none;
 	}
 
-	.jacto-pic-div {
+	.jacto-pic-div,
+	.dk777-pic-div {
 		min-height: 350px;
 	}
 
@@ -282,22 +289,26 @@
 	/* ---------------------------------------------- /*
 	 * JACTO Manual Knapsack Sprayer
 	/* ---------------------------------------------- */
-	.jacto-pic {
-		width: 25%;
+	.jacto-pic,
+	.jacto-pic-2 {
+		width: 50%;
+	}
+
+	/* ---------------------------------------------- /*
+ 	 * DK-777 Hybrid Maize Leku
+	/* ---------------------------------------------- */
+	.dk777-pic-div {
+		background: url("../img/dk777x.jpg") no-repeat bottom center;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
 	}
 
 	/* -------------------------------------------------------------------------- /*
 	 * Clean Cook Stove + Ethanol
 	/* -------------------------------------------------------------------------- */
 	.clean-cook-pic {
-		width: 50%;
-		height: 200px;
-	}
-
-	/* ---------------------------------------------- /*
-	 * Long-Lasting Insecticidal Net - INTERCEPTOR
-	/* ---------------------------------------------- */
-	.interceptor-pic {
 		width: 50%;
 	}
 
@@ -324,15 +335,16 @@
 	/* ---------------------------------------------- /*
 	 * JACTO Manual Knapsack Sprayer
 	/* ---------------------------------------------- */
-	.jacto-pic {
-		height: 200px;
+	.jacto-pic,
+	.jacto-pic-2 {
+		width: 75%;
 	}
 
 	/* -------------------------------------------------------------------------- /*
 	 * Clean Cook Stove + Ethanol
 	/* -------------------------------------------------------------------------- */
 	.clean-cook-pic {
-		height: 150px;
+		width: 75%;
 	}
 }
 
@@ -340,6 +352,7 @@
 @media (max-width: 415px) {
 	/* Additonal Products */
 	.jacto-list-div,
+	.dk777-content-div,
 	.clean-cook-content-div,
 	.interceptor-content-div {
 		padding: 20px;
@@ -348,9 +361,9 @@
 	/* ---------------------------------------------- /*
 	 * JACTO Manual Knapsack Sprayer
 	/* ---------------------------------------------- */
-	.jacto-pic {
-		width: 50%;
-		height: 250px;
+	.jacto-pic,
+	.jacto-pic-2 {
+		width: 100%;
 	}
 
 	/* -------------------------------------------------------------------------- /*
@@ -358,15 +371,6 @@
 	/* -------------------------------------------------------------------------- */
 	.clean-cook-pic {
 		width: 80%;
-		height: 175px;
-	}
-
-	/* ---------------------------------------------- /*
-	 * Long-Lasting Insecticidal Net - INTERCEPTOR
-	/* ---------------------------------------------- */
-	.interceptor-pic {
-		width: 80%;
-		height: 175px;
 	}
 
 	/* ---------------------------------------------- /*
@@ -389,6 +393,10 @@
 /* Extra small devices (portrait phones, less than 375px)*/
 @media (max-width: 376px) {
 	/* ---------------------------------------------- /*
+	 * JACTO Manual Knapsack Sprayer
+	/* ---------------------------------------------- */
+
+	/* ---------------------------------------------- /*
 	 * Affiliations
 	/* ---------------------------------------------- */
 	.affiliation-text {
@@ -398,20 +406,6 @@
 
 /* Extra small devices (portrait phones, less than 320px)*/
 @media (max-width: 320px) {
-	/* ---------------------------------------------- /*
-	 * JACTO Manual Knapsack Sprayer
-	/* ---------------------------------------------- */
-	.jacto-pic {
-		height: 200px;
-	}
-
-	/* -------------------------------------------------------------------------- /*
-	 * Clean Cook Stove + Ethanol
-	/* -------------------------------------------------------------------------- */
-	.clean-cook-pic {
-		height: 125px;
-	}
-
 	/* ---------------------------------------------- /*
 	 * Affiliations
 	/* ---------------------------------------------- */

@@ -1,7 +1,7 @@
 import _ from "lodash";
 import React from "react";
 import cleanCookContent from "./cleanCookContent";
-import CleanCookImage from "../img/cookstove.jpg";
+import CleanCookImage from "../img/cookstove1.jpg";
 
 class CleanCook extends React.Component {
 	renderCleanCook() {

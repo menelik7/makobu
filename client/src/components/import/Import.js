@@ -4,6 +4,7 @@ import React from "react";
 import AgroChemicals from "./AgroChemicals";
 import Seminis from "./Seminis";
 import Jacto from "./Jacto";
+import DK777 from "./DK777";
 import CleanCook from "./CleanCook";
 import Interceptor from "./Interceptor";
 import { ReactComponent as Affiliations } from "../svg/affiliations.svg";
@@ -42,9 +43,11 @@ class Imports extends React.Component {
 							First-rate agricultural products
 						</h1>
 						<p className="grey">
-							We take great care in selecting the products that we import with
-							the success of our farmers, the well-being of the public, and the
-							conservation of our environment in minds.
+							We take great pride in decades of partnership with world renowned
+							companies such as Monsanto (now Bayer), BASF, and Jacto in order
+							to supply our farmers, only products of the highest quality, with
+							the well-being of the public and conservation of our environment
+							in mind.
 						</p>
 					</div>
 
@@ -57,6 +60,7 @@ class Imports extends React.Component {
 								Additional products
 							</h1>
 							<Jacto />
+							<DK777 />
 							<CleanCook />
 							<Interceptor />
 						</div>

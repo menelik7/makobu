@@ -1,8 +1,13 @@
 export default [
 	{
-		title: "ROUNDUP",
+		title: "ROUNDUP 36 SL",
 		text:
 			"A non-selective, post emergence foliar acting herbicide for the control of annual and perennial grasses and most broad leafed weeds.  ROUNDUP is the best herbicide suited to practicing Conservation Agriculture.",
+	},
+	{
+		title: "ROUNDUP TURBO 450G/L",
+		text:
+			"Powerful formulation with 25% more glyphosate per litre than Roundup 36 SL, with faster uptake, rain fast in just 1 hour.",
 	},
 	{
 		title: "STOMP CS",
@@ -27,15 +32,11 @@ export default [
 	{
 		title: "STELLAR STAR",
 		text:
-			"a new, highly effective herbicide for post-emergence application to control annual and perennial broadleaf weeds and all summer grass species in maize.  It consists of two active ingredients Topramezone and Dicamba and also has adjuvant in its formulation. ",
+			"A new, highly effective herbicide for post-emergence application to control annual and perennial broadleaf weeds and all summer grass species in maize.  It consists of two active ingredients Topramezone and Dicamba and also has adjuvant in its formulation. ",
 	},
 	{
 		title: "PIX",
-		text: "Plant growth regulator",
-	},
-	{
-		title: "BEEF UP OIL",
 		text:
-			"An additive to spray solution to improve wetting (coverage), penetration of sprays, and to assist in the prevention of spray drift.",
+			"Cotton Growth Regulator - it takes energy away from leaf and stem development and directs it toward boll development and retention.",
 	},
 ];
