@@ -6,7 +6,6 @@
 }
 
 .profile-card-container {
-	min-height: 250px;
 	padding: 15px;
 }
 
@@ -195,7 +194,11 @@
 	/* ---------------------------------------------- */
 	.profile-card-container {
 		min-height: 200px;
-		padding: 7.5px 15px;
+		padding: 15px;
+	}
+
+	.profile-card-container:last-child {
+		padding-bottom: 0;
 	}
 
 	/* ---------------------------------------------- /*
