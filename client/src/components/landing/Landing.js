@@ -103,7 +103,7 @@ class Landing extends React.Component {
 
 					{this.renderSectionContent()}
 
-					<div className="container large-top-padding large-bottom-padding white-back benefit-container">
+					<div className="container large-top-padding large-bottom-padding large-top-margin white-back benefit-container">
 						<div className="flex-center">
 							<div className="black-back flex-center benefit-icon-div">
 								<GraphUp />
@@ -112,7 +112,7 @@ class Landing extends React.Component {
 						<h5 className="black align-center benefits-title">Benefits</h5>
 						<div className="row">
 							<div className="col-lg-10 offset-lg-1 benefits-list-div">
-								<ul className="benefits-list">
+								<ul className="no-mar benefits-list">
 									<div className="row">
 										<div className="col-md-6">
 											{_.map(benefitsList, (benefit, i) => {

@@ -25,7 +25,11 @@ class Imports extends React.Component {
 					className="col-sm-6 col-md-4 col-xl-2 affiliations-logo-container"
 				>
 					<div className="flex-center affiliation-logo">{image}</div>
-					<div className="grey italic align-center affiliation-text">
+					<div
+						className={`grey italic align-center affiliation-text ${
+							i === affiliationsFields.length - 1 ? "no-bottom-pad" : ""
+						}`}
+					>
 						{text}
 					</div>
 				</div>
@@ -42,7 +46,7 @@ class Imports extends React.Component {
 						<h1 className="col-sm-8 col-lg-7 no-pad large-text">
 							First-rate agricultural products
 						</h1>
-						<p className="grey no-mar bottom-padding">
+						<p className="grey">
 							We take great pride in decades of partnership with world renowned
 							companies such as Monsanto (now Bayer), BASF, and Jacto in order
 							to supply our farmers, only products of the highest quality, with
@@ -51,14 +55,15 @@ class Imports extends React.Component {
 						</p>
 					</div>
 
-					<Seminis />
 					<AgroChemicals />
+					<Seminis />
 
 					<div className="light-green-back large-top-padding large-bottom-padding">
 						<div className="container">
-							<h1 className="green no-pad align-center large-text">
-								Additional products
-							</h1>
+							<h4 className="green no-pad align-center small-bottom-margin">
+								ADDITIONAL PRODUCTS
+							</h4>
+							<hr className="add-prod-hr" />
 							<Jacto />
 							<DK777 />
 							<CleanCook />
@@ -68,7 +73,7 @@ class Imports extends React.Component {
 
 					<FillerImage imageClass="quality-pic" text="Quality is Our Calling" />
 
-					<div className="x-large-bottom-padding white-back">
+					<div className="large-bottom-padding white-back">
 						<div className="container-fluid large-top-padding">
 							<div className="flex-center">
 								<div className="green-back flex-center affiliations-icon-div">

@@ -58,6 +58,9 @@
 }
 
 /* Additional Products */
+hr {
+	width: 12%;
+}
 .additional-products {
 	margin-top: 30px;
 }
@@ -75,7 +78,7 @@
 .clean-cook-content-div,
 .interceptor-content-div {
 	padding: 40px;
-	border: 1px solid #0f5c07;
+	border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 /* ---------------------------------------------- /*
@@ -219,6 +222,9 @@
 /* iPhone X or similar phones (landscape, less than 823)*/
 @media (max-width: 823px) {
 	/* Additional Products */
+	hr {
+		width: 15%;
+	}
 	.dk777-pic-div {
 		min-height: 667px;
 	}
@@ -269,6 +275,10 @@
 /* Small devices (landscape phones, less than 736px)*/
 @media (max-width: 737px) {
 	/* Additional Products */
+	hr {
+		width: 20%;
+	}
+
 	.additional-products:last-child {
 		margin-top: 0;
 	}
@@ -340,6 +350,11 @@
 
 /* Extra small devices (portrait phones, less than 480px)*/
 @media (max-width: 480px) {
+	/* Additional Products */
+	hr {
+		width: 25%;
+	}
+
 	/* ---------------------------------------------- /*
 	 * JACTO Manual Knapsack Sprayer
 	/* ---------------------------------------------- */
@@ -358,7 +373,11 @@
 
 /* Extra small devices (portrait phones, less than 414px)*/
 @media (max-width: 415px) {
-	/* Additonal Products */
+	/* Additional Products */
+	hr {
+		width: 40%;
+	}
+
 	.jacto-list-div,
 	.dk777-content-div,
 	.clean-cook-content-div {

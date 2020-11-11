@@ -23,7 +23,7 @@ class AgroChemicals extends React.Component {
 
 	render() {
 		return (
-			<div className="container large-bottom-padding agro-chemicals">
+			<div className="container agro-chemicals">
 				<h4 className="black italic import-section-heading">Agro Chemicals</h4>
 				<ul className="no-mar agro-list">{this.renderAgroChemicals()}</ul>
 			</div>
