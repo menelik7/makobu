@@ -46,7 +46,7 @@ class Imports extends React.Component {
 						<h1 className="col-sm-8 col-lg-7 no-pad large-text">
 							First-rate agricultural products
 						</h1>
-						<p className="grey">
+						<p className="grey no-mar">
 							We take great pride in decades of partnership with world renowned
 							companies such as Monsanto (now Bayer), BASF, and Jacto in order
 							to supply our farmers, only products of the highest quality, with
