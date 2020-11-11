@@ -42,7 +42,7 @@ class PulsesOilSeedsAndSpices extends React.Component {
 		return (
 			<div className="pulses-oils-seeds-and-spices">
 				<h4 className="black italic small-bottom-margin import-section-heading">
-					Pulses, Oil Seeds and Spices
+					Pulses, Oil Seeds, and Spices
 				</h4>
 				<div className="row">{this.renderOurMainExportableProducts()}</div>
 			</div>

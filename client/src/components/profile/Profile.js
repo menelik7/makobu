@@ -89,11 +89,11 @@ class Profile extends React.Component {
 
 					<div className="container large-top-padding large-bottom-padding white-back">
 						<div className="flex-center">
-							<div className="white-back flex-center objectives-icon-div">
+							<div className="green-2-back flex-center objectives-icon-div">
 								<Bullseye />
 							</div>
 						</div>
-						<h5 className="green-2 align-center objectives-title">
+						<h5 className="green-2 align-center no-mar objectives-title">
 							Objectives
 						</h5>
 						<div className="objectives-list-container">

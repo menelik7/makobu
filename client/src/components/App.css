@@ -194,6 +194,10 @@ ul {
 	color: #0fa626;
 }
 
+.green-3 {
+	color: #aff1b6;
+}
+
 .grey {
 	color: #707070 !important;
 }
@@ -227,12 +231,16 @@ ul {
 	background-color: #0fa626 !important;
 }
 
+.green-3-back {
+	background-color: #aff1b6 !important;
+}
+
 .light-green-back {
 	background-color: #e6ede0 !important;
 }
 
 .grey-back {
-	background-color: #f5f5f5 !important;
+	background-color: #707070 !important;
 }
 
 .white-back {

@@ -80,7 +80,9 @@ class Imports extends React.Component {
 									<Affiliations />
 								</div>
 							</div>
-							<h5 className="align-center affiliations-title">Affiliations</h5>
+							<h5 className="green align-center affiliations-title">
+								Affiliations
+							</h5>
 							<div className="row">
 								<div className="col-xl-1"></div>
 								{this.renderAffiliationsLogos()}
