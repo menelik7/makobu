@@ -10,7 +10,7 @@ export default [
 			"MakoBu Enterprises PLC is a general trading company established in 1993 with the objective to improve farmers' lives by importing and distributing premium quality agricultural inputs, spraying equipment and public health related products, and to be contribute to the modernization of agricultural practices in Ethiopia.",
 		sectionFeature: (
 			<Button
-				divClass=""
+				divClass="small-bottom-margin"
 				buttonText="About us"
 				to="profile"
 				buttonClass="profile-link-btn"

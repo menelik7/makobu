@@ -46,7 +46,7 @@ class Contact extends React.Component {
 										Got questions?
 									</h5>
 									<h1 className="no-pad large-text">Drop us a line</h1>
-									<p className="no-pad grey small-bottom-margin">
+									<p className="no-pad grey">
 										We are here to help and answer any questions. We look
 										forward to hearing from you!
 									</p>
@@ -60,7 +60,7 @@ class Contact extends React.Component {
 								<h1 className="no-pad large-text">
 									Explore the following options
 								</h1>
-								<p className="no-pad grey small-bottom-margin drop-us-a-line-subtitle">
+								<p className="no-pad grey no-margin-on-small">
 									Please select the relevant category below. If you don’t find
 									what you need, fill out our contact form above.
 								</p>

@@ -25,7 +25,7 @@ class Exports extends React.Component {
 						<h1 className="col-sm-8 col-lg-7 no-pad large-text">
 							Premium-quality Ethiopian commodities
 						</h1>
-						<p className="grey">
+						<p className="grey no-mar">
 							Our decades of close relationship with small holder-farmers has
 							led us to enter the export market with solid knowledge and market
 							linkages. Through a dedicated team of 36 full-time employees, our

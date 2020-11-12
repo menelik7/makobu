@@ -149,6 +149,10 @@
 		padding: 15px;
 	}
 
+	.objectives-list-div-wrapper:last-child {
+		padding-bottom: 0;
+	}
+
 	.objectives-list-font-div {
 		height: 40px;
 	}

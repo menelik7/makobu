@@ -148,8 +148,12 @@ ul {
 	margin-top: 60px;
 }
 
-.small-bottom-margin {
+.bottom-margin {
 	margin-bottom: 30px !important;
+}
+
+.small-bottom-margin {
+	margin-bottom: 15px !important;
 }
 
 /* Font size */
@@ -343,7 +347,11 @@ ul {
 }
 
 /* Small devices (landscape phones, less than 736px)*/
-@media (max-width: 736px) {
+@media (max-width: 737px) {
+	.no-margin-on-small {
+		margin: 0 !important;
+	}
+
 	.container,
 	.container-sm {
 		max-width: 100%;
