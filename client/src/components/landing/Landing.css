@@ -68,6 +68,10 @@
 	padding: 15px;
 }
 
+.what-we-offer-card-container:last-child {
+	padding-bottom: 0;
+}
+
 .what-we-offer-pic-1 {
 	background: url("../img/spices.jpg") no-repeat center center;
 }
