@@ -12,13 +12,13 @@ class PulsesOilSeedsAndSpices extends React.Component {
 						className="col-sm-6 col-xl-4 grey exportable-products-card"
 					>
 						<div className={`export-pic ${picture}`}></div>
-						<div
-							className={`white-back export-content ${
-								i === 4 ? "oil-seeds-min-height" : null
-							}`}
-						>
+						<div className="white-back export-content">
 							<div className="export-title">{title}</div>
-							<div className="export-list">
+							<div
+								className={`export-list ${
+									i === 4 ? "oil-seeds-min-height" : null
+								}`}
+							>
 								<ul>
 									{_.map(list, (item, i) => {
 										return (
