@@ -32,7 +32,7 @@ const getInTouch = [
 	},
 	{
 		icon: "globe",
-		link: "http://www.makobuent.com",
+		link: "https://www.makobuent.com",
 		texts: ["www.makobuent.com"],
 	},
 ];
