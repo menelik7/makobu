@@ -141,6 +141,10 @@
 		margin-bottom: 15px;
 	}
 
+	.oil-seeds-min-height {
+		min-height: 141px;
+	}
+
 	.export-list-arrow {
 		margin-right: 10px;
 	}
