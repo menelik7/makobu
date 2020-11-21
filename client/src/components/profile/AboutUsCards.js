@@ -7,7 +7,11 @@ class AboutUsCards extends React.Component {
 		return _.map(aboutUsCardsContent, ({ icon, title, content }, i) => {
 			return (
 				<div key={i} className="col-sm-6 profile-card-container">
-					<div className="container white-back profile-card">
+					<div
+						className={`container white-back profile-card ${
+							i === 2 ? "profile-card-custom-height" : ""
+						}`}
+					>
 						<div className="row">
 							<div className="col-md-2">{icon}</div>
 							<div className="col-md-10">

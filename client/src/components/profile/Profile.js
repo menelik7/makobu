@@ -60,12 +60,9 @@ class Profile extends React.Component {
 	renderObjectivesList() {
 		return _.map(objectivesList, ({ font, text }, i) => {
 			return (
-				<div
-					key={i}
-					className="col-sm-8 offset-sm-2 col-lg-4 offset-lg-0 objectives-list-div-wrapper"
-				>
+				<div key={i} className="col-md-6 objectives-list-div-wrapper">
 					<div className="flex-center green-back objectives-list-div">
-						<div className="row">
+						<div className="row full-width">
 							<div className="col-2 no-right-pad flex-center">
 								<div className="flex-center objectives-list-font-div">
 									<i className={`green-2 ${font}`}></i>

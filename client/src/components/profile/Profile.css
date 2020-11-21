@@ -57,6 +57,15 @@
 /* ---------------------------------------------- /*
  * Objectives
 /* ---------------------------------------------- */
+.objectives-list-div-wrapper {
+	padding: 15px;
+}
+
+.objectives-list-div-wrapper:nth-child(3),
+.objectives-list-div-wrapper:last-child {
+	padding-bottom: 0;
+}
+
 .objectives-list-container {
 	padding: 60px 20px 0;
 }
@@ -110,6 +119,10 @@
 	/* ---------------------------------------------- /*
 	 * ABOUT US
 	/* ---------------------------------------------- */
+	.profile-card {
+		min-height: 226px;
+	}
+
 	.profile-card-content,
 	.profile-card-title {
 		padding-left: 15px;
@@ -123,7 +136,7 @@
 	}
 
 	.objectives-list-font-div {
-		height: 30px;
+		height: 40px;
 	}
 }
 
@@ -133,8 +146,12 @@
 	 * ABOUT US
 	/* ---------------------------------------------- */
 	.profile-card {
-		min-height: 218px;
+		min-height: 220px;
 		padding: 25px 20px;
+	}
+
+	.profile-card-custom-height {
+		min-height: 250px;
 	}
 
 	.svgs {
@@ -145,16 +162,8 @@
 	/* ---------------------------------------------- /*
 	 * Objectives
 	/* ---------------------------------------------- */
-	.objectives-list-div-wrapper {
-		padding: 15px;
-	}
-
-	.objectives-list-div-wrapper:last-child {
-		padding-bottom: 0;
-	}
-
 	.objectives-list-font-div {
-		height: 40px;
+		height: 30px;
 	}
 }
 
@@ -171,9 +180,20 @@
 		min-height: 241px;
 	}
 
+	.profile-card-custom-height {
+		min-height: 288px;
+	}
+
 	.profile-card-title {
 		font-size: 1.2rem;
 		margin-top: 10px;
+	}
+
+	/* ---------------------------------------------- /*
+	 * Objectives
+	/* ---------------------------------------------- */
+	.objectives-list-font-div {
+		height: 40px;
 	}
 }
 
@@ -183,7 +203,11 @@
 	 * ABOUT US
 	/* ---------------------------------------------- */
 	.profile-card {
-		min-height: 226px;
+		min-height: 264px;
+	}
+
+	.profile-card-custom-height {
+		min-height: 288px;
 	}
 }
 
@@ -197,12 +221,19 @@
 	 * ABOUT US
 	/* ---------------------------------------------- */
 	.profile-card-container {
-		min-height: 200px;
 		padding: 15px;
+	}
+
+	.objectives-list-div-wrapper:nth-child(3) {
+		padding-bottom: 15px;
 	}
 
 	.profile-card-container:last-child {
 		padding-bottom: 0;
+	}
+
+	.profile-card {
+		min-height: 264px;
 	}
 
 	/* ---------------------------------------------- /*
@@ -213,7 +244,7 @@
 	}
 
 	.objectives-list-font-div {
-		height: 40px;
+		height: 37.4px;
 	}
 }
 
@@ -223,7 +254,7 @@
 	 * Objectives
 	/* ---------------------------------------------- */
 	.objectives-list-font-div {
-		height: 35px;
+		height: 30.86px;
 	}
 }
 

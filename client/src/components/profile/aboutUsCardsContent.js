@@ -15,18 +15,18 @@ export default [
 		icon: <Eye />,
 		title: "Vision",
 		content:
-			"To contribute to the realization of a transformed, productive, and modern agricultural sector in Ethiopia.",
+			"To positively contribute towards the realization of uniformly modernized and highly productive agricultural sector in Ethiopia.",
 	},
 	{
 		icon: <Flower />,
 		title: "Mission",
 		content:
-			"To provide environmentally, socially, and economically  beneficial agricultural inputs and technologies to all farming communities of Ethiopia.",
+			"To supply economically, socially, and environmentally beneficial agricultural technologies to all farming communities of Ethiopia.",
 	},
 	{
 		icon: <CoreValue />,
 		title: "Core Value",
 		content:
-			"To satisfy the needs of our customers and broader market through supplying ONLY prime quality products backed by technical support/services.",
+			"To satisfy the needs of our customers and broader local and international market through supplying ONLY prime-quality products backed by technical support and post-sales services.",
 	},
 ];

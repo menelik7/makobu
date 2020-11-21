@@ -7,10 +7,9 @@ export default [
 		sectionTitle: "About us",
 		sectionHeading: "We aim to serve our farmers and clients well",
 		sectionText: [
-			"For over 25 years, we have built strong relationships with smallholder	farmers in many regions of Ethiopia. This allows us to source	commodities of the highest quality for our diverse clients. We are	also importers and distributors of prime quality agricultural inputs,	spraying equipment and public health related products.",
-			"MakoBu currently represents world renowned companies such as Monsanto,	BASF, and JACTO while supporting them technically in market					development works, final registration of their products and business growth activities in Ethiopia. The SEMINIS brand high-quality hybrid	vegetable seeds from Monsanto Seminis is the newest addition to our	line of business.",
-			"MakoBu Enterprises is also involved in technology transfer to farmers	on a national scale with special emphasis towards promotion of Conservation Agriculture that would signifcantly reduce land degradation while increasing food crop production and improving soil fertility.",
-			"Our company, in collaboration with Sasakawa Global 2000 (SG-2000), has	been promoting Conservation Agriculture in Ethiopia for over 13 years. The experience gained through this endeavor has positioned us well in the market, in terms of providing regular and effective technical support to our patron customers – which include large scale state and private commercial farms, cooperative union and small-holder farmers.",
+			"MakoBu Enterprises PLC is a general trading company established in 1993. For over 25 years, we have built strong relationship and partnerships with smallholder farmers in many regions of Ethiopia allowing us to enter the export market with solid value chain and sourcing capabilities of commodities of the highest quality.",
+			"Since our establishment, we have been representing world renowned agricultural input and equipment suppliers: -Monsanto (now Bayer), BASF and Jacto, supporting them technically in market development works, final registration of their products and business growth activities in Ethiopia. ",
+			"MakoBu Enterprises is also involved in technology transfer to farmers on a national scale with special emphasis towards promotion of Conservation Agriculture, a technology that would significantly reduce land degradation while increasing food crop production and improving soil fertility.",
 		],
 		sectionFeature: <AboutUsCards />,
 		sectionImage: (
@@ -22,12 +21,10 @@ export default [
 	},
 	{
 		sectionTitle: "What we do",
-		sectionHeading:
-			"A wide range of products and services, and a commitment to environmental methods",
+		sectionHeading: "A wide range of products and services",
 		sectionText: [
-			"MakoBu Enterprises PLC currently imports and distributes, registered	high-standard agricultural inputs such as SEMINIS brand vegetable seeds, Roundup, Stomp CS, Fastac 10 EC, PIX, Rex Duo, Integrity, Stellar Star and Beef Up Oil, these products are also backed by excellent after sales technical support, and trainings when necessary.",
-			"In order to contribute to the overall efforts towards possiblly controlling and eradicating Malaria in the country, MakoBu imports and distributes WHOPES approved and globally accepted brand of Long-Lasting Insecticidal Mosquito Nets (LLINs), known as the					INTERCEPTOR from BASF.",
-			"MakoBu understands the importance of reducing our carbon footprint to the extent possible, therefore in order to contribute to this end we import and distribute Clean Cook Stove (CCS) which utilizes Ethanol, the virtually carbon-emission free household gas fuel, with a goal of manufacturing these stoves locally starting in the near future.",
+			"MakoBu Enterprises PLC currently imports and distributes high-standard agricultural inputs such as Herbicides, Insecticides, Fungicides, Cotton Growth Regulator, Hybrid Vegetable and Maize Seeds, Manual Knapsack Sprayers and Long-Lasting Insecticidal Mosquito net. These products are also backed by training and excellent after sales technical support.",
+			"Our decades of close relationship with small-holder farmers, has led us to enter the export market with solid knowledge and market linkages. By strictly adhering to the international quality standards, our company is able to reliably export different types of Ethiopian coffee beans, oil seeds, pulses, and spices.",
 		],
 		sectionFeature: "",
 		sectionImage: "",
