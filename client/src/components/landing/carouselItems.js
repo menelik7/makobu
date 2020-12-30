@@ -6,7 +6,7 @@ export default [
 		picture: "intro-pic-1",
 		title: "Import and Distribution",
 		text:
-			"We import and distribute registered, high-standard agricultural inputs.",
+			"High-Standard Agricultural Inputs and Equipments.",
 		button: (
 			<Button
 				divClass="animated fadeInUp flex-center"
@@ -31,8 +31,8 @@ export default [
 	},
 	{
 		picture: "intro-pic-3",
-		title: "You can reach out",
-		text: "We are here to answer any questions and we value your feedback.",
+		title: "A Climate Smart Agriculture",
+		text: "Promoters of Conservation Agriculture in Ethiopia.",
 		button: (
 			<Button
 				divClass="animated fadeInUp flex-center"
