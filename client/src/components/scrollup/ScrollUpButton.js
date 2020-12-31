@@ -4,12 +4,13 @@ import React from "react";
 class ScrollUpButton extends React.Component {
 	componentDidMount() {
 		const scrollUp = document.querySelector(".scroll-up-button");
-		scrollUp.addEventListener("click", () => {
-			window.scroll({
-				top: 0,
-				behavior: "smooth",
+		(function ($) {
+			$(function () {
+				$(scrollUp).click(function () {
+					$("html, body").animate({ scrollTop: 0 }, 1000);
+				});
 			});
-		});
+		})(window.jQuery);
 
 		window.addEventListener("scroll", () => {
 			if (window.scrollY > 300) {

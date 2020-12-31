@@ -156,6 +156,10 @@
 
 /* Extra small devices (portrait phones, less than 375px)*/
 @media (max-width: 376px) {
+	.company-name h5 {
+		font-size: 0.7rem;
+	}
+
 	.motto {
 		font-size: 0.6rem;
 	}
