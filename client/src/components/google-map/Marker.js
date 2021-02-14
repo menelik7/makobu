@@ -2,8 +2,6 @@ import React from "react";
 import "./Marker.css";
 
 class Marker extends React.Component {
-	state = { isOpen: false };
-
 	componentDidMount() {
 		const marker = document.querySelector(".pin");
 

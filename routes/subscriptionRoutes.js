@@ -11,7 +11,7 @@ module.exports = (app) => {
 
 		const mailerArgs = {
 			subject: "MakoBu Newsletter Subscription",
-			recipient: "menelikworku@gmail.com",
+			recipient: "kidusmichael@ethionet.et",
 		};
 
 		const mailer = new Mailer(mailerArgs, subscriptionEmailTemplate(email));

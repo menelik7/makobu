@@ -12,7 +12,7 @@ module.exports = (app) => {
 
 		const mailerArgs = {
 			subject: "MakoBu User Suggestions or Feedback",
-			recipient: "menelikworku@gmail.com",
+			recipient: "kidusmichael@ethionet.et",
 		};
 
 		const mailer = new Mailer(

@@ -6,7 +6,7 @@ const getMapOptions = (maps: any) => {
   return {
     disableDefaultUI: true,
     mapTypeControl: true,
-    streetViewControl: true,
+    streetViewControl: false,
     fullscreenControl: true,
     clickableIcons: false,
     gestureHandling: "cooperative",
