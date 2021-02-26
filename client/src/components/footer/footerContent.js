@@ -14,7 +14,7 @@ const contactUs = [
 	},
 	{
 		icon: "envelope",
-		texts: ["makobu@ethionet.et", "kidusmichael@ethionet.et"],
+		texts: ["export@makobuent.com", "sales@makobuent.com"],
 	},
 ];
 

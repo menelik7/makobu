@@ -5,8 +5,7 @@ export default [
 	{
 		picture: "intro-pic-1",
 		title: "Import and Distribution",
-		text:
-			"High-Standard Agricultural Inputs and Equipments.",
+		text: "High-Standard Agricultural Inputs and Equipment.",
 		button: (
 			<Button
 				divClass="animated fadeInUp flex-center"
